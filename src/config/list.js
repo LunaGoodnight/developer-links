@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Sisense from "../styles/images/sisense.webp";
 import ModernSQL from "../styles/images/modernsql.webp";
 import JavaProgramming from "../styles/images/javaprogrammingmoocfi.webp";
 import Integrate from "../styles/images/integrate.webp";
@@ -3256,6 +3257,12 @@ export const serviceList = [
     link: "https://kodekloud.com/",
     image: KodeKloud,
     description: "Learn DevOps Online",
+  },
+  {
+    title: "Sisense",
+    link: "https://www.sisense.com/",
+    image: Sisense,
+    description: "Infuse Analytics Everywhere",
   },
   {
     title: "Liquibase",
