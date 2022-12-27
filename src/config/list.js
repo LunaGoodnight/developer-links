@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Latitude from '../styles/images/latitude.webp'
 import Sisense from "../styles/images/sisense.webp";
 import ModernSQL from "../styles/images/modernsql.webp";
 import JavaProgramming from "../styles/images/javaprogrammingmoocfi.webp";
@@ -1437,6 +1438,16 @@ export const youtubeList = [
     link: "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ",
     image: CleverProgrammer,
     description: "",
+  },
+];
+
+export const aiServiceList = [
+  {
+    title: "Latitude",
+    link: "https://latitude.io/",
+    image: Latitude,
+    description:
+      "",
   },
 ];
 

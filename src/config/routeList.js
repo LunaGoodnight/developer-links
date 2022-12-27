@@ -39,6 +39,7 @@ import {
   vpnList,
   websiteBuilderList,
   youtubeList,
+  aiServiceList
 } from "./list";
 
 export const routeList = [
@@ -51,6 +52,7 @@ export const routeList = [
   { path: "career", text: "Career", importList: careerList },
 
   { path: "community", text: "Community", importList: communityList },
+  { path: "aiService", text: "AI Service", importList: aiServiceList },
   {
     path: "themeBuilder",
     text: "Website Builder",
