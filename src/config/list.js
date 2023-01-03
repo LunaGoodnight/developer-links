@@ -1,6 +1,7 @@
 import { languageList } from "./languageList";
 
-import Latitude from '../styles/images/latitude.webp'
+import Jamstack from "../styles/images/jamstack.webp";
+import Latitude from "../styles/images/latitude.webp";
 import Sisense from "../styles/images/sisense.webp";
 import ModernSQL from "../styles/images/modernsql.webp";
 import JavaProgramming from "../styles/images/javaprogrammingmoocfi.webp";
@@ -1446,8 +1447,7 @@ export const aiServiceList = [
     title: "Latitude",
     link: "https://latitude.io/",
     image: Latitude,
-    description:
-      "",
+    description: "",
   },
 ];
 
@@ -1802,6 +1802,12 @@ export const toolList = [
     link: "https://curl.se/",
     image: curl,
     description: "",
+  },
+  {
+    title: "Jamstack",
+    link: "https://jamstack.org/",
+    image: Jamstack,
+    description: "For fast and secure sites",
   },
   {
     title: "gleek",
