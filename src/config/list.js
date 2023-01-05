@@ -1816,6 +1816,12 @@ export const toolList = [
     description: "Diagram maker for developers",
   },
   {
+    title: "uiverse",
+    link: "https://uiverse.io/",
+    image: gleek,
+    description: "Open-Source UI elements - made with CSS and HTML",
+  },
+  {
     title: "JSON Diff",
     link: "http://www.jsondiff.com/",
     image: JSONDiff,
