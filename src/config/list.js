@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import uiverse from "../styles/images/uiverse.webp";
 import Jamstack from "../styles/images/jamstack.webp";
 import Latitude from "../styles/images/latitude.webp";
 import Sisense from "../styles/images/sisense.webp";
