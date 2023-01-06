@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import markheath from '../styles/images/markheath.webp'
 import SQLServerCentral from '../styles/images/sqlservercentral.webp'
 import EdrawSoftware from '../styles/images/edrawsoft.webp'
 import Hovermind from '../styles/images/hovermind.webp'
@@ -2339,6 +2340,12 @@ export const blogList = [
     link: "https://ebs-integrator.com/#next-level",
     image: EBSIntegrator,
     description: "",
+  },
+  {
+    title: "Sound Code",
+    link: "https://markheath.net/",
+    image: markheath,
+    description: "Mark Heath's Blog",
   },
   {
     title: "Teco Tutorials",
