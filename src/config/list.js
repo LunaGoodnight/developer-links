@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SQLServerCentral from '../styles/images/sqlservercentral.webp'
 import EdrawSoftware from '../styles/images/edrawsoft.webp'
 import Hovermind from '../styles/images/hovermind.webp'
 import uiverse from "../styles/images/uiverse.webp";
@@ -640,6 +641,12 @@ export const sqlList = [
     link: "https://modern-sql.com/",
     image: ModernSQL,
     description: "A lot has changed since SQL-92",
+  },
+  {
+    title: "SQLServerCentral",
+    link: "https://modern-sql.com/",
+    image: SQLServerCentral,
+    description: "The #1 SQL Server community",
   },
 ];
 export const docList = [
