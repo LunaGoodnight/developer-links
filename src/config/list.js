@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EdrawSoftware from '../styles/images/edrawsoft.webp'
 import Hovermind from '../styles/images/hovermind.webp'
 import uiverse from "../styles/images/uiverse.webp";
 import Jamstack from "../styles/images/jamstack.webp";
@@ -1801,6 +1802,15 @@ export const designSystemList = [
     link: "https://material-ui.com/",
     image: MaterialUi,
     description: "A popular React UI framework",
+  },
+];
+
+export const diagramList = [
+  {
+    title: "Edraw Software",
+    link: "https://www.edrawsoft.com/",
+    image: EdrawSoftware,
+    description: "Unlock Diagram Possibilities",
   },
 ];
 
