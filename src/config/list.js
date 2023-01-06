@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Hovermind from '../styles/images/hovermind.webp'
 import uiverse from "../styles/images/uiverse.webp";
 import Jamstack from "../styles/images/jamstack.webp";
 import Latitude from "../styles/images/latitude.webp";
@@ -767,6 +768,12 @@ export const dotnetList = [
     link: "https://khalidabuhakmeh.com/",
     image: KhalidAbuhakmeh,
     description: "",
+  },
+  {
+    title: "Hovermind",
+    link: "https://hovermind.com/",
+    image: Hovermind,
+    description: "Be productive, Learn how to learn",
   },
 ];
 
