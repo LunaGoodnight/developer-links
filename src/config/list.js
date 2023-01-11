@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ShellHacks from '../styles/images/shellhacks.webp'
 import markheath from '../styles/images/markheath.webp'
 import SQLServerCentral from '../styles/images/sqlservercentral.webp'
 import EdrawSoftware from '../styles/images/edrawsoft.webp'
@@ -1713,6 +1714,12 @@ export const tutorialList = [
     link: "https://tutorialsdojo.com/",
     image: TutorialsDojo,
     description: "Your One-Stop Learning Portal",
+  },
+  {
+    title: "ShellHacks",
+    link: "https://www.shellhacks.com/",
+    image: ShellHacks,
+    description: "Command-Line Tips and Tricks",
   },
   {
     title: "Jenkov.com",
