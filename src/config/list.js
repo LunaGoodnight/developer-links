@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HumbleToolsmith from '../styles/images/humbletoolsmith.webp'
 import ShellHacks from '../styles/images/shellhacks.webp'
 import markheath from '../styles/images/markheath.webp'
 import SQLServerCentral from '../styles/images/sqlservercentral.webp'
@@ -2346,6 +2347,12 @@ export const blogList = [
     title: "EBS Integrator",
     link: "https://ebs-integrator.com/#next-level",
     image: EBSIntegrator,
+    description: "",
+  },
+  {
+    title: "Humble Toolsmith",
+    link: "https://humbletoolsmith.com/",
+    image: HumbleToolsmith,
     description: "",
   },
   {
