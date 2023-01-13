@@ -1,11 +1,12 @@
 import { languageList } from "./languageList";
 
-import HumbleToolsmith from '../styles/images/humbletoolsmith.webp'
-import ShellHacks from '../styles/images/shellhacks.webp'
-import markheath from '../styles/images/markheath.webp'
-import SQLServerCentral from '../styles/images/sqlservercentral.webp'
-import EdrawSoftware from '../styles/images/edrawsoft.webp'
-import Hovermind from '../styles/images/hovermind.webp'
+import TestСafe from "../styles/images/testcafe.webp";
+import HumbleToolsmith from "../styles/images/humbletoolsmith.webp";
+import ShellHacks from "../styles/images/shellhacks.webp";
+import markheath from "../styles/images/markheath.webp";
+import SQLServerCentral from "../styles/images/sqlservercentral.webp";
+import EdrawSoftware from "../styles/images/edrawsoft.webp";
+import Hovermind from "../styles/images/hovermind.webp";
 import uiverse from "../styles/images/uiverse.webp";
 import Jamstack from "../styles/images/jamstack.webp";
 import Latitude from "../styles/images/latitude.webp";
@@ -3978,6 +3979,12 @@ export const testList = [
     image: TestGuild,
     description:
       "Automation Testing Made Easy Tools Tips and Training | Helping you succeed with all things software test automation performance & security",
+  },
+  {
+    title: "TestСafe",
+    link: "https://testcafe.io/",
+    image: SeleniumHQ,
+    description: "Cross-Browser End-to-End Testing Framework",
   },
   {
     title: "TestProject",
