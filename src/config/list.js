@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Elementor from "../styles/images/elementor.webp";
 import restcookbook from "../styles/images/restcookbook.webp";
 import restapitutorial from "../styles/images/restapitutorial.webp";
 import TestСafe from "../styles/images/testcafe.webp";
@@ -577,6 +578,12 @@ export const websiteBuilderList = [
     link: "https://www.powr.io/",
     image: POWR,
     description: "Create Free Beautiful Website Apps & Plugins",
+  },
+  {
+    title: "Elementor.com",
+    link: "https://elementor.com/",
+    image: Elementor,
+    description: "Elementor: #1 Free WordPress Website Builder",
   },
 ];
 
