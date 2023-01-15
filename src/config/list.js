@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import restapitutorial from "../styles/images/restapitutorial.webp";
 import TestСafe from "../styles/images/testcafe.webp";
 import HumbleToolsmith from "../styles/images/humbletoolsmith.webp";
 import ShellHacks from "../styles/images/shellhacks.webp";
@@ -653,6 +654,22 @@ export const sqlList = [
     description: "The #1 SQL Server community",
   },
 ];
+
+export const restList = [
+  {
+    title: "REST API Tutorial",
+    link: "https://www.restapitutorial.com/",
+    image: restapitutorial,
+    description: "",
+  },
+  {
+    title: "What is REST - REST API Tutorial",
+    link: "https://restfulapi.net/",
+    image: Restfulapi,
+    description: "",
+  },
+];
+
 export const docList = [
   {
     title: "JSON",
@@ -1672,12 +1689,7 @@ export const tutorialList = [
     ],
     description: "C#, Python, Java, JavaScript, Go programming",
   },
-  {
-    title: "What is REST - REST API Tutorial",
-    link: "https://restfulapi.net/",
-    image: Restfulapi,
-    description: "",
-  },
+
   {
     title: "Learn X in Y Minutes",
     link: "https://learnxinyminutes.com/",
