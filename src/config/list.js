@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import restcookbook from "../styles/images/restcookbook.webp";
 import restapitutorial from "../styles/images/restapitutorial.webp";
 import TestСafe from "../styles/images/testcafe.webp";
 import HumbleToolsmith from "../styles/images/humbletoolsmith.webp";
@@ -666,6 +667,12 @@ export const restList = [
     title: "What is REST - REST API Tutorial",
     link: "https://restfulapi.net/",
     image: Restfulapi,
+    description: "",
+  },
+  {
+    title: "The RESTful cookbook",
+    link: "https://restcookbook.com/",
+    image: restcookbook,
     description: "",
   },
 ];
