@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MindMajix from "../styles/images/mindmajix.webp";
 import Netwrix from "../styles/images/netwrix.webp";
 import Elementor from "../styles/images/elementor.webp";
 import restcookbook from "../styles/images/restcookbook.webp";
@@ -3904,6 +3905,12 @@ export const courseList = [
     link: "https://brilliant.org/",
     image: Brilliant,
     description: "Learn to think",
+  },
+  {
+    title: "MindMajix",
+    link: "https://mindmajix.com/",
+    image: MindMajix,
+    description: "Leading Online Training & Certification Course Platform",
   },
   {
     title: "Programiz",
