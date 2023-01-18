@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Netwrix from "../styles/images/netwrix.webp";
 import TestСafe from "../styles/images/testcafe.webp";
 import HumbleToolsmith from "../styles/images/humbletoolsmith.webp";
 import ShellHacks from "../styles/images/shellhacks.webp";
@@ -3321,6 +3322,12 @@ export const serviceList = [
     link: "https://fusebit.io/",
     image: Fusebit,
     description: "Build integrations for your app with ease",
+  },
+  {
+    title: "Netwrix",
+    link: "https://www.netwrix.com/",
+    image: Netwrix,
+    description: "Powerful Data Security Made Easy.",
   },
   {
     title: "Kode Kloud",
