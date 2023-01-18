@@ -39,7 +39,9 @@ import {
   vpnList,
   websiteBuilderList,
   youtubeList,
-  aiServiceList, diagramList
+  aiServiceList,
+  diagramList,
+  restList,
 } from "./list";
 
 export const routeList = [
@@ -76,6 +78,7 @@ export const routeList = [
   { path: "tutorial", text: "Tutorial", importList: tutorialList },
   { path: "youtube", text: "Youtube", importList: youtubeList },
   { path: "courses", text: "Online Courses", importList: courseList },
+  { path: "restapi", text: "REST API", importList: restList },
   { path: "book", text: "Book", importList: bookList },
   { path: "linux", text: "Linux", importList: linuxList },
   { path: "comic", text: "Comic", importList: comicList },

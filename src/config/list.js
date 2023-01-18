@@ -1,6 +1,9 @@
 import { languageList } from "./languageList";
 
 import Netwrix from "../styles/images/netwrix.webp";
+import Elementor from "../styles/images/elementor.webp";
+import restcookbook from "../styles/images/restcookbook.webp";
+import restapitutorial from "../styles/images/restapitutorial.webp";
 import TestСafe from "../styles/images/testcafe.webp";
 import HumbleToolsmith from "../styles/images/humbletoolsmith.webp";
 import ShellHacks from "../styles/images/shellhacks.webp";
@@ -577,6 +580,12 @@ export const websiteBuilderList = [
     image: POWR,
     description: "Create Free Beautiful Website Apps & Plugins",
   },
+  {
+    title: "Elementor.com",
+    link: "https://elementor.com/",
+    image: Elementor,
+    description: "Elementor: #1 Free WordPress Website Builder",
+  },
 ];
 
 export const sqlList = [
@@ -654,6 +663,28 @@ export const sqlList = [
     description: "The #1 SQL Server community",
   },
 ];
+
+export const restList = [
+  {
+    title: "REST API Tutorial",
+    link: "https://www.restapitutorial.com/",
+    image: restapitutorial,
+    description: "",
+  },
+  {
+    title: "What is REST - REST API Tutorial",
+    link: "https://restfulapi.net/",
+    image: Restfulapi,
+    description: "",
+  },
+  {
+    title: "The RESTful cookbook",
+    link: "https://restcookbook.com/",
+    image: restcookbook,
+    description: "",
+  },
+];
+
 export const docList = [
   {
     title: "JSON",
@@ -1673,12 +1704,7 @@ export const tutorialList = [
     ],
     description: "C#, Python, Java, JavaScript, Go programming",
   },
-  {
-    title: "What is REST - REST API Tutorial",
-    link: "https://restfulapi.net/",
-    image: Restfulapi,
-    description: "",
-  },
+
   {
     title: "Learn X in Y Minutes",
     link: "https://learnxinyminutes.com/",
