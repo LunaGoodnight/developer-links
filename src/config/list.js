@@ -1,7 +1,6 @@
 import { languageList } from "./languageList";
 
-import MindMajix from "../styles/images/mindmajix.webp";
-import Netwrix from "../styles/images/netwrix.webp";
+import FutureLearn from "../styles/images/futurelearn.webp";
 import Elementor from "../styles/images/elementor.webp";
 import restcookbook from "../styles/images/restcookbook.webp";
 import restapitutorial from "../styles/images/restapitutorial.webp";
@@ -3351,12 +3350,6 @@ export const serviceList = [
     description: "Build integrations for your app with ease",
   },
   {
-    title: "Netwrix",
-    link: "https://www.netwrix.com/",
-    image: Netwrix,
-    description: "Powerful Data Security Made Easy.",
-  },
-  {
     title: "Kode Kloud",
     link: "https://kodekloud.com/",
     image: KodeKloud,
@@ -3907,16 +3900,16 @@ export const courseList = [
     description: "Learn to think",
   },
   {
-    title: "MindMajix",
-    link: "https://mindmajix.com/",
-    image: MindMajix,
-    description: "Leading Online Training & Certification Course Platform",
-  },
-  {
     title: "Programiz",
     link: "https://www.programiz.com/",
     image: Programiz,
     description: "Learn to Code for Free",
+  },
+  {
+    title: "FutureLearn",
+    link: "https://www.futurelearn.com/",
+    image: FutureLearn,
+    description: "Online Courses and Degrees from Top Universities",
   },
 ];
 
