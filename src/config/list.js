@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import BigTechInterviews from "../styles/images/bigtechinterviews.webp";
 import FutureLearn from "../styles/images/futurelearn.webp";
 import Elementor from "../styles/images/elementor.webp";
 import restcookbook from "../styles/images/restcookbook.webp";
@@ -643,6 +644,12 @@ export const sqlList = [
     link: "https://sqlquantumleap.com/",
     image: SqlQuantumLeap,
     description: "",
+  },
+  {
+    title: "Big Tech Interviews",
+    link: "https://bigtechinterviews.com/",
+    image: BigTechInterviews,
+    description: "Ace your next SQL Interview",
   },
   {
     title: "Dataquest",
