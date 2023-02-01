@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MuleSoft from "../styles/images/mulesoft.webp";
 import NeetCode from "../styles/images/neetcode.webp";
 import AleksandrHovhannisyan from "../styles/images/aleksandrhovhannisyan.webp";
 import BigTechInterviews from "../styles/images/bigtechinterviews.webp";
@@ -3325,6 +3326,12 @@ export const serviceList = [
     link: "https://elmah.io/",
     image: elmah,
     description: "Error logging and Uptime monitoring for .NET",
+  },
+  {
+    title: "MuleSoft",
+    link: "https://www.mulesoft.com/",
+    image: MuleSoft,
+    description: "Automate anything. Empower everyone.",
   },
   {
     title: "Integrate.io",
