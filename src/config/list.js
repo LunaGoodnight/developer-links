@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import NeetCode from "../styles/images/neetcode.webp";
 import AleksandrHovhannisyan from "../styles/images/aleksandrhovhannisyan.webp";
 import BigTechInterviews from "../styles/images/bigtechinterviews.webp";
 import FutureLearn from "../styles/images/futurelearn.webp";
@@ -4145,6 +4146,12 @@ export const quizList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+  {
+    title: "NeetCode.io",
+    link: "https://neetcode.io/",
+    image: NeetCode,
+    description: "",
   },
   {
     title: "dotnetmemoryexpert",
