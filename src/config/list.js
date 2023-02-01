@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AleksandrHovhannisyan from "../styles/images/aleksandrhovhannisyan.webp";
 import BigTechInterviews from "../styles/images/bigtechinterviews.webp";
 import FutureLearn from "../styles/images/futurelearn.webp";
 import Elementor from "../styles/images/elementor.webp";
@@ -2395,6 +2396,12 @@ export const blogList = [
     link: "https://markheath.net/",
     image: markheath,
     description: "Mark Heath's Blog",
+  },
+  {
+    title: "Aleksandr Hovhannisyan",
+    link: "https://www.aleksandrhovhannisyan.com/",
+    image: AleksandrHovhannisyan,
+    description: "",
   },
   {
     title: "Teco Tutorials",
