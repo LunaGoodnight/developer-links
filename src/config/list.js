@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Venngage from "../styles/images/venngage.webp";
 import MuleSoft from "../styles/images/mulesoft.webp";
 import NeetCode from "../styles/images/neetcode.webp";
 import AleksandrHovhannisyan from "../styles/images/aleksandrhovhannisyan.webp";
@@ -1865,6 +1866,12 @@ export const diagramList = [
     link: "https://www.edrawsoft.com/",
     image: EdrawSoftware,
     description: "Unlock Diagram Possibilities",
+  },
+  {
+    title: "Venngage",
+    link: "https://venngage.com/",
+    image: Venngage,
+    description: "Professional Infographic Maker | 10,000+ Templates",
   },
 ];
 
