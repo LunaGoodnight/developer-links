@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MixedAnalytics from "../styles/images/mixedanalytics.webp";
 import RapidAPI from "../styles/images/rapidapi.webp";
 import PublicAPIs from "../styles/images/publicApis.webp";
 import Venngage from "../styles/images/venngage.webp";
@@ -1570,6 +1571,12 @@ export const apiList = [
     image: RapidAPI,
     description:
       "26 Free Public APIs for Developers & Free Alternatives List - February, 2023",
+  },
+  {
+    title: "Mixed Analytics",
+    link: "https://mixedanalytics.com/",
+    image: MixedAnalytics,
+    description: "API Connector for Google Sheets - Import API Data",
   },
 ];
 
