@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PublicAPIs from "../styles/images/publicApis.webp";
 import Venngage from "../styles/images/venngage.webp";
 import MuleSoft from "../styles/images/mulesoft.webp";
 import NeetCode from "../styles/images/neetcode.webp";
@@ -1557,10 +1558,10 @@ export const apiList = [
     description: "",
   },
   {
-    title: "Exchange Rates API",
-    link: "https://exchangeratesapi.io/",
-    image: ExchangeRatesAPI,
-    description: "",
+    title: "Public APIs",
+    link: "https://github.com/public-apis/public-apis",
+    image: PublicAPIs,
+    description: "public-apis/public-apis: A collective list of free APIs",
   },
 ];
 
