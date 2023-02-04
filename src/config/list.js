@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RapidAPI from "../styles/images/rapidapi.webp";
 import PublicAPIs from "../styles/images/publicApis.webp";
 import Venngage from "../styles/images/venngage.webp";
 import MuleSoft from "../styles/images/mulesoft.webp";
@@ -1562,6 +1563,13 @@ export const apiList = [
     link: "https://github.com/public-apis/public-apis",
     image: PublicAPIs,
     description: "public-apis/public-apis: A collective list of free APIs",
+  },
+  {
+    title: "RapidAPI",
+    link: "https://rapidapi.com/collection/list-of-free-apis",
+    image: RapidAPI,
+    description:
+      "26 Free Public APIs for Developers & Free Alternatives List - February, 2023",
   },
 ];
 
