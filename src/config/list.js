@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Linc from "../styles/images/linc.webp";
 import MixedAnalytics from "../styles/images/mixedanalytics.webp";
 import RapidAPI from "../styles/images/rapidapi.webp";
 import PublicAPIs from "../styles/images/publicApis.webp";
@@ -1915,6 +1916,12 @@ export const toolList = [
     link: "https://uiverse.io/",
     image: gleek,
     description: "Open-Source UI elements - made with CSS and HTML",
+  },
+  {
+    title: "Linc",
+    link: "https://linc.sh/",
+    image: Linc,
+    description: "The Perfect CI/CD Pipeline for your Frontend",
   },
   {
     title: "JSON Diff",
