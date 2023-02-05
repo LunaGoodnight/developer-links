@@ -1,14 +1,6 @@
 import { languageList } from "./languageList";
 
-import Linc from "../styles/images/linc.webp";
-import MixedAnalytics from "../styles/images/mixedanalytics.webp";
-import RapidAPI from "../styles/images/rapidapi.webp";
-import PublicAPIs from "../styles/images/publicApis.webp";
-import Venngage from "../styles/images/venngage.webp";
-import MuleSoft from "../styles/images/mulesoft.webp";
-import NeetCode from "../styles/images/neetcode.webp";
-import AleksandrHovhannisyan from "../styles/images/aleksandrhovhannisyan.webp";
-import BigTechInterviews from "../styles/images/bigtechinterviews.webp";
+import MkDocs from "../styles/images/mkdocs.webp";
 import FutureLearn from "../styles/images/futurelearn.webp";
 import Elementor from "../styles/images/elementor.webp";
 import restcookbook from "../styles/images/restcookbook.webp";
@@ -654,12 +646,6 @@ export const sqlList = [
     description: "",
   },
   {
-    title: "Big Tech Interviews",
-    link: "https://bigtechinterviews.com/",
-    image: BigTechInterviews,
-    description: "Ace your next SQL Interview",
-  },
-  {
     title: "Dataquest",
     link: "https://www.dataquest.io/",
     image: Dataquest,
@@ -851,6 +837,13 @@ export const documentList = [
     image: Docusaurus,
     tab: "document",
     description: "Build optimized websites quickly, focus on your content",
+  },
+  {
+    title: "MkDocs",
+    link: "https://www.mkdocs.org/",
+    image: MkDocs,
+    tab: "document",
+    description: "",
   },
 ];
 
@@ -1561,23 +1554,10 @@ export const apiList = [
     description: "",
   },
   {
-    title: "Public APIs",
-    link: "https://github.com/public-apis/public-apis",
-    image: PublicAPIs,
-    description: "public-apis/public-apis: A collective list of free APIs",
-  },
-  {
-    title: "RapidAPI",
-    link: "https://rapidapi.com/collection/list-of-free-apis",
-    image: RapidAPI,
-    description:
-      "26 Free Public APIs for Developers & Free Alternatives List - February, 2023",
-  },
-  {
-    title: "Mixed Analytics",
-    link: "https://mixedanalytics.com/",
-    image: MixedAnalytics,
-    description: "API Connector for Google Sheets - Import API Data",
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
+    description: "",
   },
 ];
 
@@ -1884,12 +1864,6 @@ export const diagramList = [
     image: EdrawSoftware,
     description: "Unlock Diagram Possibilities",
   },
-  {
-    title: "Venngage",
-    link: "https://venngage.com/",
-    image: Venngage,
-    description: "Professional Infographic Maker | 10,000+ Templates",
-  },
 ];
 
 export const toolList = [
@@ -1916,12 +1890,6 @@ export const toolList = [
     link: "https://uiverse.io/",
     image: gleek,
     description: "Open-Source UI elements - made with CSS and HTML",
-  },
-  {
-    title: "Linc",
-    link: "https://linc.sh/",
-    image: Linc,
-    description: "The Perfect CI/CD Pipeline for your Frontend",
   },
   {
     title: "JSON Diff",
@@ -2428,12 +2396,6 @@ export const blogList = [
     link: "https://markheath.net/",
     image: markheath,
     description: "Mark Heath's Blog",
-  },
-  {
-    title: "Aleksandr Hovhannisyan",
-    link: "https://www.aleksandrhovhannisyan.com/",
-    image: AleksandrHovhannisyan,
-    description: "",
   },
   {
     title: "Teco Tutorials",
@@ -3358,12 +3320,6 @@ export const serviceList = [
     description: "Error logging and Uptime monitoring for .NET",
   },
   {
-    title: "MuleSoft",
-    link: "https://www.mulesoft.com/",
-    image: MuleSoft,
-    description: "Automate anything. Empower everyone.",
-  },
-  {
     title: "Integrate.io",
     link: "https://www.integrate.io/",
     image: Integrate,
@@ -4183,12 +4139,6 @@ export const quizList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
-  },
-  {
-    title: "NeetCode.io",
-    link: "https://neetcode.io/",
-    image: NeetCode,
-    description: "",
   },
   {
     title: "dotnetmemoryexpert",
