@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ThisDotLabs from "../styles/images/thisdot.webp";
 import Linc from "../styles/images/linc.webp";
 import MixedAnalytics from "../styles/images/mixedanalytics.webp";
 import RapidAPI from "../styles/images/rapidapi.webp";
@@ -3375,6 +3376,12 @@ export const serviceList = [
     image: LITSLINK,
     description:
       "Software Development Company in US - LITSLINK. Top Software Developer",
+  },
+  {
+    title: "This Dot Labs",
+    link: "https://www.thisdot.co/",
+    image: ThisDotLabs,
+    description: "",
   },
   {
     title: "BMC Software",
