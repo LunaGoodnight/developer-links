@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FreeAPIs from "../styles/images/free-apis.webp";
 import PokéAPI from "../styles/images/pokeapi.webp";
 import MkDocs from "../styles/images/mkdocs.webp";
 import RandomDataAPI from "../styles/images/random-data-api.webp";
@@ -1600,6 +1601,12 @@ export const apiList = [
     title: "PokéAPI",
     link: "https://pokeapi.co/",
     image: PokéAPI,
+    description: "",
+  },
+  {
+    title: "Free APIs",
+    link: "https://free-apis.github.io/#/",
+    image: FreeAPIs,
     description: "",
   },
 ];
