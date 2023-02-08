@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RandomDataAPI from "../styles/images/random-data-api.webp";
 import ThisDotLabs from "../styles/images/thisdot.webp";
 import Linc from "../styles/images/linc.webp";
 import MixedAnalytics from "../styles/images/mixedanalytics.webp";
@@ -1579,6 +1580,12 @@ export const apiList = [
     link: "https://mixedanalytics.com/",
     image: MixedAnalytics,
     description: "API Connector for Google Sheets - Import API Data",
+  },
+  {
+    title: "Random Data API",
+    link: "https://random-data-api.com/",
+    image: RandomDataAPI,
+    description: "",
   },
 ];
 
