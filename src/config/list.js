@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import RegExr from "../styles/images/regexr.webp";
+import RegularExpressions from "../styles/images/regular-expressions.webp";
 import FreeAPIs from "../styles/images/free-apis.webp";
 import PokéAPI from "../styles/images/pokeapi.webp";
 import MkDocs from "../styles/images/mkdocs.webp";
@@ -2350,7 +2352,19 @@ export const regexList = [
     title: "regex101",
     link: "https://regex101.com/",
     image: regex101,
-    description: "regex101: build, test, and debug regex",
+    description: "build, test, and debug regex",
+  },
+  {
+    title: "RegExr",
+    link: "https://regexr.com/",
+    image: RegExr,
+    description: "Learn, Build, & Test RegEx",
+  },
+  {
+    title: "Regular-Expressions.info",
+    link: "https://www.regular-expressions.info/",
+    image: RegularExpressions,
+    description: " Regex Tutorial, Examples and Reference - Regexp Patterns",
   },
 ];
 
