@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import BetterStack from "../styles/images/betterstack.webp";
+import NETCoreTutorials from "../styles/images/dotnetcoretutorials.webp";
 import RegExr from "../styles/images/regexr.webp";
 import RegularExpressions from "../styles/images/regular-expressions.webp";
 import FreeAPIs from "../styles/images/free-apis.webp";
@@ -809,6 +811,12 @@ export const dotnetList = [
     title: "Talking Dotnet",
     link: "https://www.talkingdotnet.com/",
     image: TalkingDotnet,
+    description: "",
+  },
+  {
+    title: ".NET Core Tutorials",
+    link: "https://dotnetcoretutorials.com/",
+    image: NETCoreTutorials,
     description: "",
   },
   {
@@ -3419,6 +3427,12 @@ export const serviceList = [
     image: LITSLINK,
     description:
       "Software Development Company in US - LITSLINK. Top Software Developer",
+  },
+  {
+    title: "Better Stack",
+    link: "https://betterstack.com/",
+    image: BetterStack,
+    description: "Radically Better Observability Stack",
   },
   {
     title: "This Dot Labs",
