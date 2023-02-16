@@ -3940,7 +3940,7 @@ export const serviceList = [
     description: "Receive a Free, Weekly Tip on Using Selenium like a Pro",
   },
 ];
-export const remoteList = [
+export const remoteToolsList = [
   {
     title: "Collaboration Superpowers",
     link: "https://www.collaborationsuperpowers.com/",
