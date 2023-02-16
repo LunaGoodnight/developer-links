@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodeReviewStackExchange from "../styles/images/codereview.webp";
 import BetterStack from "../styles/images/betterstack.webp";
 import NETCoreTutorials from "../styles/images/dotnetcoretutorials.webp";
 import RegExr from "../styles/images/regexr.webp";
@@ -1632,6 +1633,12 @@ export const askQuestionList = [
     title: "Stack Exchange",
     link: "https://stackexchange.com/",
     image: StackExchange,
+    description: "",
+  },
+  {
+    title: "Code Review Stack Exchange",
+    link: "https://codereview.stackexchange.com/",
+    image: CodeReviewStackExchange,
     description: "",
   },
 ];
