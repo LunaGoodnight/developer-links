@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import CodeReviewStackExchange from "../styles/images/codereview.webp";
+import BetterStack from "../styles/images/betterstack.webp";
+import NETCoreTutorials from "../styles/images/dotnetcoretutorials.webp";
 import RegExr from "../styles/images/regexr.webp";
 import RegularExpressions from "../styles/images/regular-expressions.webp";
 import FreeAPIs from "../styles/images/free-apis.webp";
@@ -809,6 +812,12 @@ export const dotnetList = [
     title: "Talking Dotnet",
     link: "https://www.talkingdotnet.com/",
     image: TalkingDotnet,
+    description: "",
+  },
+  {
+    title: ".NET Core Tutorials",
+    link: "https://dotnetcoretutorials.com/",
+    image: NETCoreTutorials,
     description: "",
   },
   {
@@ -1624,6 +1633,12 @@ export const askQuestionList = [
     title: "Stack Exchange",
     link: "https://stackexchange.com/",
     image: StackExchange,
+    description: "",
+  },
+  {
+    title: "Code Review Stack Exchange",
+    link: "https://codereview.stackexchange.com/",
+    image: CodeReviewStackExchange,
     description: "",
   },
 ];
@@ -3427,6 +3442,12 @@ export const serviceList = [
       "Software Development Company in US - LITSLINK. Top Software Developer",
   },
   {
+    title: "Better Stack",
+    link: "https://betterstack.com/",
+    image: BetterStack,
+    description: "Radically Better Observability Stack",
+  },
+  {
     title: "This Dot Labs",
     link: "https://www.thisdot.co/",
     image: ThisDotLabs,
@@ -3925,7 +3946,7 @@ export const serviceList = [
     description: "Receive a Free, Weekly Tip on Using Selenium like a Pro",
   },
 ];
-export const remoteList = [
+export const remoteToolsList = [
   {
     title: "Collaboration Superpowers",
     link: "https://www.collaborationsuperpowers.com/",

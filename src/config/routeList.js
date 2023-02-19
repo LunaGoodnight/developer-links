@@ -42,6 +42,13 @@ import {
   aiServiceList,
   diagramList,
   restList,
+  collectionList,
+  animationList,
+  platformList,
+  cheatSheetsList,
+  publishList,
+  designSystemList,
+  remoteToolsList,
 } from "./list";
 
 export const routeList = [
@@ -100,5 +107,12 @@ export const routeList = [
   { path: "git", text: "Git", importList: gitList },
   { path: "marketing", text: "Marketing", importList: marketingList },
   { path: "uiux", text: "UI UX", importList: uiuxList },
+  { path: "collection", text: "Collection", importList: collectionList },
+  { path: "animation", text: "Animation", importList: animationList },
+  { path: "platform", text: "Platform", importList: platformList },
+  { path: "cheatsheet", text: "Cheat Sheet", importList: cheatSheetsList },
+  { path: "publish", text: "Publish", importList: publishList },
+  { path: "designSystem", text: "Design System", importList: designSystemList },
+  { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
   { path: "/", text: "Home", importList: null },
 ];
