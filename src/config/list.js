@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Codacada from "../styles/images/codecada.webp";
 import CodeReviewStackExchange from "../styles/images/codereview.webp";
 import BetterStack from "../styles/images/betterstack.webp";
 import NETCoreTutorials from "../styles/images/dotnetcoretutorials.webp";
@@ -2527,8 +2528,8 @@ export const blogList = [
   {
     title: "Codacada",
     link: "https://www.codecada.com/",
-    image: EnterpriseCraftsmanship,
-    description: "Codacada - Best place to learn programming",
+    image: Codacada,
+    description: "Best place to learn programming",
   },
   {
     title: "martinfowler.com",
