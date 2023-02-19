@@ -2510,6 +2510,12 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Codacada",
+    link: "https://www.codecada.com/",
+    image: EnterpriseCraftsmanship,
+    description: "Codacada - Best place to learn programming",
+  },
+  {
     title: "martinfowler.com",
     link: "https://martinfowler.com/",
     image: MartinFowler,
