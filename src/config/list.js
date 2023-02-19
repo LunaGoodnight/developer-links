@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Locofy from "../styles/images/locofy.webp";
+import NextUI from "../styles/images/nextui.webp";
 import UIPatterns from "../styles/images/uipatterns.webp";
 import RefactoringUI from "../styles/images/refactoringui.webp";
 import Codacada from "../styles/images/codecada.webp";
@@ -607,6 +609,12 @@ export const websiteBuilderList = [
     link: "https://elementor.com/",
     image: Elementor,
     description: "Elementor: #1 Free WordPress Website Builder",
+  },
+  {
+    title: "Locofy.ai",
+    link: "https://www.locofy.ai/",
+    image: Locofy,
+    description: "ship your products 5-10x faster — with low code",
   },
 ];
 
@@ -1936,6 +1944,12 @@ export const designSystemList = [
     link: "https://material-ui.com/",
     image: MaterialUi,
     description: "A popular React UI framework",
+  },
+  {
+    title: "NextUI",
+    link: "https://nextui.org/",
+    image: NextUI,
+    description: "Beautiful, fast and modern React UI Library",
   },
 ];
 
