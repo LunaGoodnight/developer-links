@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import UIPatterns from "../styles/images/uipatterns.webp";
+import RefactoringUI from "../styles/images/refactoringui.webp";
 import Codacada from "../styles/images/codecada.webp";
 import CodeReviewStackExchange from "../styles/images/codereview.webp";
 import BetterStack from "../styles/images/betterstack.webp";
@@ -1280,6 +1282,18 @@ export const uiuxList = [
     link: "https://www.justinmind.com/",
     image: Justinmind,
     description: "Free prototyping tool for web & mobile apps",
+  },
+  {
+    title: "Refactoring UI",
+    link: "https://www.refactoringui.com/",
+    image: RefactoringUI,
+    description: "",
+  },
+  {
+    title: "UI-Patterns.com",
+    link: "https://ui-patterns.com/",
+    image: UIPatterns,
+    description: "",
   },
 ];
 export const typeScriptList = [
