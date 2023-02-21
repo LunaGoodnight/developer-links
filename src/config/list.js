@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ServiceStack from "../styles/images/servicestack.webp";
 import Locofy from "../styles/images/locofy.webp";
 import NextUI from "../styles/images/nextui.webp";
 import UIPatterns from "../styles/images/uipatterns.webp";
@@ -3498,8 +3499,13 @@ export const serviceList = [
     title: "Fortinet",
     link: "https://www.fortinet.com/",
     image: Fortinet,
-    description:
-      "Global Leader of Cyber Security Solutions and Services | Fortinet",
+    description: "Global Leader of Cyber Security Solutions and Services",
+  },
+  {
+    title: "ServiceStack",
+    link: "https://servicestack.net/",
+    image: ServiceStack,
+    description: "Simple and Fast .NET Web Services Framework",
   },
   {
     title: "Fusebit",
