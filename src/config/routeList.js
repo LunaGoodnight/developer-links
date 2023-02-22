@@ -49,6 +49,7 @@ import {
   publishList,
   designSystemList,
   remoteToolsList,
+  themeList,
 } from "./list";
 
 export const routeList = [
@@ -114,5 +115,6 @@ export const routeList = [
   { path: "publish", text: "Publish", importList: publishList },
   { path: "designSystem", text: "Design System", importList: designSystemList },
   { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
+  { path: "theme", text: "Theme", importList: themeList },
   { path: "/", text: "Home", importList: null },
 ];

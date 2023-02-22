@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ThemeSelection from "../styles/images/themeselection.webp";
 import Locofy from "../styles/images/locofy.webp";
 import NextUI from "../styles/images/nextui.webp";
 import UIPatterns from "../styles/images/uipatterns.webp";
@@ -4347,5 +4348,14 @@ export const reactList = [
     link: "https://www.patterns.dev/",
     image: Patterns,
     description: "Modern Web App Design Patterns",
+  },
+];
+
+export const themeList = [
+  {
+    title: "ThemeSelection",
+    link: "https://themeselection.com/",
+    image: ThemeSelection,
+    description: "Premium & Free Admin Template, HTML Themes- ThemeSelection",
   },
 ];
