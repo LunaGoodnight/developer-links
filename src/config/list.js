@@ -588,13 +588,20 @@ import sqlstudies from "../styles/images/sqlstudies.webp";
 import MySQLTutorial from "../styles/images/mysqltutorial.webp";
 import POWR from "../styles/images/powr.webp";
 import Backlinko from "../styles/images/backlinko.webp";
+import Ahrefs from "../styles/images/ahrefs.webp";
 
 export const seoList = [
   {
     title: "Backlinko",
     link: "https://backlinko.com/",
     image: Backlinko,
-    description: "SEO Training and Link Building Strategies – Backlinko",
+    description: "SEO Training and Link Building Strategies",
+  },
+  {
+    title: "Ahrefs",
+    link: "https://ahrefs.com/",
+    image: Ahrefs,
+    description: "SEO Tools & Resources To Grow Your Search Traffic",
   },
 ];
 
