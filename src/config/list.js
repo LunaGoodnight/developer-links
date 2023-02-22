@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Contentful from "../styles/images/contentful.webp";
 import DevOpsConference from "../styles/images/devopscon.webp";
 import ThemeSelection from "../styles/images/themeselection.webp";
 import ServiceStack from "../styles/images/servicestack.webp";
@@ -3490,6 +3491,12 @@ export const serviceList = [
     link: "https://www.bmc.com/",
     image: BMC,
     description: "Run and Reinvent",
+  },
+  {
+    title: "Contentful",
+    link: "https://www.contentful.com/",
+    image: Contentful,
+    description: "The platform to bring your best ideas to life",
   },
   {
     title: "Barracuda Networks",
