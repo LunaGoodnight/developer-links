@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DevOpsConference from "../styles/images/devopscon.webp";
 import ThemeSelection from "../styles/images/themeselection.webp";
 import ServiceStack from "../styles/images/servicestack.webp";
 import Locofy from "../styles/images/locofy.webp";
@@ -4363,5 +4364,15 @@ export const themeList = [
     link: "https://themeselection.com/",
     image: ThemeSelection,
     description: "Premium & Free Admin Template, HTML Themes- ThemeSelection",
+  },
+];
+
+export const conferenceList = [
+  {
+    title: "DevOps Conference",
+    link: "https://devopscon.io/",
+    image: DevOpsConference,
+    description:
+      "The Global conference series for DevOps & Business Transformation",
   },
 ];
