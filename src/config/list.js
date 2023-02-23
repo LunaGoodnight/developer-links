@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Crystallize from "../styles/images/crystallize.webp";
 import DeveloperPublish from "../styles/images/developerpublish.webp";
 import Contentful from "../styles/images/contentful.webp";
 import DevOpsConference from "../styles/images/devopscon.webp";
@@ -3468,6 +3469,13 @@ export const serviceList = [
     link: "https://elmah.io/",
     image: elmah,
     description: "Error logging and Uptime monitoring for .NET",
+  },
+  {
+    title: "Crystallize",
+    link: "https://crystallize.com/",
+    image: Crystallize,
+    description:
+      "Headless eCommerce | PIM | GraphQL API | Subscription eCommerce",
   },
   {
     title: "MuleSoft",
