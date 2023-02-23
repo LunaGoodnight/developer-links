@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DeveloperPublish from "../styles/images/developerpublish.webp";
 import Contentful from "../styles/images/contentful.webp";
 import DevOpsConference from "../styles/images/devopscon.webp";
 import ThemeSelection from "../styles/images/themeselection.webp";
@@ -2521,6 +2522,12 @@ export const blogList = [
     link: "https://humbletoolsmith.com/",
     image: HumbleToolsmith,
     description: "",
+  },
+  {
+    title: "Developer Publish",
+    link: "https://developerpublish.com/",
+    image: DeveloperPublish,
+    description: "All about Software Development",
   },
   {
     title: "Sound Code",
