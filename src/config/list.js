@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import Contentful from "../styles/images/contentful.webp";
+import DevOpsConference from "../styles/images/devopscon.webp";
+import ThemeSelection from "../styles/images/themeselection.webp";
 import ServiceStack from "../styles/images/servicestack.webp";
 import Locofy from "../styles/images/locofy.webp";
 import NextUI from "../styles/images/nextui.webp";
@@ -3497,6 +3500,12 @@ export const serviceList = [
     description: "Run and Reinvent",
   },
   {
+    title: "Contentful",
+    link: "https://www.contentful.com/",
+    image: Contentful,
+    description: "The platform to bring your best ideas to life",
+  },
+  {
     title: "Barracuda Networks",
     link: "https://www.barracuda.com/",
     image: Barracuda,
@@ -4360,5 +4369,24 @@ export const reactList = [
     link: "https://www.patterns.dev/",
     image: Patterns,
     description: "Modern Web App Design Patterns",
+  },
+];
+
+export const themeList = [
+  {
+    title: "ThemeSelection",
+    link: "https://themeselection.com/",
+    image: ThemeSelection,
+    description: "Premium & Free Admin Template, HTML Themes- ThemeSelection",
+  },
+];
+
+export const conferenceList = [
+  {
+    title: "DevOps Conference",
+    link: "https://devopscon.io/",
+    image: DevOpsConference,
+    description:
+      "The Global conference series for DevOps & Business Transformation",
   },
 ];
