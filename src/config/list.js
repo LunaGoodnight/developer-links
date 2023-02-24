@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SmartDraw from "../styles/images/smartdraw.webp";
 import Section from "../styles/images/section.webp";
 import Crystallize from "../styles/images/crystallize.webp";
 import DeveloperPublish from "../styles/images/developerpublish.webp";
@@ -1979,6 +1980,13 @@ export const diagramList = [
     link: "https://venngage.com/",
     image: Venngage,
     description: "Professional Infographic Maker | 10,000+ Templates",
+  },
+  {
+    title: "SmartDraw",
+    link: "https://www.smartdraw.com/",
+    image: SmartDraw,
+    description:
+      "Create Flowcharts, Floor Plans, and Other Diagrams on Any Device",
   },
 ];
 
