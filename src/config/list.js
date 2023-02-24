@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Section from "../styles/images/section.webp";
 import Crystallize from "../styles/images/crystallize.webp";
 import DeveloperPublish from "../styles/images/developerpublish.webp";
 import Contentful from "../styles/images/contentful.webp";
@@ -3482,6 +3483,12 @@ export const serviceList = [
     link: "https://www.mulesoft.com/",
     image: MuleSoft,
     description: "Automate anything. Empower everyone.",
+  },
+  {
+    title: "Section",
+    link: "https://www.section.io/",
+    image: MuleSoft,
+    description: "Globally distributed container hosting",
   },
   {
     title: "Integrate.io",
