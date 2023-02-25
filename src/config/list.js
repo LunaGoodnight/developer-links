@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ESLint from "../styles/images/eslint.webp";
 import SmartDraw from "../styles/images/smartdraw.webp";
 import Section from "../styles/images/section.webp";
 import Crystallize from "../styles/images/crystallize.webp";
@@ -1971,7 +1972,7 @@ export const packageList = [
   {
     title: "ESLint",
     link: "https://eslint.org/",
-    image: EdrawSoftware,
+    image: ESLint,
     description:
       "Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter",
   },
