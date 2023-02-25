@@ -51,6 +51,7 @@ import {
   remoteToolsList,
   themeList,
   conferenceList,
+  packageList,
 } from "./list";
 
 export const routeList = [
@@ -115,6 +116,7 @@ export const routeList = [
   { path: "conference", text: "Conference", importList: conferenceList },
   { path: "cheatsheet", text: "Cheat Sheet", importList: cheatSheetsList },
   { path: "publish", text: "Publish", importList: publishList },
+  { path: "package", text: "Package", importList: packageList },
   { path: "designSystem", text: "Design System", importList: designSystemList },
   { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
   { path: "theme", text: "Theme", importList: themeList },

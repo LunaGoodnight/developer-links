@@ -1967,6 +1967,15 @@ export const designSystemList = [
     description: "Beautiful, fast and modern React UI Library",
   },
 ];
+export const packageList = [
+  {
+    title: "ESLint",
+    link: "https://eslint.org/",
+    image: EdrawSoftware,
+    description:
+      "Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter",
+  },
+];
 
 export const diagramList = [
   {
