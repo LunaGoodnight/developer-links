@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Builder from "../styles/images/builder.webp";
 import GDevelop from "../styles/images/gdevelop.webp";
 import ESLint from "../styles/images/eslint.webp";
 import SmartDraw from "../styles/images/smartdraw.webp";
@@ -632,6 +633,12 @@ export const websiteBuilderList = [
     link: "https://www.locofy.ai/",
     image: Locofy,
     description: "ship your products 5-10x faster — with low code",
+  },
+  {
+    title: "Builder",
+    link: "https://www.builder.io/",
+    image: Builder,
+    description: "Drag & Drop Headless CMS",
   },
 ];
 
