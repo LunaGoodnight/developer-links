@@ -52,6 +52,7 @@ import {
   themeList,
   conferenceList,
   packageList,
+  gameDevelopList,
 } from "./list";
 
 export const routeList = [
@@ -117,6 +118,7 @@ export const routeList = [
   { path: "cheatsheet", text: "Cheat Sheet", importList: cheatSheetsList },
   { path: "publish", text: "Publish", importList: publishList },
   { path: "package", text: "Package", importList: packageList },
+  { path: "game", text: "Game Develop", importList: gameDevelopList },
   { path: "designSystem", text: "Design System", importList: designSystemList },
   { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
   { path: "theme", text: "Theme", importList: themeList },

@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GDevelop from "../styles/images/gdevelop.webp";
 import ESLint from "../styles/images/eslint.webp";
 import SmartDraw from "../styles/images/smartdraw.webp";
 import Section from "../styles/images/section.webp";
@@ -1975,6 +1976,15 @@ export const packageList = [
     image: ESLint,
     description:
       "Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter",
+  },
+];
+
+export const gameDevelopList = [
+  {
+    title: "GDevelop",
+    link: "https://gdevelop.io/",
+    image: GDevelop,
+    description: "Free and Easy Game-Making App",
   },
 ];
 
