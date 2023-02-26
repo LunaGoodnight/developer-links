@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import diagramsDotNet from "../styles/images/diagrams.net.webp";
 import Gleek from "../styles/images/gleek.webp";
 import Lucidchart from "../styles/images/lucidchart.webp";
 import VisualParadigm from "../styles/images/visualParadigm.webp";
@@ -2043,6 +2044,12 @@ export const diagramList = [
     link: "https://www.gleek.io/",
     image: Gleek,
     description: "Diagram maker for developers",
+  },
+  {
+    title: "diagrams.net",
+    link: "https://www.diagrams.net/",
+    image: diagramsDotNet,
+    description: "Diagram Software and Flowchart Maker",
   },
 ];
 
