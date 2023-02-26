@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Gleek from "../styles/images/gleek.webp";
 import Lucidchart from "../styles/images/lucidchart.webp";
 import VisualParadigm from "../styles/images/visualParadigm.webp";
 import OReilly from "../styles/images/oreilly.webp";
@@ -2037,6 +2038,12 @@ export const diagramList = [
     image: Lucidchart,
     description: "Intelligent Diagramming",
   },
+  {
+    title: "Gleek",
+    link: "https://www.gleek.io/",
+    image: Gleek,
+    description: "Diagram maker for developers",
+  },
 ];
 
 export const toolList = [
@@ -2051,12 +2058,6 @@ export const toolList = [
     link: "https://jamstack.org/",
     image: Jamstack,
     description: "For fast and secure sites",
-  },
-  {
-    title: "gleek",
-    link: "https://www.gleek.io/",
-    image: gleek,
-    description: "Diagram maker for developers",
   },
   {
     title: "uiverse",
