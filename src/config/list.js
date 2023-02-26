@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Gliffy from "../styles/images/gliffy.webp";
 import diagramsDotNet from "../styles/images/diagrams.net.webp";
 import Gleek from "../styles/images/gleek.webp";
 import Lucidchart from "../styles/images/lucidchart.webp";
@@ -2050,6 +2051,12 @@ export const diagramList = [
     link: "https://www.diagrams.net/",
     image: diagramsDotNet,
     description: "Diagram Software and Flowchart Maker",
+  },
+  {
+    title: "Gliffy",
+    link: "https://www.gliffy.com/",
+    image: Gliffy,
+    description: "Diagramming Software Built for Any Team | Gliffy by Perforce",
   },
 ];
 
