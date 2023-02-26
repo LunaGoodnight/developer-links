@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import OReilly from "../styles/images/oreilly.webp";
 import Builder from "../styles/images/builder.webp";
 import GDevelop from "../styles/images/gdevelop.webp";
 import ESLint from "../styles/images/eslint.webp";
@@ -1719,6 +1720,12 @@ export const publishList = [
     image: newline,
     description:
       "Learn to build React, Angular, Vue, GraphQL, and Node.js Apps with real-world projects",
+  },
+  {
+    title: "O'Reilly",
+    link: "https://www.oreilly.com/",
+    image: OReilly,
+    description: "Technology and Business Training",
   },
 ];
 
