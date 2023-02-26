@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import VisualParadigm from "../styles/images/visualParadigm.webp";
 import OReilly from "../styles/images/oreilly.webp";
 import Builder from "../styles/images/builder.webp";
 import GDevelop from "../styles/images/gdevelop.webp";
@@ -2021,6 +2022,13 @@ export const diagramList = [
     image: SmartDraw,
     description:
       "Create Flowcharts, Floor Plans, and Other Diagrams on Any Device",
+  },
+  {
+    title: "visual-paradigm",
+    link: "https://www.visual-paradigm.com/",
+    image: VisualParadigm,
+    description:
+      "Ideal Modeling & Diagramming Tool for Agile Team Collaboration",
   },
 ];
 
