@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Lucidchart from "../styles/images/lucidchart.webp";
 import VisualParadigm from "../styles/images/visualParadigm.webp";
 import OReilly from "../styles/images/oreilly.webp";
 import Builder from "../styles/images/builder.webp";
@@ -2029,6 +2030,12 @@ export const diagramList = [
     image: VisualParadigm,
     description:
       "Ideal Modeling & Diagramming Tool for Agile Team Collaboration",
+  },
+  {
+    title: "Lucidchart",
+    link: "https://www.lucidchart.com/",
+    image: Lucidchart,
+    description: "Intelligent Diagramming",
   },
 ];
 
