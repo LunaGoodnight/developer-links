@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AlternativeTo from "../styles/images/alternativeto.webp";
 import SaaSHub from "../styles/images/saashub.webp";
 import Turing from "../styles/images/turing.webp";
 import DevOpsToolkit from "../styles/images/DevOpsToolkit.webp";
@@ -3067,6 +3068,12 @@ export const generalList = [
     link: "https://www.saashub.com/",
     image: SaaSHub,
     description: "Software Alternatives And Reviews",
+  },
+  {
+    title: "AlternativeTo",
+    link: "https://alternativeto.net/",
+    image: AlternativeTo,
+    description: "Crowdsourced software recommendations",
   },
   {
     title: ".cult by Honeypot",
