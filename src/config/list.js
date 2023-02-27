@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Turing from "../styles/images/turing.webp";
 import DevOpsToolkit from "../styles/images/DevOpsToolkit.webp";
 import Gliffy from "../styles/images/gliffy.webp";
 import diagramsDotNet from "../styles/images/diagrams.net.webp";
@@ -62,7 +63,6 @@ import JavaProgramming from "../styles/images/javaprogrammingmoocfi.webp";
 import Integrate from "../styles/images/integrate.webp";
 import SecureCodingHandbook from "../styles/images/securecoding.webp";
 import LiveAction from "../styles/images/liveaction.webp";
-import gleek from "../styles/images/gleek.webp";
 import CockroachDB from "../styles/images/cockroachlabs.webp";
 import ByteByteGo from "../styles/images/bytebytego.webp";
 import PortSwigger from "../styles/images/portswigger.webp";
@@ -983,7 +983,7 @@ export const hostingList = [
   {
     title: "Kinsta",
     link: "https://kinsta.com/",
-    image: NodeChef,
+    image: Kinsta,
     description: "Kinsta® Cloud Hosting for All Your Web Projects",
   },
   {
@@ -1599,6 +1599,12 @@ export const aiServiceList = [
     image: Latitude,
     description: "",
   },
+  {
+    title: "Turing",
+    link: "https://www.turing.com/",
+    image: Turing,
+    description: "Hire the World’s Most Deeply Vetted Remote Developers",
+  },
 ];
 
 export const cheatSheetsList = [
@@ -1757,7 +1763,7 @@ export const tutorialList = [
   {
     title: "RefactoringGuru",
     link: "https://refactoring.guru/",
-    image: RealPython,
+    image: RefactoringGuru,
     description: "Refactoring and Design Patterns",
   },
   {
@@ -2083,7 +2089,7 @@ export const toolList = [
   {
     title: "uiverse",
     link: "https://uiverse.io/",
-    image: gleek,
+    image: uiverse,
     description: "Open-Source UI elements - made with CSS and HTML",
   },
   {
@@ -2191,7 +2197,7 @@ export const toolList = [
   {
     title: "Calculator",
     link: "https://www.calculator.net/",
-    image: Devart,
+    image: Calculator,
     description: "Free Online Calculators - Math, Fitness, Finance, Science",
   },
   {
@@ -2360,7 +2366,7 @@ export const interactiveLearnList = [
   {
     title: "Exercism",
     link: "https://exercism.org/",
-    image: Edabit,
+    image: Exercism,
     description: "",
   },
   {
@@ -3566,7 +3572,7 @@ export const serviceList = [
   {
     title: "Section",
     link: "https://www.section.io/",
-    image: MuleSoft,
+    image: Section,
     description: "Globally distributed container hosting",
   },
   {
@@ -3864,7 +3870,7 @@ export const serviceList = [
   {
     title: "Jscrambler",
     link: "https://jscrambler.com/",
-    image: Plutora,
+    image: Jscrambler,
     description: "JavaScript Protection and Webpage Monitoring",
   },
   {
@@ -4297,7 +4303,7 @@ export const testList = [
   {
     title: "TestСafe",
     link: "https://testcafe.io/",
-    image: SeleniumHQ,
+    image: TestСafe,
     description: "Cross-Browser End-to-End Testing Framework",
   },
   {

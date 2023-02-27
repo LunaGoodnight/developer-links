@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import AdSense from "react-adsense";
-import { useEffect } from "react";
 
 const IndexWrapper = styled.div`
   padding: 6rem 0 0 10rem;

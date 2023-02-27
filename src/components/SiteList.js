@@ -22,14 +22,13 @@ const Description = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-  max-width: ${(props) => (props.video ? "16rem" : "13rem")};
+  width: ${(props) => (props.video ? "16rem" : "13rem")};
   height: 9rem;
   overflow: hidden;
   background: pink;
   img {
-    min-width: 100%;
+    width: 100%;
     height: 100%;
-    max-width: 100%;
   }
 `;
 
