@@ -20,11 +20,11 @@ const Title = styled.h2`
 const Description = styled.div`
   font-size: 1rem;
 `;
+
 const ImageWrapper = styled.div`
-  max-width: 13rem;
+  max-width: ${(props) => (props.video ? "16rem" : "13rem")};
   height: 9rem;
   overflow: hidden;
-
   background: pink;
   img {
     min-width: 100%;
@@ -32,6 +32,7 @@ const ImageWrapper = styled.div`
     max-width: 100%;
   }
 `;
+
 const DetailWrapper = styled.div`
   padding-left: 4rem;
   text-align: left;
@@ -43,24 +44,20 @@ const DetailWrapper = styled.div`
   }
 `;
 
-export default function SiteList({ list }) {
-  return (
-    <>
-      {list.map((item) => {
-        const { title, image, link, description } = item;
-        return (
-          <SiteBar href={link} target="_blank">
-            <ImageWrapper>
-              <img src={image} alt="" loading="lazy" />
-            </ImageWrapper>
+export default function SiteList({ list, video }) {
+  return list.map((item) => {
+    const { title, image, link, description } = item;
+    return (
+      <SiteBar href={link} target="_blank" key={link}>
+        <ImageWrapper video={video}>
+          <img src={image} alt="" loading="lazy" />
+        </ImageWrapper>
 
-            <DetailWrapper>
-              <Title>{title}</Title>
-              <Description>{description}</Description>
-            </DetailWrapper>
-          </SiteBar>
-        );
-      })}
-    </>
-  );
+        <DetailWrapper>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+        </DetailWrapper>
+      </SiteBar>
+    );
+  });
 }

@@ -47,7 +47,7 @@ function App() {
                 <Route path={`/${path}`} key={path}>
                   {importList ? (
                     <Content>
-                      <SiteList list={importList} />
+                      <SiteList list={importList} video={path === "youtube"} />
                     </Content>
                   ) : (
                     <Content>

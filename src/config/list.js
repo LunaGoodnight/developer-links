@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DevOpsToolkit from "../styles/images/DevOpsToolkit.webp";
 import Gliffy from "../styles/images/gliffy.webp";
 import diagramsDotNet from "../styles/images/diagrams.net.webp";
 import Gleek from "../styles/images/gleek.webp";
@@ -1499,6 +1500,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "DevOps Toolkit",
+    link: "https://www.youtube.com/@DevOpsToolkit",
+    image: DevOpsToolkit,
+    description: "",
+  },
   {
     title: "JackHerrington",
     link: "https://www.youtube.com/c/JackHerrington",
