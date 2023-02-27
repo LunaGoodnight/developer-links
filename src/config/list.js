@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Wilco from "../styles/images/trywilco.webp";
+import refine from "../styles/images/refine.webp";
 import BlixtDev from "../styles/images/blixtdev.webp";
 import OpenReplay from "../styles/images/openreplay.webp";
 import LibHunt from "../styles/images/libhunt.webp";
@@ -4478,6 +4480,12 @@ export const quizList = [
     image: HackerRank,
     description: "",
   },
+  {
+    title: "Wilco",
+    link: "https://www.trywilco.com/",
+    image: Wilco,
+    description: "Never Stop Developing",
+  },
 ];
 
 export const reactList = [
@@ -4511,6 +4519,13 @@ export const reactList = [
     link: "https://www.patterns.dev/",
     image: Patterns,
     description: "Modern Web App Design Patterns",
+  },
+  {
+    title: "refine",
+    link: "https://refine.dev/",
+    image: refine,
+    description:
+      "Build your React-based CRUD applications, without constraints!",
   },
 ];
 
