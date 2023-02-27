@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SaaSHub from "../styles/images/saashub.webp";
 import Turing from "../styles/images/turing.webp";
 import DevOpsToolkit from "../styles/images/DevOpsToolkit.webp";
 import Gliffy from "../styles/images/gliffy.webp";
@@ -3061,6 +3062,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "SaaSHub",
+    link: "https://www.saashub.com/",
+    image: SaaSHub,
+    description: "Software Alternatives And Reviews",
+  },
   {
     title: ".cult by Honeypot",
     link: "https://cult.honeypot.io/",
