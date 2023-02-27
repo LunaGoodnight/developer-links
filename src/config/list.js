@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import BlixtDev from "../styles/images/blixtdev.webp";
+import OpenReplay from "../styles/images/openreplay.webp";
 import LibHunt from "../styles/images/libhunt.webp";
 import AlternativeTo from "../styles/images/alternativeto.webp";
 import SaaSHub from "../styles/images/saashub.webp";
@@ -2535,6 +2537,12 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Blixt Dev",
+    link: "https://blixtdev.com/",
+    image: BlixtDev,
+    description: "",
+  },
+  {
     title: "JakeArchibald.com",
     link: "https://jakearchibald.com/",
     image: JakeArchibald,
@@ -3540,6 +3548,12 @@ export const serviceList = [
     link: "https://www.threatstack.com/",
     image: ThreatStack,
     description: "Cloud Security and Compliance",
+  },
+  {
+    title: "OpenReplay",
+    link: "https://openreplay.com/",
+    image: OpenReplay,
+    description: "Open-Source Session Replay",
   },
   {
     title: "Avi Networks",
