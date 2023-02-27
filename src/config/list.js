@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import LibHunt from "../styles/images/libhunt.webp";
 import AlternativeTo from "../styles/images/alternativeto.webp";
 import SaaSHub from "../styles/images/saashub.webp";
 import Turing from "../styles/images/turing.webp";
@@ -3063,6 +3064,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "LibHunt",
+    link: "https://www.libhunt.com/",
+    image: LibHunt,
+    description: "Trending open-source projects and their alternatives",
+  },
   {
     title: "SaaSHub",
     link: "https://www.saashub.com/",
