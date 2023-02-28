@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Fruityvice from "../styles/images/fruityvice.webp";
 import Wilco from "../styles/images/trywilco.webp";
 import refine from "../styles/images/refine.webp";
 import BlixtDev from "../styles/images/blixtdev.webp";
@@ -1691,6 +1692,12 @@ export const apiList = [
     title: "Free APIs",
     link: "https://free-apis.github.io/#/",
     image: FreeAPIs,
+    description: "",
+  },
+  {
+    title: "Fruityvice",
+    link: "https://fruityvice.com/",
+    image: Fruityvice,
     description: "",
   },
 ];
