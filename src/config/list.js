@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import CodeKata from "../styles/images/codekata.webp";
+import VimAwesome from "../styles/images/vimawesome.webp";
 import Infinumhandbooks from "../styles/images/infinum.webp";
 import FrontEndInterviewHandbook from "../styles/images/frontendinterviewhandbook.webp";
 import CohereAI from "../styles/images/cohere.webp";
@@ -1103,6 +1105,12 @@ export const platformList = [
     image: CodingDojo,
     description: "Coding Bootcamp - Learn Coding & Data Science",
   },
+  {
+    title: "CodeKata",
+    link: "http://codekata.com/",
+    image: CodeKata,
+    description: "",
+  },
 ];
 
 export const linuxList = [
@@ -1614,7 +1622,7 @@ export const aiServiceList = [
   },
   {
     title: "Cohere AI",
-    link: "https://latitude.io/",
+    link: "https://cohere.ai/",
     image: CohereAI,
     description: "",
   },
@@ -1761,6 +1769,12 @@ export const vimList = [
     title: "Vim Cheat Sheet",
     link: "https://vim.rtorr.com/",
     image: VimCheatSheet,
+    description: "",
+  },
+  {
+    title: "Vim Awesome",
+    link: "https://vimawesome.com/",
+    image: VimAwesome,
     description: "",
   },
 ];

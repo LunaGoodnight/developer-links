@@ -42,13 +42,12 @@ export const LeftMenu = styled.div`
 export const Header = styled.header`
   min-height: 10vh;
   background-color: #282c34;
-
+  position: relative;
   h2 {
     font-size: calc(10px + 2vmin);
   }
   @media only screen and (max-width: 768px) {
     align-items: flex-start;
-
     padding-left: 2rem;
   }
 `;

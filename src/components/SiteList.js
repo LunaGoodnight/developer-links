@@ -47,7 +47,7 @@ export default function SiteList({ list, video }) {
   return list.map((item) => {
     const { title, image, link, description } = item;
     return (
-      <SiteBar href={link} target="_blank" key={link}>
+      <SiteBar href={link} target="_blank" key={`${link}_${title}`}>
         <ImageWrapper video={video}>
           <img src={image} alt="" loading="lazy" />
         </ImageWrapper>

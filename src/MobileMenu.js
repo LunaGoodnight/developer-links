@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     li {
       font-size: 1.7rem;
       width: 100%;
-      padding: 1.2rem 0;
+      padding: 1.2rem 2rem;
     }
   }
 
