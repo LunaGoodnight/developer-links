@@ -16,8 +16,24 @@ import {
   LeftMenu,
 } from "./styles/components/styled";
 import "./App.css";
+import { useMemo } from "react";
 
 function App() {
+  const sortedList = useMemo(
+    () =>
+      routeList.sort((a, b) => {
+        const nameA = a.path.toUpperCase();
+        const nameB = b.path.toUpperCase();
+        if (nameA < nameB) {
+          return -1;
+        }
+        if (nameA > nameB) {
+          return 1;
+        }
+        return 0;
+      }),
+    []
+  );
   return (
     <Router>
       <div className="App">
@@ -29,7 +45,7 @@ function App() {
         <ContentWrapper>
           <LeftMenu>
             <ul>
-              {routeList.map((item) => {
+              {sortedList.map((item) => {
                 const { path, text } = item;
                 return (
                   <li key={path}>

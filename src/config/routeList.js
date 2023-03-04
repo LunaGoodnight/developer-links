@@ -53,6 +53,7 @@ import {
   conferenceList,
   packageList,
   gameDevelopList,
+  vimList,
 } from "./list";
 
 export const routeList = [
@@ -113,6 +114,7 @@ export const routeList = [
   { path: "uiux", text: "UI UX", importList: uiuxList },
   { path: "collection", text: "Collection", importList: collectionList },
   { path: "animation", text: "Animation", importList: animationList },
+  { path: "vim", text: "Vim", importList: vimList },
   { path: "platform", text: "Platform", importList: platformList },
   { path: "conference", text: "Conference", importList: conferenceList },
   { path: "cheatsheet", text: "Cheat Sheet", importList: cheatSheetsList },

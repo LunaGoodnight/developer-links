@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import CohereAI from "../styles/images/cohere.webp";
+import ChatGPT from "../styles/images/chatgpt.webp";
+import VimCheatSheet from "../styles/images/vim.rtorr.webp";
 import Fruityvice from "../styles/images/fruityvice.webp";
 import Wilco from "../styles/images/trywilco.webp";
 import refine from "../styles/images/refine.webp";
@@ -1602,6 +1605,18 @@ export const youtubeList = [
 
 export const aiServiceList = [
   {
+    title: "ChatGPT",
+    link: "https://openai.com/blog/chatgpt",
+    image: ChatGPT,
+    description: "",
+  },
+  {
+    title: "Cohere AI",
+    link: "https://latitude.io/",
+    image: CohereAI,
+    description: "",
+  },
+  {
     title: "Latitude",
     link: "https://latitude.io/",
     image: Latitude,
@@ -1736,6 +1751,15 @@ export const collectionList = [
     title:
       "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
     link: "https://github.com/Developer-Y/cs-video-courses",
+  },
+];
+
+export const vimList = [
+  {
+    title: "Vim Cheat Sheet",
+    link: "https://vim.rtorr.com/",
+    image: VimCheatSheet,
+    description: "",
   },
 ];
 
