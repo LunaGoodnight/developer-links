@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Infinumhandbooks from "../styles/images/infinum.webp";
+import FrontEndInterviewHandbook from "../styles/images/frontendinterviewhandbook.webp";
 import CohereAI from "../styles/images/cohere.webp";
 import ChatGPT from "../styles/images/chatgpt.webp";
 import VimCheatSheet from "../styles/images/vim.rtorr.webp";
@@ -4297,10 +4299,22 @@ export const bookList = [
     description: "JavaScript and more",
   },
   {
+    title: "Front End Interview Handbook",
+    link: "https://www.frontendinterviewhandbook.com/",
+    image: FrontEndInterviewHandbook,
+    description: "Front end interview preparation for busy engineers",
+  },
+  {
     title: "Frontend Handbook",
     link: "https://infinum.com/handbook/books/frontend",
     image: InfinumFrontEnd,
     description: "Frontend Handbook",
+  },
+  {
+    title: "Infinum handbooks",
+    link: "https://infinum.com/handbook/",
+    image: Infinumhandbooks,
+    description: "18 years of experience",
   },
   {
     title: "The Modern JavaScript Tutorial",
