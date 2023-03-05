@@ -17,9 +17,10 @@ import {
   Header,
   LeftMenu,
 } from "./styles/components/styled";
-
+import { GrFormClose } from "react-icons/gr";
 import Home from "./Home";
 import "./App.css";
+import { LeftMenuContainer } from "./LeftMenuContainer";
 
 export const SearchIcon = styled.div`
   position: absolute;
@@ -30,18 +31,30 @@ export const SearchIcon = styled.div`
   }
 `;
 
-export const BigSearchBox = styled.input`
+export const WrapSearchBox = styled.div`
   width: 30%;
   right: 0;
   height: 8vh;
   position: fixed;
+`;
+export const BigSearchBox = styled.input`
+  width: 100%;
+  height: 100%;
   //left: 50%;
   //transform: translate(-50%, 0);
   outline: none;
   text-indent: 1rem;
   font-size: 3rem;
 `;
-
+export const CloseIconWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 3rem;
+  right: 1rem;
+  line-height: 0;
+  cursor: pointer;
+`;
 function App() {
   const [showSearch, setShowSearch] = useState(false);
 
@@ -98,32 +111,29 @@ function App() {
         <Header className="App-header">
           <h2>Developer Links</h2>
           <Hamburger />
-          <SearchIcon onClick={() => setShowSearch(true)}>
+          <SearchIcon onClick={() => setShowSearch((prev) => !prev)}>
             <BiSearchAlt color="#fff" />
           </SearchIcon>
         </Header>
 
         {showSearch && (
-          <BigSearchBox
-            type="text"
-            value={searchValue}
-            onChange={(e) => setSearchValue(e.target.value)}
-            onBlur={() => setShowSearch(false)}
-          />
+          <WrapSearchBox>
+            <BigSearchBox
+              type="text"
+              value={searchValue}
+              onChange={(e) => setSearchValue(e.target.value)}
+            />
+            <CloseIconWrapper onClick={() => setShowSearch(false)}>
+              <GrFormClose color="#ddd" />
+            </CloseIconWrapper>
+          </WrapSearchBox>
         )}
         <ContentWrapper>
-          <LeftMenu>
-            <ul>
-              {sortedList.map((item) => {
-                const { path, text } = item;
-                return (
-                  <li key={path}>
-                    <NavLink to={path}>{text}</NavLink>
-                  </li>
-                );
-              })}
-            </ul>
-          </LeftMenu>
+          <LeftMenuContainer
+            sortedList={sortedList}
+            setShowSearch={setShowSearch}
+            setSearchValue={setSearchValue}
+          />
           {showSearch && searchValue.length >= 2 && (
             <Content>
               <SiteList list={filteredList} />
