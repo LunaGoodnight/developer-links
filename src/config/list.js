@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SpanningTree from "../styles/images/SpanningTree.webp";
 import CodeKata from "../styles/images/codekata.webp";
 import VimAwesome from "../styles/images/vimawesome.webp";
 import Infinumhandbooks from "../styles/images/infinum.webp";
@@ -1555,6 +1556,12 @@ export const youtubeList = [
     title: "Fireship",
     link: "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
     image: FireShip,
+    description: "",
+  },
+  {
+    title: "Spanning Tree",
+    link: "https://www.youtube.com/@SpanningTree",
+    image: SpanningTree,
     description: "",
   },
   {
