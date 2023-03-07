@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import InteractiveVimtutorial from "../styles/images/openvim.webp";
 import CodeKata from "../styles/images/codekata.webp";
 import VimAwesome from "../styles/images/vimawesome.webp";
 import Infinumhandbooks from "../styles/images/infinum.webp";
@@ -1775,6 +1776,12 @@ export const vimList = [
     title: "Vim Awesome",
     link: "https://vimawesome.com/",
     image: VimAwesome,
+    description: "",
+  },
+  {
+    title: "Interactive Vim tutorial",
+    link: "https://www.openvim.com/",
+    image: InteractiveVimtutorial,
     description: "",
   },
 ];
