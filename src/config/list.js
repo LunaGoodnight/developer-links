@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import VimSo from "../styles/images/vim.so.webp";
 import VimGenius from "../styles/images/vimgenius.webp";
 import SpanningTree from "../styles/images/SpanningTree.webp";
 import CodeKata from "../styles/images/codekata.webp";
@@ -1790,6 +1791,12 @@ export const vimList = [
     link: "http://www.vimgenius.com/",
     image: VimAwesome,
     description: "",
+  },
+  {
+    title: "vim.so",
+    link: "https://www.vim.so/",
+    image: VimSo,
+    description: "Learn and Master Vim faster with interactive exercises",
   },
 ];
 
