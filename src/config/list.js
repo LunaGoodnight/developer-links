@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import VimGenius from "../styles/images/vimgenius.webp";
 import SpanningTree from "../styles/images/SpanningTree.webp";
 import CodeKata from "../styles/images/codekata.webp";
 import VimAwesome from "../styles/images/vimawesome.webp";
@@ -1781,6 +1782,12 @@ export const vimList = [
   {
     title: "Vim Awesome",
     link: "https://vimawesome.com/",
+    image: VimAwesome,
+    description: "",
+  },
+  {
+    title: "VimGenius",
+    link: "http://www.vimgenius.com/",
     image: VimAwesome,
     description: "",
   },
