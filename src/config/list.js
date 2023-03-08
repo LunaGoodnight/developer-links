@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import VimValleyCourse from "../styles/images/vimvalley.webp";
 import VIMAdventures from "../styles/images/vimadventures.webp";
 import VimSo from "../styles/images/vim.so.webp";
 import VimGenius from "../styles/images/vimgenius.webp";
@@ -1804,6 +1805,12 @@ export const vimList = [
     link: "https://vim-adventures.com/",
     image: VIMAdventures,
     description: "Learn VIM while playing a game",
+  },
+  {
+    title: "Vim Valley Course",
+    link: "https://vimvalley.com/",
+    image: VimValleyCourse,
+    description: "The fastest and easiest way to learn Vim",
   },
 ];
 
