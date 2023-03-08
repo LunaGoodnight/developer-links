@@ -1,6 +1,11 @@
 import { languageList } from "./languageList";
 
 import InteractiveVimtutorial from "../styles/images/openvim.webp";
+import VimValleyCourse from "../styles/images/vimvalley.webp";
+import VIMAdventures from "../styles/images/vimadventures.webp";
+import VimSo from "../styles/images/vim.so.webp";
+import VimGenius from "../styles/images/vimgenius.webp";
+import SpanningTree from "../styles/images/SpanningTree.webp";
 import CodeKata from "../styles/images/codekata.webp";
 import VimAwesome from "../styles/images/vimawesome.webp";
 import Infinumhandbooks from "../styles/images/infinum.webp";
@@ -1559,6 +1564,12 @@ export const youtubeList = [
     description: "",
   },
   {
+    title: "Spanning Tree",
+    link: "https://www.youtube.com/@SpanningTree",
+    image: SpanningTree,
+    description: "",
+  },
+  {
     title: "IBM Cloud",
     link: "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
     image: IBMCloud,
@@ -1783,6 +1794,30 @@ export const vimList = [
     link: "https://www.openvim.com/",
     image: InteractiveVimtutorial,
     description: "",
+  },
+  {
+    title: "VimGenius",
+    link: "http://www.vimgenius.com/",
+    image: VimAwesome,
+    description: "",
+  },
+  {
+    title: "vim.so",
+    link: "https://www.vim.so/",
+    image: VimSo,
+    description: "Learn and Master Vim faster with interactive exercises",
+  },
+  {
+    title: "VIM Adventures",
+    link: "https://vim-adventures.com/",
+    image: VIMAdventures,
+    description: "Learn VIM while playing a game",
+  },
+  {
+    title: "Vim Valley Course",
+    link: "https://vimvalley.com/",
+    image: VimValleyCourse,
+    description: "The fastest and easiest way to learn Vim",
   },
 ];
 
