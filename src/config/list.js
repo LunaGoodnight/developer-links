@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodingDojoOrg from "../styles/images/codingdojoorg.webp";
 import EdrawMax from "../styles/images/edrawmax.webp";
 import Creately from "../styles/images/creately.webp";
 import ClickiT from "../styles/images/clickittech.webp";
@@ -1108,12 +1109,18 @@ export const examList = [
   },
 ];
 
-export const platformList = [
+export const dojoList = [
   {
     title: "Coding Dojo",
     link: "https://www.codingdojo.com/",
     image: CodingDojo,
     description: "Coding Bootcamp - Learn Coding & Data Science",
+  },
+  {
+    title: "Coding Dojo",
+    link: "https://codingdojo.org/",
+    image: CodingDojoOrg,
+    description: "",
   },
   {
     title: "CodeKata",

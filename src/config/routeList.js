@@ -44,7 +44,6 @@ import {
   restList,
   collectionList,
   animationList,
-  platformList,
   cheatSheetsList,
   publishList,
   designSystemList,
@@ -55,6 +54,7 @@ import {
   gameDevelopList,
   vimList,
   aiArtList,
+  dojoList,
 } from "./list";
 
 export const routeList = [
@@ -116,7 +116,7 @@ export const routeList = [
   { path: "collection", text: "Collection", importList: collectionList },
   { path: "animation", text: "Animation", importList: animationList },
   { path: "vim", text: "Vim", importList: vimList },
-  { path: "platform", text: "Platform", importList: platformList },
+  { path: "dojo", text: "Dojo", importList: dojoList },
   { path: "conference", text: "Conference", importList: conferenceList },
   { path: "cheatsheet", text: "Cheat Sheet", importList: cheatSheetsList },
   { path: "publish", text: "Publish", importList: publishList },
