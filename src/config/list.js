@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EdrawMax from "../styles/images/edrawmax.webp";
 import Creately from "../styles/images/creately.webp";
 import ClickiT from "../styles/images/clickittech.webp";
 import PixAI from "../styles/images/pixai.webp";
@@ -2125,6 +2126,13 @@ export const diagramList = [
     link: "https://www.edrawsoft.com/",
     image: EdrawSoftware,
     description: "Unlock Diagram Possibilities",
+  },
+  {
+    title: "EdrawMax",
+    link: "https://www.edrawmax.com/",
+    image: EdrawMax,
+    description:
+      "[OFFICIAL] EdrawMax Online: All-in-One Diagram Maker & Software",
   },
   {
     title: "Venngage",
