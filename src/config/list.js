@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HandsonReact from "../styles/images/handsonreact.webp";
 import Holistics from "../styles/images/holistics.webp";
 import CodingDojoOrg from "../styles/images/codingdojoorg.webp";
 import EdrawMax from "../styles/images/edrawmax.webp";
@@ -4665,6 +4666,12 @@ export const reactList = [
     image: refine,
     description:
       "Build your React-based CRUD applications, without constraints!",
+  },
+  {
+    title: "Hands on React",
+    link: "https://handsonreact.com/",
+    image: HandsonReact,
+    description: "",
   },
 ];
 
