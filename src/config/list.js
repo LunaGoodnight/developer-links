@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PixAI from "../styles/images/pixai.webp";
 import InteractiveVimtutorial from "../styles/images/openvim.webp";
 import VimValleyCourse from "../styles/images/vimvalley.webp";
 import VIMAdventures from "../styles/images/vimadventures.webp";
@@ -4646,5 +4647,14 @@ export const conferenceList = [
     image: DevOpsConference,
     description:
       "The Global conference series for DevOps & Business Transformation",
+  },
+];
+
+export const aiArtList = [
+  {
+    title: "PixAI",
+    link: "https://pixai.art/",
+    image: PixAI,
+    description: "",
   },
 ];

@@ -54,6 +54,7 @@ import {
   packageList,
   gameDevelopList,
   vimList,
+  aiArtList,
 } from "./list";
 
 export const routeList = [
@@ -124,5 +125,6 @@ export const routeList = [
   { path: "designSystem", text: "Design System", importList: designSystemList },
   { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
   { path: "theme", text: "Theme", importList: themeList },
+  { path: "aiart", text: "AI Art", importList: aiArtList },
   { path: "/", text: "Home", importList: null },
 ];
