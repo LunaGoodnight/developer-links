@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Holistics from "../styles/images/holistics.webp";
 import CodingDojoOrg from "../styles/images/codingdojoorg.webp";
 import EdrawMax from "../styles/images/edrawmax.webp";
 import Creately from "../styles/images/creately.webp";
@@ -2724,6 +2725,12 @@ export const blogList = [
     link: "https://www.webdesignerdepot.com/",
     image: WebdesignerDepot,
     description: "Webdesigner Depot Webdesigner Depot",
+  },
+  {
+    title: "The Holistics Blog",
+    link: "https://www.holistics.io/blog/",
+    image: Holistics,
+    description: "",
   },
   {
     title: "EBS Integrator",
