@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Creately from "../styles/images/creately.webp";
 import ClickiT from "../styles/images/clickittech.webp";
 import PixAI from "../styles/images/pixai.webp";
 import InteractiveVimtutorial from "../styles/images/openvim.webp";
@@ -2137,6 +2138,13 @@ export const diagramList = [
     image: SmartDraw,
     description:
       "Create Flowcharts, Floor Plans, and Other Diagrams on Any Device",
+  },
+  {
+    title: "Creately",
+    link: "https://creately.com/",
+    image: Creately,
+    description:
+      "Visual Tools to Get Things Done | Connect People, Docs, Projects and Data.",
   },
   {
     title: "visual-paradigm",
