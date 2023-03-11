@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ClickiT from "../styles/images/clickittech.webp";
 import PixAI from "../styles/images/pixai.webp";
 import InteractiveVimtutorial from "../styles/images/openvim.webp";
 import VimValleyCourse from "../styles/images/vimvalley.webp";
@@ -3682,6 +3683,12 @@ export const serviceList = [
     link: "https://elmah.io/",
     image: elmah,
     description: "Error logging and Uptime monitoring for .NET",
+  },
+  {
+    title: "Click iT",
+    link: "https://www.clickittech.com/",
+    image: ClickiT,
+    description: "DevOps Services | Development & Delivery at Speed",
   },
   {
     title: "Crystallize",
