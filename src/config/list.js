@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Prettier from "../styles/images/prettier.webp";
 import HandsonReact from "../styles/images/handsonreact.webp";
 import Holistics from "../styles/images/holistics.webp";
 import CodingDojoOrg from "../styles/images/codingdojoorg.webp";
@@ -2117,6 +2118,12 @@ export const packageList = [
     image: ESLint,
     description:
       "Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter",
+  },
+  {
+    title: "Prettier",
+    link: "https://prettier.io/",
+    image: Prettier,
+    description: "Opinionated Code Formatter",
   },
 ];
 
