@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AirbnbReactJSXStyleGuide from "../styles/images/airbnb.webp";
 import JavaScriptStandardStyle from "../styles/images/standardjs.webp";
 import Meteor from "../styles/images/meteor.webp";
 import Prettier from "../styles/images/prettier.webp";
@@ -3285,6 +3286,12 @@ export const generalList = [
     link: "https://standardjs.com/",
     image: JavaScriptStandardStyle,
     description: "",
+  },
+  {
+    title: "Airbnb React/JSX Style Guide",
+    link: "https://airbnb.io/javascript/react/",
+    image: AirbnbReactJSXStyleGuide,
+    description: "Airbnb React/JSX Style Guide | Airbnb JavaScript Style Guide",
   },
   {
     title: "SSH",
