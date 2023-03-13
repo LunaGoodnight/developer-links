@@ -55,6 +55,7 @@ import {
   vimList,
   aiArtList,
   dojoList,
+  frameworkList,
 } from "./list";
 
 export const routeList = [
@@ -125,6 +126,7 @@ export const routeList = [
   { path: "designSystem", text: "Design System", importList: designSystemList },
   { path: "remoteTools", text: "Remote Tools", importList: remoteToolsList },
   { path: "theme", text: "Theme", importList: themeList },
+  { path: "framework", text: "Framework", importList: frameworkList },
   { path: "aiart", text: "AI Art", importList: aiArtList },
   { path: "/", text: "Home", importList: null },
 ];

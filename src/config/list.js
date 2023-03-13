@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Meteor from "../styles/images/meteor.webp";
 import Prettier from "../styles/images/prettier.webp";
 import HandsonReact from "../styles/images/handsonreact.webp";
 import Holistics from "../styles/images/holistics.webp";
@@ -1673,6 +1674,15 @@ export const cheatSheetsList = [
     image: Cheatography,
     description:
       "Download Free Cheat Sheets or Create Your Own! Cheat Sheets For Every Occasion",
+  },
+];
+export const frameworkList = [
+  {
+    title: "Meteor",
+    link: "https://www.meteor.com/",
+    image: Meteor,
+    description:
+      "Meteor Software: A Platform to Build, Host, Deploy and Scale Full-Stack Javascript Applications",
   },
 ];
 
