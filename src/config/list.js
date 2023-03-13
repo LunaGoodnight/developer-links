@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JavaScriptStandardStyle from "../styles/images/standardjs.webp";
 import Meteor from "../styles/images/meteor.webp";
 import Prettier from "../styles/images/prettier.webp";
 import HandsonReact from "../styles/images/handsonreact.webp";
@@ -3277,6 +3278,12 @@ export const generalList = [
     title: "How DNS works",
     link: "https://howdns.works/",
     image: HowDNSworks,
+    description: "",
+  },
+  {
+    title: "JavaScript Standard Style",
+    link: "https://standardjs.com/",
+    image: JavaScriptStandardStyle,
     description: "",
   },
   {
