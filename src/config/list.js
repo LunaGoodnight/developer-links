@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Treo from "../styles/images/treo.webp";
 import ReactDocsBeta from "../styles/images/beta.reactjs.webp";
 import TypeScript from "../styles/images/typescriptlang.webp";
 import AirbnbReactJSXStyleGuide from "../styles/images/airbnb.webp";
@@ -3729,6 +3730,12 @@ export const serviceList = [
     link: "https://www.liveaction.com/",
     image: LiveAction,
     description: "Network Performance Monitoring and Management",
+  },
+  {
+    title: "Treo",
+    link: "https://treo.sh/",
+    image: LiveAction,
+    description: "Page Speed Monitoring",
   },
   {
     title: "SolarWinds",
