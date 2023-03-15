@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ByteHideBlog from "../styles/images/bytehideblog.webp";
 import SELENIUMJAVA from "../styles/images/seleniumjava.webp";
 import Leapwork from "../styles/images/leapwork.webp";
 import Treo from "../styles/images/treo.webp";
@@ -916,6 +917,12 @@ export const dotnetList = [
     link: "https://dotnetthoughts.net/",
     image: dotnetthoughts,
     description: "a dotnet developer’s technical journal",
+  },
+  {
+    title: "ByteHide Blog",
+    link: "https://www.bytehide.com/blog",
+    image: ByteHideBlog,
+    description: "The Best .NET Blog: All about C# and .NET - ByteHide Blog 💻",
   },
   {
     title: "Khalid Abuhakmeh",
