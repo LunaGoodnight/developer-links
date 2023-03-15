@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ReactDocsBeta from "../styles/images/beta.reactjs.webp";
 import TypeScript from "../styles/images/typescriptlang.webp";
 import AirbnbReactJSXStyleGuide from "../styles/images/airbnb.webp";
 import JavaScriptStandardStyle from "../styles/images/standardjs.webp";
@@ -4672,6 +4673,12 @@ export const reactList = [
     link: "https://reactjs.org/",
     image: react,
     description: "A JavaScript library for building user interfaces",
+  },
+  {
+    title: "React",
+    link: "https://beta.reactjs.org/",
+    image: ReactDocsBeta,
+    description: "React Docs Beta",
   },
   {
     title: "useHooks",
