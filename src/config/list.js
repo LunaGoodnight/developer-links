@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Leapwork from "../styles/images/leapwork.webp";
 import Treo from "../styles/images/treo.webp";
 import ReactDocsBeta from "../styles/images/beta.reactjs.webp";
 import TypeScript from "../styles/images/typescriptlang.webp";
@@ -3760,6 +3761,12 @@ export const serviceList = [
     link: "https://elmah.io/",
     image: elmah,
     description: "Error logging and Uptime monitoring for .NET",
+  },
+  {
+    title: "Leapwork",
+    link: "https://www.leapwork.com/",
+    image: Leapwork,
+    description: "",
   },
   {
     title: "Click iT",
