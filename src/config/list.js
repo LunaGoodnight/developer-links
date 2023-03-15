@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TypeScript from "../styles/images/typescriptlang.webp";
 import AirbnbReactJSXStyleGuide from "../styles/images/airbnb.webp";
 import JavaScriptStandardStyle from "../styles/images/standardjs.webp";
 import Meteor from "../styles/images/meteor.webp";
@@ -1380,6 +1381,12 @@ export const uiuxList = [
   },
 ];
 export const typeScriptList = [
+  {
+    title: "TypeScript",
+    link: "https://www.typescriptlang.org/",
+    image: TypeScript,
+    description: "JavaScript With Syntax For Types",
+  },
   {
     title: "Type-Level TypeScript",
     link: "https://type-level-typescript.com/",
