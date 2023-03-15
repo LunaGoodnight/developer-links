@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SELENIUM from "../styles/images/selenium.webp";
 import Leapwork from "../styles/images/leapwork.webp";
 import Treo from "../styles/images/treo.webp";
 import ReactDocsBeta from "../styles/images/beta.reactjs.webp";
@@ -4509,6 +4510,12 @@ export const testList = [
     image: TestDriven,
     description:
       "Test-Driven Development, Microservices, Web Development Courses",
+  },
+  {
+    title: "SELENIUM",
+    link: "https://seleniumjava.com/",
+    image: SELENIUM,
+    description: "SELENIUM Automation in JAVA",
   },
   {
     title: "Smartsheet",
