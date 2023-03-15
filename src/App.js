@@ -96,6 +96,9 @@ function App() {
       if (site.title) {
         return site.title.toUpperCase().indexOf(newSearchString) !== -1;
       }
+      if (site.path) {
+        return site.path.toUpperCase().indexOf(newSearchString) !== -1;
+      }
       return false;
     };
 
