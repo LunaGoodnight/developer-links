@@ -90,14 +90,15 @@ function App() {
   useEffect(() => {
     const findSameText = (site) => {
       const newSearchString = searchValue.toUpperCase();
+
       if (site?.description) {
         return site.description.toUpperCase().indexOf(newSearchString) !== -1;
       }
       if (site.title) {
         return site.title.toUpperCase().indexOf(newSearchString) !== -1;
       }
-      if (site.path) {
-        return site.path.toUpperCase().indexOf(newSearchString) !== -1;
+      if (site.link) {
+        return site.link.toUpperCase().indexOf(newSearchString) !== -1;
       }
       return false;
     };
