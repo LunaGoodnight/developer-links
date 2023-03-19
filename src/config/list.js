@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
 import ByteHideBlog from "../styles/images/bytehideblog.webp";
 import SELENIUMJAVA from "../styles/images/seleniumjava.webp";
 import Leapwork from "../styles/images/leapwork.webp";
@@ -2713,6 +2714,12 @@ export const blogList = [
     title: "Dilshan Kelsen",
     link: "https://dilshankelsen.com/",
     image: DilshanKelsen,
+    description: "",
+  },
+  {
+    title: "Tech with Cathal 🚀",
+    link: "https://cathalmacdonnacha.com/",
+    image: TechwithCathal,
     description: "",
   },
   {
