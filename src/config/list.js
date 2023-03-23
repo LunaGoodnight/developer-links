@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ChromeDevelopers from "../styles/images/chromedevelopers.webp";
 import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
 import ByteHideBlog from "../styles/images/bytehideblog.webp";
 import SELENIUMJAVA from "../styles/images/seleniumjava.webp";
@@ -2685,6 +2686,12 @@ export const blogList = [
     image: MuhammadHassan,
     description:
       "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
+  },
+  {
+    title: "Chrome Developers",
+    link: "https://developer.chrome.com/blog/",
+    image: ChromeDevelopers,
+    description: "",
   },
   {
     title: "Mark's Dev Blog",
