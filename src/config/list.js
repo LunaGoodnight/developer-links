@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JosipMiskovic from "../styles/images/josipmisko.webp";
 import ChromeDevelopers from "../styles/images/chromedevelopers.webp";
 import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
 import ByteHideBlog from "../styles/images/bytehideblog.webp";
@@ -2697,6 +2698,12 @@ export const blogList = [
     title: "Mark's Dev Blog",
     link: "https://blog.isquaredsoftware.com/",
     image: isquaredsoftware,
+    description: "",
+  },
+  {
+    title: "Josip Miskovic",
+    link: "https://josipmisko.com/",
+    image: JosipMiskovic,
     description: "",
   },
   {
