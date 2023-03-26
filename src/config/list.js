@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GreatFrontEnd from "../styles/images/greatfrontend.webp";
 import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
 import ByteHideBlog from "../styles/images/bytehideblog.webp";
 import SELENIUMJAVA from "../styles/images/seleniumjava.webp";
@@ -4699,6 +4700,12 @@ export const quizList = [
     link: "https://www.trywilco.com/",
     image: Wilco,
     description: "Never Stop Developing",
+  },
+  {
+    title: "GreatFrontEnd",
+    link: "https://www.greatfrontend.com/",
+    image: GreatFrontEnd,
+    description: "The best way to prepare for Front End Interviews",
   },
 ];
 
