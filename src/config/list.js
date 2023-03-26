@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TechInterviewHandbook from "../styles/images/techinterviewhandbook.webp";
 import GreatFrontEnd from "../styles/images/greatfrontend.webp";
 import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
 import ByteHideBlog from "../styles/images/bytehideblog.webp";
@@ -4706,6 +4707,12 @@ export const quizList = [
     link: "https://www.greatfrontend.com/",
     image: GreatFrontEnd,
     description: "The best way to prepare for Front End Interviews",
+  },
+  {
+    title: "Tech Interview Handbook",
+    link: "https://www.techinterviewhandbook.org/",
+    image: TechInterviewHandbook,
+    description: "Technical Interview Guide for Busy Engineers",
   },
 ];
 
