@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import typescriptEslint from "../styles/images/typescriptEslint.webp";
 import JosipMiskovic from "../styles/images/josipmisko.webp";
 import ChromeDevelopers from "../styles/images/chromedevelopers.webp";
 import TechwithCathal from "../styles/images/cathalmacdonnacha.webp";
@@ -1429,6 +1430,12 @@ export const typeScriptList = [
     title: "React TypeScript Cheatsheets",
     link: "https://react-typescript-cheatsheet.netlify.app/",
     image: ReactTypeScriptCheatsheets,
+    description: "",
+  },
+  {
+    title: "typescript-eslint",
+    link: "https://typescript-eslint.io/",
+    image: typescriptEslint,
     description: "",
   },
 ];
