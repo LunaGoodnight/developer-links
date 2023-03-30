@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import wasplang from "../styles/images/wasplang.webp";
 import typescriptEslint from "../styles/images/typescriptEslint.webp";
 import JosipMiskovic from "../styles/images/josipmisko.webp";
 import ChromeDevelopers from "../styles/images/chromedevelopers.webp";
@@ -3272,6 +3273,12 @@ export const generalList = [
     link: "https://www.saashub.com/",
     image: SaaSHub,
     description: "Software Alternatives And Reviews",
+  },
+  {
+    title: "Wasp",
+    link: "https://wasp-lang.dev/",
+    image: wasplang,
+    description: "",
   },
   {
     title: "AlternativeTo",
