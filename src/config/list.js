@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Storybook from "../styles/images/storybook.webp";
 import wasplang from "../styles/images/wasplang.webp";
 import typescriptEslint from "../styles/images/typescriptEslint.webp";
 import JosipMiskovic from "../styles/images/josipmisko.webp";
@@ -2165,6 +2166,12 @@ export const packageList = [
     link: "https://prettier.io/",
     image: Prettier,
     description: "Opinionated Code Formatter",
+  },
+  {
+    title: "Storybook",
+    link: "https://storybook.js.org/",
+    image: Storybook,
+    description: "Frontend workshop for UI development",
   },
 ];
 
