@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-
+  z-index: 1;
   transition: box-shadow 200ms ease-in-out 0s, opacity 200ms ease-in-out 0s,
     transform 200ms ease-in-out 0s;
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(100%)")};
