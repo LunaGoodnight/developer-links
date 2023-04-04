@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RobotFramework from "../styles/images/robotframework.webp";
 import Storybook from "../styles/images/storybook.webp";
 import wasplang from "../styles/images/wasplang.webp";
 import typescriptEslint from "../styles/images/typescriptEslint.webp";
@@ -4578,6 +4579,12 @@ export const testList = [
     image: SoftwareTestingClass,
     description:
       "Software Testing Classes in Pune, Bangalore, Hydrabad, Mumbai, Delhi, Kolkatta, Chennai & many more",
+  },
+  {
+    title: "Robot Framework",
+    link: "https://robotframework.org/",
+    image: RobotFramework,
+    description: "",
   },
   {
     title: "TestGuild",
