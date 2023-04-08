@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Moesif from "../styles/images/moesif.webp";
 import RobotFramework from "../styles/images/robotframework.webp";
 import Storybook from "../styles/images/storybook.webp";
 import wasplang from "../styles/images/wasplang.webp";
@@ -1793,6 +1794,12 @@ export const apiList = [
     link: "https://fruityvice.com/",
     image: Fruityvice,
     description: "",
+  },
+  {
+    title: "moesif",
+    link: "https://www.moesif.com/",
+    image: Moesif,
+    description: "Deliver Great Products with API Analytics",
   },
 ];
 
