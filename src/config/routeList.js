@@ -56,6 +56,7 @@ import {
   aiArtList,
   dojoList,
   frameworkList,
+  bundlerList,
 } from "./list";
 
 export const routeList = [
@@ -67,6 +68,7 @@ export const routeList = [
   { path: "job", text: "Job Hunting", importList: jobList },
   { path: "career", text: "Career", importList: careerList },
   { path: "diagram", text: "Diagram", importList: diagramList },
+  { path: "bundler", text: "Bundler", importList: bundlerList },
   { path: "community", text: "Community", importList: communityList },
   { path: "aiService", text: "AI Service", importList: aiServiceList },
   {

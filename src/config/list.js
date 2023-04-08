@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import webpack from "../styles/images/webpack.webp";
+import Rollup from "../styles/images/rollupjs.webp";
 import Moesif from "../styles/images/moesif.webp";
 import RobotFramework from "../styles/images/robotframework.webp";
 import Storybook from "../styles/images/storybook.webp";
@@ -1906,7 +1908,20 @@ export const publishList = [
     description: "Technology and Business Training",
   },
 ];
-
+export const bundlerList = [
+  {
+    title: "Rollup",
+    link: "https://rollupjs.org/",
+    image: Rollup,
+    description: "",
+  },
+  {
+    title: "webpack",
+    link: "https://webpack.js.org/",
+    image: webpack,
+    description: "",
+  },
+];
 export const tutorialList = [
   {
     title: "敏捷開發軍火庫",
