@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Vite from "../styles/images/vitejs.webp";
 import webpack from "../styles/images/webpack.webp";
 import Rollup from "../styles/images/rollupjs.webp";
 import Moesif from "../styles/images/moesif.webp";
@@ -1921,7 +1922,14 @@ export const bundlerList = [
     image: webpack,
     description: "",
   },
+  {
+    title: "Vite",
+    link: "https://vitejs.dev/",
+    image: Vite,
+    description: "Next Generation Frontend Tooling",
+  },
 ];
+
 export const tutorialList = [
   {
     title: "敏捷開發軍火庫",
