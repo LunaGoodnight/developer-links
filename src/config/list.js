@@ -3793,7 +3793,7 @@ export const serviceList = [
   {
     title: "Treo",
     link: "https://treo.sh/",
-    image: LiveAction,
+    image: Treo,
     description: "Page Speed Monitoring",
   },
   {
