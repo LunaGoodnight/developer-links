@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Testomat from "../styles/images/testomat.webp";
 import Vite from "../styles/images/vitejs.webp";
 import webpack from "../styles/images/webpack.webp";
 import Rollup from "../styles/images/rollupjs.webp";
@@ -4628,6 +4629,13 @@ export const testList = [
     link: "https://testcafe.io/",
     image: TestСafe,
     description: "Cross-Browser End-to-End Testing Framework",
+  },
+  {
+    title: "Testomat",
+    link: "https://testomat.io/",
+    image: Testomat,
+    description:
+      "Test Management System for manual testing and automated testing",
   },
   {
     title: "TestProject",
