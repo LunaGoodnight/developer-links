@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AhmadShadeed from "../styles/images/ishadeed.webp";
 import JavaScriptRamblings from "../styles/images/jsramblings.webp";
 import Testomat from "../styles/images/testomat.webp";
 import Vite from "../styles/images/vitejs.webp";
@@ -2740,6 +2741,12 @@ export const blogList = [
     title: "JavaScript Ramblings",
     link: "https://jsramblings.com/",
     image: JavaScriptRamblings,
+    description: "",
+  },
+  {
+    title: "Ahmad Shadeed",
+    link: "https://ishadeed.com/",
+    image: AhmadShadeed,
     description: "",
   },
   {
