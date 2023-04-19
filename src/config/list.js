@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JavaScriptRamblings from "../styles/images/jsramblings.webp";
 import Testomat from "../styles/images/testomat.webp";
 import Vite from "../styles/images/vitejs.webp";
 import webpack from "../styles/images/webpack.webp";
@@ -2734,6 +2735,12 @@ export const blogList = [
     image: MuhammadHassan,
     description:
       "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
+  },
+  {
+    title: "JavaScript Ramblings",
+    link: "https://jsramblings.com/",
+    image: JavaScriptRamblings,
+    description: "",
   },
   {
     title: "Chrome Developers",
