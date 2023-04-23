@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Computerphile from "../styles/images/computerphile.webp";
 import ITProTV from "../styles/images/itproTv.webp";
 import ES6features from "../styles/images/es6features.webp";
 import EnjoyAlgorithms from "../styles/images/enjoyalgorithms.webp";
@@ -1589,6 +1590,12 @@ export const youtubeList = [
     title: "ITProTV",
     link: "https://www.youtube.com/@ItproTv/videos",
     image: ITProTV,
+    description: "",
+  },
+  {
+    title: "Computerphile",
+    link: "https://www.youtube.com/@Computerphile",
+    image: Computerphile,
     description: "",
   },
   {
