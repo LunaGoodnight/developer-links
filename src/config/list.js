@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ES6features from "../styles/images/es6features.webp";
 import EnjoyAlgorithms from "../styles/images/enjoyalgorithms.webp";
 import AhmadShadeed from "../styles/images/ishadeed.webp";
 import JavaScriptRamblings from "../styles/images/jsramblings.webp";
@@ -2071,6 +2072,12 @@ export const tutorialList = [
     image: LearnEntityFrameworkCore,
     tag: [languageList.csharp],
     description: "Entity Framework Core Documentation And Tutorials",
+  },
+  {
+    title: "ECMAScript 6",
+    link: "http://es6-features.org/#Constants",
+    image: ES6features,
+    description: "Overview and Comparison",
   },
   {
     title: "Tutorials Dojo",
