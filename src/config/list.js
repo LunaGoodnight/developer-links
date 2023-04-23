@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EnjoyAlgorithms from "../styles/images/enjoyalgorithms.webp";
 import AhmadShadeed from "../styles/images/ishadeed.webp";
 import JavaScriptRamblings from "../styles/images/jsramblings.webp";
 import Testomat from "../styles/images/testomat.webp";
@@ -4780,6 +4781,12 @@ export const quizList = [
     title: "JS Is Weird",
     link: "https://jsisweird.com/",
     image: JSIsWeird,
+    description: "",
+  },
+  {
+    title: "EnjoyAlgorithms",
+    link: "https://www.enjoyalgorithms.com/",
+    image: EnjoyAlgorithms,
     description: "",
   },
   {
