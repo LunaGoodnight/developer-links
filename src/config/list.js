@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ITProTV from "../styles/images/itproTv.webp";
 import ES6features from "../styles/images/es6features.webp";
 import EnjoyAlgorithms from "../styles/images/enjoyalgorithms.webp";
 import AhmadShadeed from "../styles/images/ishadeed.webp";
@@ -1584,6 +1585,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "ITProTV",
+    link: "https://www.youtube.com/@ItproTv/videos",
+    image: ITProTV,
+    description: "",
+  },
   {
     title: "DevOps Toolkit",
     link: "https://www.youtube.com/@DevOpsToolkit",
