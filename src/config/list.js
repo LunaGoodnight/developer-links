@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
 import Computerphile from "../styles/images/computerphile.webp";
 import ITProTV from "../styles/images/itproTv.webp";
@@ -3506,6 +3507,12 @@ export const generalList = [
     link: "https://landscape.cncf.io/",
     image: landscapecncf,
     description: "",
+  },
+  {
+    title: "Codeshare",
+    link: "https://codeshare.io/",
+    image: Codeshare,
+    description: "Share code in real-time with developers in your browser",
   },
   {
     title: "DBA Paradise",
