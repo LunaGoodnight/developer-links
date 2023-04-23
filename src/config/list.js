@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PwnFunction from "../styles/images/pwnFunction.webp";
 import Computerphile from "../styles/images/computerphile.webp";
 import ITProTV from "../styles/images/itproTv.webp";
 import ES6features from "../styles/images/es6features.webp";
@@ -1590,6 +1591,12 @@ export const youtubeList = [
     title: "ITProTV",
     link: "https://www.youtube.com/@ItproTv/videos",
     image: ITProTV,
+    description: "",
+  },
+  {
+    title: "PwnFunction",
+    link: "https://www.youtube.com/@PwnFunction",
+    image: PwnFunction,
     description: "",
   },
   {
