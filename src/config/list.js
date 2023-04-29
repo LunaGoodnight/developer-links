@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FREDAPI from "../styles/images/fredapi.webp";
 import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
 import Computerphile from "../styles/images/computerphile.webp";
@@ -1775,6 +1776,12 @@ export const apiList = [
     link: "https://apilist.fun/",
     image: APIList,
     description: "A public list of free APIs for programmers",
+  },
+  {
+    title: "FRED® API",
+    link: "https://fred.stlouisfed.org/docs/api/fred/",
+    image: FREDAPI,
+    description: "St. Louis Fed Web Services: FRED® API",
   },
   {
     title: "Exchange Rates API",
