@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import UiDev from "../styles/images/uidev.webp";
 import FREDAPI from "../styles/images/fredapi.webp";
 import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
@@ -3369,6 +3370,12 @@ export const generalList = [
     link: "https://wasp-lang.dev/",
     image: wasplang,
     description: "",
+  },
+  {
+    title: "ui.dev",
+    link: "https://ui.dev/",
+    image: UiDev,
+    description: "JavaScript, but fun.",
   },
   {
     title: "AlternativeTo",
