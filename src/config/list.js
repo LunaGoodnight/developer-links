@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Auth0Blog from "../styles/images/auth0blog.webp";
 import UiDev from "../styles/images/uidev.webp";
 import FREDAPI from "../styles/images/fredapi.webp";
 import Codeshare from "../styles/images/codeshare.webp";
@@ -2785,6 +2786,12 @@ export const blogList = [
     title: "Ahmad Shadeed",
     link: "https://ishadeed.com/",
     image: AhmadShadeed,
+    description: "",
+  },
+  {
+    title: "Auth0 Blog",
+    link: "https://auth0.com/blog/",
+    image: Auth0Blog,
     description: "",
   },
   {
