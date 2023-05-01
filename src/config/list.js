@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Tags from "../styles/images/tagplatform.webp";
 import GoogleSkillshop from "../styles/images/skillshop.webp";
 import GoogleAnalyticsDevelopers from "../styles/images/googleanalyticsdevelopers.webp";
 import Auth0Blog from "../styles/images/auth0blog.webp";
@@ -696,6 +697,12 @@ export const gaList = [
     title: "Google Skillshop",
     link: "https://skillshop.exceedlms.com/student/catalog",
     image: GoogleSkillshop,
+    description: "",
+  },
+  {
+    title: "Tags",
+    link: "https://developers.google.com/tag-platform",
+    image: Tags,
     description: "",
   },
 ];
