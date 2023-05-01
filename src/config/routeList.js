@@ -57,6 +57,7 @@ import {
   dojoList,
   frameworkList,
   bundlerList,
+  gaList,
 } from "./list";
 
 export const routeList = [
@@ -65,6 +66,7 @@ export const routeList = [
   { path: "typescript", text: "TypeScript", importList: typeScriptList },
   { path: "dotnet", text: ".NET", importList: dotnetList },
   { path: "react", text: "React", importList: reactList },
+  { path: "ga", text: "Google Analytics", importList: gaList },
   { path: "job", text: "Job Hunting", importList: jobList },
   { path: "career", text: "Career", importList: careerList },
   { path: "diagram", text: "Diagram", importList: diagramList },

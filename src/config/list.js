@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GoogleAnalyticsDevelopers from "../styles/images/googleanalyticsdevelopers.webp";
 import Auth0Blog from "../styles/images/auth0blog.webp";
 import UiDev from "../styles/images/uidev.webp";
 import FREDAPI from "../styles/images/fredapi.webp";
@@ -680,6 +681,15 @@ export const seoList = [
     link: "https://ahrefs.com/",
     image: Ahrefs,
     description: "SEO Tools & Resources To Grow Your Search Traffic",
+  },
+];
+
+export const gaList = [
+  {
+    title: "Google Analytics Developers",
+    link: "https://developers.google.com/analytics",
+    image: GoogleAnalyticsDevelopers,
+    description: "",
   },
 ];
 
