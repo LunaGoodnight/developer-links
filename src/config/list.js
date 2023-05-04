@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodewithHugo from "../styles/images/codewithhugo.webp";
 import ReactHustle from "../styles/images/reacthustle.webp";
 import TheGuild from "../styles/images/theguild.webp";
 import stackhawk from "../styles/images/stackhawk.webp";
@@ -2787,6 +2788,12 @@ export const blogList = [
     title: "JavaScript Ramblings",
     link: "https://jsramblings.com/",
     image: JavaScriptRamblings,
+    description: "",
+  },
+  {
+    title: "Code with Hugo",
+    link: "https://codewithhugo.com/",
+    image: CodewithHugo,
     description: "",
   },
   {
