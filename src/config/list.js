@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import stackhawk from "../styles/images/stackhawk.webp";
 import KontentAi from "../styles/images/kontentai.webp";
 import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
@@ -3858,6 +3859,12 @@ export const serviceList = [
     link: "https://openreplay.com/",
     image: OpenReplay,
     description: "Open-Source Session Replay",
+  },
+  {
+    title: "stackhawk",
+    link: "https://www.stackhawk.com/",
+    image: stackhawk,
+    description: "Dynamic Application & API Security Testing for Modern Teams",
   },
   {
     title: "Avi Networks",
