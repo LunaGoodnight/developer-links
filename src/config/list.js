@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ReactHustle from "../styles/images/reacthustle.webp";
 import TheGuild from "../styles/images/theguild.webp";
 import stackhawk from "../styles/images/stackhawk.webp";
 import KontentAi from "../styles/images/kontentai.webp";
@@ -4877,6 +4878,13 @@ export const reactList = [
     link: "https://usehooks.com/",
     image: useHooks,
     description: "Easy to understand React Hook recipes",
+  },
+  {
+    title: "React Hustle",
+    link: "https://reacthustle.com/",
+    image: ReactHustle,
+    description:
+      "Learn the Best Practices about React, NextJS, Typescript and more",
   },
   {
     title: "Profy.dev",
