@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TheGuild from "../styles/images/theguild.webp";
 import stackhawk from "../styles/images/stackhawk.webp";
 import KontentAi from "../styles/images/kontentai.webp";
 import Codeshare from "../styles/images/codeshare.webp";
@@ -1789,6 +1790,12 @@ export const apiList = [
     link: "https://exchangeratesapi.io/",
     image: ExchangeRatesAPI,
     description: "",
+  },
+  {
+    title: "The Guild",
+    link: "https://the-guild.dev/",
+    image: TheGuild,
+    description: "GraphQL – The Guild",
   },
   {
     title: "Public APIs",
