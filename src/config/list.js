@@ -1,11 +1,6 @@
 import { languageList } from "./languageList";
 
-import Tags from "../styles/images/tagplatform.webp";
-import GoogleSkillshop from "../styles/images/skillshop.webp";
-import GoogleAnalyticsDevelopers from "../styles/images/googleanalyticsdevelopers.webp";
-import Auth0Blog from "../styles/images/auth0blog.webp";
-import UiDev from "../styles/images/uidev.webp";
-import FREDAPI from "../styles/images/fredapi.webp";
+import KontentAi from "../styles/images/kontentai.webp";
 import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
 import Computerphile from "../styles/images/computerphile.webp";
@@ -683,27 +678,6 @@ export const seoList = [
     link: "https://ahrefs.com/",
     image: Ahrefs,
     description: "SEO Tools & Resources To Grow Your Search Traffic",
-  },
-];
-
-export const gaList = [
-  {
-    title: "Google Analytics Developers",
-    link: "https://developers.google.com/analytics",
-    image: GoogleAnalyticsDevelopers,
-    description: "",
-  },
-  {
-    title: "Google Skillshop",
-    link: "https://skillshop.exceedlms.com/student/catalog",
-    image: GoogleSkillshop,
-    description: "",
-  },
-  {
-    title: "Tags",
-    link: "https://developers.google.com/tag-platform",
-    image: Tags,
-    description: "",
   },
 ];
 
@@ -1739,6 +1713,12 @@ export const aiServiceList = [
     description: "",
   },
   {
+    title: "Kontent.ai",
+    link: "https://kontent.ai/",
+    image: KontentAi,
+    description: "Complete Control Over Your Content",
+  },
+  {
     title: "Cohere AI",
     link: "https://cohere.ai/",
     image: CohereAI,
@@ -1802,12 +1782,6 @@ export const apiList = [
     link: "https://apilist.fun/",
     image: APIList,
     description: "A public list of free APIs for programmers",
-  },
-  {
-    title: "FRED® API",
-    link: "https://fred.stlouisfed.org/docs/api/fred/",
-    image: FREDAPI,
-    description: "St. Louis Fed Web Services: FRED® API",
   },
   {
     title: "Exchange Rates API",
@@ -2813,12 +2787,6 @@ export const blogList = [
     description: "",
   },
   {
-    title: "Auth0 Blog",
-    link: "https://auth0.com/blog/",
-    image: Auth0Blog,
-    description: "",
-  },
-  {
     title: "Chrome Developers",
     link: "https://developer.chrome.com/blog/",
     image: ChromeDevelopers,
@@ -3401,12 +3369,6 @@ export const generalList = [
     link: "https://wasp-lang.dev/",
     image: wasplang,
     description: "",
-  },
-  {
-    title: "ui.dev",
-    link: "https://ui.dev/",
-    image: UiDev,
-    description: "JavaScript, but fun.",
   },
   {
     title: "AlternativeTo",
