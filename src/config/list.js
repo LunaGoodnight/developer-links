@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TotalTypeScript from "../styles/images/totaltypescript.webp";
 import CodewithHugo from "../styles/images/codewithhugo.webp";
 import ReactHustle from "../styles/images/reacthustle.webp";
 import TheGuild from "../styles/images/theguild.webp";
@@ -1446,6 +1447,12 @@ export const typeScriptList = [
     link: "https://devtrium.com/",
     image: Devtrium,
     description: "React & TypeScript tutorials",
+  },
+  {
+    title: "Total TypeScript",
+    link: "https://www.totaltypescript.com/",
+    image: TotalTypeScript,
+    description: "Professional TypeScript Training by Matt Pocock",
   },
   {
     title: "React TypeScript Cheatsheets",
