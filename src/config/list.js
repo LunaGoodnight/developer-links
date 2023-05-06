@@ -7,6 +7,12 @@ import GoogleAnalyticsDevelopers from "../styles/images/googleanalyticsdeveloper
 import Auth0Blog from "../styles/images/auth0blog.webp";
 import UiDev from "../styles/images/uidev.webp";
 import FREDAPI from "../styles/images/fredapi.webp";
+import TotalTypeScript from "../styles/images/totaltypescript.webp";
+import CodewithHugo from "../styles/images/codewithhugo.webp";
+import ReactHustle from "../styles/images/reacthustle.webp";
+import TheGuild from "../styles/images/theguild.webp";
+import stackhawk from "../styles/images/stackhawk.webp";
+import KontentAi from "../styles/images/kontentai.webp";
 import Codeshare from "../styles/images/codeshare.webp";
 import PwnFunction from "../styles/images/pwnFunction.webp";
 import Computerphile from "../styles/images/computerphile.webp";
@@ -1471,6 +1477,12 @@ export const typeScriptList = [
     description: "React & TypeScript tutorials",
   },
   {
+    title: "Total TypeScript",
+    link: "https://www.totaltypescript.com/",
+    image: TotalTypeScript,
+    description: "Professional TypeScript Training by Matt Pocock",
+  },
+  {
     title: "React TypeScript Cheatsheets",
     link: "https://react-typescript-cheatsheet.netlify.app/",
     image: ReactTypeScriptCheatsheets,
@@ -1746,6 +1758,12 @@ export const aiServiceList = [
     description: "",
   },
   {
+    title: "Kontent.ai",
+    link: "https://kontent.ai/",
+    image: KontentAi,
+    description: "Complete Control Over Your Content",
+  },
+  {
     title: "Cohere AI",
     link: "https://cohere.ai/",
     image: CohereAI,
@@ -1821,6 +1839,12 @@ export const apiList = [
     link: "https://exchangeratesapi.io/",
     image: ExchangeRatesAPI,
     description: "",
+  },
+  {
+    title: "The Guild",
+    link: "https://the-guild.dev/",
+    image: TheGuild,
+    description: "GraphQL – The Guild",
   },
   {
     title: "Public APIs",
@@ -2811,6 +2835,12 @@ export const blogList = [
     title: "JavaScript Ramblings",
     link: "https://jsramblings.com/",
     image: JavaScriptRamblings,
+    description: "",
+  },
+  {
+    title: "Code with Hugo",
+    link: "https://codewithhugo.com/",
+    image: CodewithHugo,
     description: "",
   },
   {
@@ -3905,6 +3935,12 @@ export const serviceList = [
     description: "Open-Source Session Replay",
   },
   {
+    title: "stackhawk",
+    link: "https://www.stackhawk.com/",
+    image: stackhawk,
+    description: "Dynamic Application & API Security Testing for Modern Teams",
+  },
+  {
     title: "Avi Networks",
     link: "https://avinetworks.com/",
     image: AviNetworks,
@@ -4908,6 +4944,13 @@ export const reactList = [
     link: "https://usehooks.com/",
     image: useHooks,
     description: "Easy to understand React Hook recipes",
+  },
+  {
+    title: "React Hustle",
+    link: "https://reacthustle.com/",
+    image: ReactHustle,
+    description:
+      "Learn the Best Practices about React, NextJS, Typescript and more",
   },
   {
     title: "Profy.dev",
