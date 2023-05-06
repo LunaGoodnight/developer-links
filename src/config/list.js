@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ComputerScience from "../styles/images/computerScienceLessons.webp";
 import Tags from "../styles/images/tagplatform.webp";
 import GoogleSkillshop from "../styles/images/skillshop.webp";
 import GoogleAnalyticsDevelopers from "../styles/images/googleanalyticsdevelopers.webp";
@@ -1619,6 +1620,12 @@ export const youtubeList = [
     title: "ITProTV",
     link: "https://www.youtube.com/@ItproTv/videos",
     image: ITProTV,
+    description: "",
+  },
+  {
+    title: "Computer Science",
+    link: "https://www.youtube.com/@ComputerScienceLessons",
+    image: ComputerScience,
     description: "",
   },
   {
