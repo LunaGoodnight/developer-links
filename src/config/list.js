@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HevoData from "../styles/images/hevodata.webp";
 import ComputerScience from "../styles/images/computerScienceLessons.webp";
 import Tags from "../styles/images/tagplatform.webp";
 import GoogleSkillshop from "../styles/images/skillshop.webp";
@@ -3951,6 +3952,12 @@ export const serviceList = [
     link: "https://www.liveaction.com/",
     image: LiveAction,
     description: "Network Performance Monitoring and Management",
+  },
+  {
+    title: "Hevo Data",
+    link: "https://hevodata.com/",
+    image: HevoData,
+    description: "The End-to-End Data Pipeline Platform",
   },
   {
     title: "Treo",
