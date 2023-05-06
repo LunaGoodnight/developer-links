@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Hygraph from "../styles/images/hygraph.webp";
 import HevoData from "../styles/images/hevodata.webp";
 import ComputerScience from "../styles/images/computerScienceLessons.webp";
 import Tags from "../styles/images/tagplatform.webp";
@@ -3940,6 +3941,12 @@ export const serviceList = [
     link: "https://www.stackhawk.com/",
     image: stackhawk,
     description: "Dynamic Application & API Security Testing for Modern Teams",
+  },
+  {
+    title: "Hygraph",
+    link: "https://hygraph.com/",
+    image: Hygraph,
+    description: "The Next Generation GraphQL Content Platform",
   },
   {
     title: "Avi Networks",
