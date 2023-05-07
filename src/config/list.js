@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Testable from "../styles/images/testable.webp";
 import Hygraph from "../styles/images/hygraph.webp";
 import HevoData from "../styles/images/hevodata.webp";
 import ComputerScience from "../styles/images/computerScienceLessons.webp";
@@ -4762,6 +4763,12 @@ export const testList = [
     image: SoftwareTestingClass,
     description:
       "Software Testing Classes in Pune, Bangalore, Hydrabad, Mumbai, Delhi, Kolkatta, Chennai & many more",
+  },
+  {
+    title: "Testable",
+    link: "https://testable.io/",
+    image: Testable,
+    description: "",
   },
   {
     title: "Robot Framework",
