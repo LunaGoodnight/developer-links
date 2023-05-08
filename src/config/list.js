@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MakeReading from "../styles/images/makereading.webp";
 import Testable from "../styles/images/testable.webp";
 import Hygraph from "../styles/images/hygraph.webp";
 import HevoData from "../styles/images/hevodata.webp";
@@ -2886,6 +2887,12 @@ export const blogList = [
     title: "JakeArchibald.com",
     link: "https://jakearchibald.com/",
     image: JakeArchibald,
+    description: "",
+  },
+  {
+    title: "Make Reading",
+    link: "https://makereading.com/",
+    image: MakeReading,
     description: "",
   },
   {
