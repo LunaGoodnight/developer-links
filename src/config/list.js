@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import wpDataTables from "../styles/images/wpdatatables.webp";
 import MakeReading from "../styles/images/makereading.webp";
 import Testable from "../styles/images/testable.webp";
 import Hygraph from "../styles/images/hygraph.webp";
@@ -2298,6 +2299,12 @@ export const packageList = [
     link: "https://prettier.io/",
     image: Prettier,
     description: "Opinionated Code Formatter",
+  },
+  {
+    title: "wpDataTables",
+    link: "https://wpdatatables.com/",
+    image: wpDataTables,
+    description: "",
   },
   {
     title: "Storybook",
