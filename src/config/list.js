@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AllureTestOps from "../styles/images/qameta.webp";
 import OneSignal from "../styles/images/onesignal.webp";
 import JSTSToolingOverview from "../styles/images/toolingjs.webp";
 import CodingNinjas from "../styles/images/codingninjas.webp";
@@ -4810,6 +4811,12 @@ export const testList = [
     image: SoftwareTestingClass,
     description:
       "Software Testing Classes in Pune, Bangalore, Hydrabad, Mumbai, Delhi, Kolkatta, Chennai & many more",
+  },
+  {
+    title: "Allure TestOps",
+    link: "https://qameta.io/",
+    image: AllureTestOps,
+    description: "Centralized Test Reporting",
   },
   {
     title: "Testable",
