@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import OneSignal from "../styles/images/onesignal.webp";
 import JSTSToolingOverview from "../styles/images/toolingjs.webp";
 import CodingNinjas from "../styles/images/codingninjas.webp";
 import amCharts from "../styles/images/amCharts.webp";
@@ -4018,6 +4019,12 @@ export const serviceList = [
     link: "https://www.solarwinds.com/",
     image: SolarWinds,
     description: "IT Management Software and Observability Platform",
+  },
+  {
+    title: "OneSignal",
+    link: "https://onesignal.com/",
+    image: OneSignal,
+    description: "Push Notification Software to Improve Customer Engagement",
   },
   {
     title: "PortSwigger",
