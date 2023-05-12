@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JSTSToolingOverview from "../styles/images/toolingjs.webp";
 import CodingNinjas from "../styles/images/codingninjas.webp";
 import amCharts from "../styles/images/amCharts.webp";
 import DailyDevTips from "../styles/images/dailydevtips.webp";
@@ -1500,6 +1501,12 @@ export const typeScriptList = [
     title: "typescript-eslint",
     link: "https://typescript-eslint.io/",
     image: typescriptEslint,
+    description: "",
+  },
+  {
+    title: "JS/TS Tooling Overview",
+    link: "https://tooling.js.org/",
+    image: JSTSToolingOverview,
     description: "",
   },
 ];
