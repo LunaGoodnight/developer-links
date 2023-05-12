@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import amCharts from "../styles/images/amCharts.webp";
 import DailyDevTips from "../styles/images/dailydevtips.webp";
 import wpDataTables from "../styles/images/wpdatatables.webp";
 import MakeReading from "../styles/images/makereading.webp";
@@ -2006,6 +2007,16 @@ export const publishList = [
     description: "Technology and Business Training",
   },
 ];
+
+export const chartList = [
+  {
+    title: "amCharts",
+    link: "https://www.amcharts.com/",
+    image: amCharts,
+    description: "JavaScript Charts & Maps",
+  },
+];
+
 export const bundlerList = [
   {
     title: "Rollup",

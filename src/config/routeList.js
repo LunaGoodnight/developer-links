@@ -58,6 +58,7 @@ import {
   frameworkList,
   bundlerList,
   gaList,
+  chartList,
 } from "./list";
 
 export const routeList = [
@@ -106,6 +107,7 @@ export const routeList = [
     importList: interactiveLearnList,
   },
   { path: "agile", text: "Agile", importList: agileList },
+  { path: "chart", text: "Chart", importList: chartList },
   { path: "exam", text: "Exam", importList: examList },
   { path: "library", text: "Library", importList: libraryList },
   { path: "statistics", text: "Statistics", importList: statisticsList },
