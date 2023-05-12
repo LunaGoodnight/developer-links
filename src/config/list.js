@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodingNinjas from "../styles/images/codingninjas.webp";
 import amCharts from "../styles/images/amCharts.webp";
 import DailyDevTips from "../styles/images/dailydevtips.webp";
 import wpDataTables from "../styles/images/wpdatatables.webp";
@@ -4976,6 +4977,12 @@ export const quizList = [
     link: "https://www.trywilco.com/",
     image: Wilco,
     description: "Never Stop Developing",
+  },
+  {
+    title: "Coding Ninjas",
+    link: "https://www.codingninjas.com/",
+    image: CodingNinjas,
+    description: "Learn coding online at India's best coding institute",
   },
 ];
 
