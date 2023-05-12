@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DailyDevTips from "../styles/images/dailydevtips.webp";
 import wpDataTables from "../styles/images/wpdatatables.webp";
 import MakeReading from "../styles/images/makereading.webp";
 import Testable from "../styles/images/testable.webp";
@@ -2056,6 +2057,12 @@ export const tutorialList = [
     link: "https://www.computernetworkingnotes.com/",
     image: ComputerNetworkingNotes,
     description: "Complete Computer networking notes guides tutorials",
+  },
+  {
+    title: "Daily Dev Tips",
+    link: "https://daily-dev-tips.com/",
+    image: DailyDevTips,
+    description: "Daily Dev Tips just for you",
   },
   {
     title: "CSS { In Real Life }",
