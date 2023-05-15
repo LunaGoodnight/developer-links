@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Loading from "../styles/images/loading.webp";
 import AllureTestOps from "../styles/images/qameta.webp";
 import OneSignal from "../styles/images/onesignal.webp";
 import JSTSToolingOverview from "../styles/images/toolingjs.webp";
@@ -1130,6 +1131,13 @@ export const animationList = [
     link: "https://tympanus.net/Development/ModalWindowEffects/",
     image: ModalWindowEffects,
     description: "",
+  },
+  {
+    title: "Loading.io",
+    link: "https://loading.io/",
+    image: Loading,
+    description:
+      "Your SVG + GIF + PNG Ajax Loading Icons and Animation Generator",
   },
 ];
 
