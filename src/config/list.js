@@ -2308,7 +2308,7 @@ export const gitList = [
   },
 ];
 
-export const designSystemList = [
+export const uiLibraryList = [
   {
     title: "Carbon Design System",
     link: "https://www.carbondesignsystem.com/",
