@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Mobiscroll from "../styles/images/mobiscroll.webp";
 import Loading from "../styles/images/loading.webp";
 import AllureTestOps from "../styles/images/qameta.webp";
 import OneSignal from "../styles/images/onesignal.webp";
@@ -2320,6 +2321,12 @@ export const designSystemList = [
     link: "https://nextui.org/",
     image: NextUI,
     description: "Beautiful, fast and modern React UI Library",
+  },
+  {
+    title: "Mobiscroll",
+    link: "https://mobiscroll.com/",
+    image: Mobiscroll,
+    description: "Advanced calendaring and scheduling solutions",
   },
 ];
 export const packageList = [
