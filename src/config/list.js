@@ -1958,6 +1958,12 @@ export const collectionList = [
       "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
     link: "https://github.com/Developer-Y/cs-video-courses",
   },
+  {
+    title: "h5bp/Front-end-Developer-Interview-Questions",
+    link: "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
+    description:
+      "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+  },
 ];
 
 export const vimList = [
