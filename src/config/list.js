@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Feroot from "../styles/images/feroot.webp";
 import Mobiscroll from "../styles/images/mobiscroll.webp";
 import Loading from "../styles/images/loading.webp";
 import AllureTestOps from "../styles/images/qameta.webp";
@@ -4023,6 +4024,12 @@ export const serviceList = [
     link: "https://www.liveaction.com/",
     image: LiveAction,
     description: "Network Performance Monitoring and Management",
+  },
+  {
+    title: "Feroot",
+    link: "https://www.feroot.com/",
+    image: Feroot,
+    description: "JavaScript Security Monitoring: Prevent Client-Side Attacks",
   },
   {
     title: "Hevo Data",
