@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TaniaRascia from "../styles/images/taniarascia.webp";
 import Feroot from "../styles/images/feroot.webp";
 import Mobiscroll from "../styles/images/mobiscroll.webp";
 import Loading from "../styles/images/loading.webp";
@@ -2926,6 +2927,12 @@ export const blogList = [
     title: "Mark's Dev Blog",
     link: "https://blog.isquaredsoftware.com/",
     image: isquaredsoftware,
+    description: "",
+  },
+  {
+    title: "Tania Rascia",
+    link: "https://www.taniarascia.com/",
+    image: TaniaRascia,
     description: "",
   },
   {
