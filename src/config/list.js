@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KentCDodds from "../styles/images/kentcdodds.webp";
 import TaniaRascia from "../styles/images/taniarascia.webp";
 import Feroot from "../styles/images/feroot.webp";
 import Mobiscroll from "../styles/images/mobiscroll.webp";
@@ -2880,6 +2881,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Kent C. Dodds",
+    link: "https://kentcdodds.com/",
+    image: KentCDodds,
+    description: "",
+  },
   {
     title: "Andrew Lock | .NET Escapades",
     link: "https://andrewlock.net/",
