@@ -3569,6 +3569,12 @@ export const generalList = [
     description: "The Trusted Technology Source for IT Pros and Developers",
   },
   {
+    title: "npm.io",
+    link: "https://npm.io/",
+    image: NodeSource,
+    description: "NPM packages search engine",
+  },
+  {
     title: "NodeSource",
     link: "https://nodesource.com/",
     image: NodeSource,
