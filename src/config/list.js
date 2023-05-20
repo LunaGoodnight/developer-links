@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Geedew from "../styles/images/geedew.webp";
 import KentCDodds from "../styles/images/kentcdodds.webp";
 import TaniaRascia from "../styles/images/taniarascia.webp";
 import Feroot from "../styles/images/feroot.webp";
@@ -2917,6 +2918,12 @@ export const blogList = [
     link: "https://ishadeed.com/",
     image: AhmadShadeed,
     description: "",
+  },
+  {
+    title: "Geedew",
+    link: "https://geedew.com/",
+    image: Geedew,
+    description: "Blogging about the web.",
   },
   {
     title: "Auth0 Blog",
