@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GrowingwiththeWeb from "../styles/images/growingwiththeweb.webp";
 import Geedew from "../styles/images/geedew.webp";
 import KentCDodds from "../styles/images/kentcdodds.webp";
 import TaniaRascia from "../styles/images/taniarascia.webp";
@@ -2941,6 +2942,12 @@ export const blogList = [
     title: "Mark's Dev Blog",
     link: "https://blog.isquaredsoftware.com/",
     image: isquaredsoftware,
+    description: "",
+  },
+  {
+    title: "Growing with the Web",
+    link: "https://www.growingwiththeweb.com/",
+    image: GrowingwiththeWeb,
     description: "",
   },
   {
