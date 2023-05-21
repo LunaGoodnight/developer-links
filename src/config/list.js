@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RyansTutorials from "../styles/images/ryanstutorials.webp";
 import HomeschoolPop from "../styles/images/homeschoolPop.webp";
 import SimpleLearningPro from "../styles/images/simplelearningpro.webp";
 import KantanCoding from "../styles/images/KantanCoding.webp";
@@ -2131,6 +2132,12 @@ export const tutorialList = [
     link: "https://css-irl.info/",
     image: CssIrl,
     description: "",
+  },
+  {
+    title: "Ryan's Tutorials",
+    link: "https://ryanstutorials.net/",
+    image: RyansTutorials,
+    description: "A bunch of Technology Tutorials",
   },
   {
     title: "Monorepo Explained",
