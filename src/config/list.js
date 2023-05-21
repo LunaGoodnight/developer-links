@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HomeschoolPop from "../styles/images/homeschoolPop.webp";
 import SimpleLearningPro from "../styles/images/simplelearningpro.webp";
 import KantanCoding from "../styles/images/KantanCoding.webp";
 import GrowingwiththeWeb from "../styles/images/growingwiththeweb.webp";
@@ -1689,6 +1690,12 @@ export const youtubeList = [
     title: "Simple Learning Pro",
     link: "https://www.youtube.com/@Simplelearningpro",
     image: SimpleLearningPro,
+    description: "",
+  },
+  {
+    title: "Homeschool Pop",
+    link: "https://www.youtube.com/@HomeschoolPop",
+    image: HomeschoolPop,
     description: "",
   },
   {
