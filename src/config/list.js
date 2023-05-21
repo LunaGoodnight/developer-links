@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KantanCoding from "../styles/images/KantanCoding.webp";
 import GrowingwiththeWeb from "../styles/images/growingwiththeweb.webp";
 import Geedew from "../styles/images/geedew.webp";
 import KentCDodds from "../styles/images/kentcdodds.webp";
@@ -1681,6 +1682,12 @@ export const youtubeList = [
     title: "Computerphile",
     link: "https://www.youtube.com/@Computerphile",
     image: Computerphile,
+    description: "",
+  },
+  {
+    title: "Kantan Coding",
+    link: "https://www.youtube.com/@kantancoding",
+    image: KantanCoding,
     description: "",
   },
   {
