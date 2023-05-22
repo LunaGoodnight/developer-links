@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FusionCharts from "../styles/images/fusioncharts.webp";
 import MathNet from "../styles/images/math.webp";
 import CanvasJs from "../styles/images/canvasjs.webp";
 import Chartjs from "../styles/images/chartjs.webp";
@@ -2082,6 +2083,12 @@ export const chartList = [
     link: "https://canvasjs.com/",
     image: CanvasJs,
     description: "Beautiful HTML5 Charts & Graphs | 10x Fast | Simple API",
+  },
+  {
+    title: "FusionCharts",
+    link: "https://www.fusioncharts.com/",
+    image: FusionCharts,
+    description: "JavaScript charts for web & mobile",
   },
 ];
 export const mathList = [
