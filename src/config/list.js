@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import CanvasJs from "../styles/images/canvasjs.webp";
+import Chartjs from "../styles/images/chartjs.webp";
 import SplashLearn from "../styles/images/splashlearn.webp";
 import RyansTutorials from "../styles/images/ryanstutorials.webp";
 import HomeschoolPop from "../styles/images/homeschoolPop.webp";
@@ -2067,6 +2069,18 @@ export const chartList = [
     link: "https://www.amcharts.com/",
     image: amCharts,
     description: "JavaScript Charts & Maps",
+  },
+  {
+    title: "Chart.js",
+    link: "https://www.chartjs.org/",
+    image: Chartjs,
+    description: "Open source HTML5 Charts for your website",
+  },
+  {
+    title: "CanvasJs",
+    link: "https://canvasjs.com/",
+    image: CanvasJs,
+    description: "Beautiful HTML5 Charts & Graphs | 10x Fast | Simple API",
   },
 ];
 export const mathList = [

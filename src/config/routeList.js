@@ -59,6 +59,7 @@ import {
   bundlerList,
   gaList,
   chartList,
+  mathList,
 } from "./list";
 
 export const routeList = [
@@ -67,6 +68,7 @@ export const routeList = [
   { path: "typescript", text: "TypeScript", importList: typeScriptList },
   { path: "dotnet", text: ".NET", importList: dotnetList },
   { path: "react", text: "React", importList: reactList },
+  { path: "math", text: "Math", importList: mathList },
   { path: "ga", text: "Google Analytics", importList: gaList },
   { path: "job", text: "Job Hunting", importList: jobList },
   { path: "career", text: "Career", importList: careerList },
