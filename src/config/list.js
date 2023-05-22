@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SplashLearn from "../styles/images/splashlearn.webp";
 import RyansTutorials from "../styles/images/ryanstutorials.webp";
 import HomeschoolPop from "../styles/images/homeschoolPop.webp";
 import SimpleLearningPro from "../styles/images/simplelearningpro.webp";
@@ -2066,6 +2067,14 @@ export const chartList = [
     link: "https://www.amcharts.com/",
     image: amCharts,
     description: "JavaScript Charts & Maps",
+  },
+];
+export const mathList = [
+  {
+    title: "Splash Learn",
+    link: "https://www.splashlearn.com/math-vocabulary/",
+    image: SplashLearn,
+    description: "A-Z Math Vocabulary. Resources for Games, Worksheets & more",
   },
 ];
 
