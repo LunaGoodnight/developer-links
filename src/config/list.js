@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MathNet from "../styles/images/math.webp";
 import CanvasJs from "../styles/images/canvasjs.webp";
 import Chartjs from "../styles/images/chartjs.webp";
 import SplashLearn from "../styles/images/splashlearn.webp";
@@ -2089,6 +2090,12 @@ export const mathList = [
     link: "https://www.splashlearn.com/math-vocabulary/",
     image: SplashLearn,
     description: "A-Z Math Vocabulary. Resources for Games, Worksheets & more",
+  },
+  {
+    title: "Math.net",
+    link: "https://www.math.net/",
+    image: MathNet,
+    description: "Learn and Practice Math",
   },
 ];
 
