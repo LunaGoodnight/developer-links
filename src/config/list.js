@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import SpaceJelly from "../styles/images/spacejelly.webp";
+import MDB from "../styles/images/mdbootstrap.webp";
+import SQLTutorial from "../styles/images/sqltutorial.webp";
 import FusionCharts from "../styles/images/fusioncharts.webp";
 import MathNet from "../styles/images/math.webp";
 import CanvasJs from "../styles/images/canvasjs.webp";
@@ -772,8 +775,14 @@ export const sqlList = [
   {
     title: "MySQL Tutorial",
     link: "https://www.mysqltutorial.org/",
+    image: SQLTutorial,
+    description: "Learn MySQL Fast, Easy and Fun.",
+  },
+  {
+    title: "SQL Tutorial",
+    link: "https://www.sqltutorial.org/",
     image: MySQLTutorial,
-    description: "MySQL Tutorial - Learn MySQL Fast, Easy and Fun.",
+    description: "Essential SQL For The Beginners",
   },
   {
     title: "{coding}Sight",
@@ -2399,6 +2408,12 @@ export const uiLibraryList = [
     description: "A popular React UI framework",
   },
   {
+    title: "MDB",
+    link: "https://mdbootstrap.com/",
+    image: MDB,
+    description: "Material Design for Bootstrap 5 & 4",
+  },
+  {
     title: "NextUI",
     link: "https://nextui.org/",
     image: NextUI,
@@ -2978,6 +2993,12 @@ export const blogList = [
     link: "https://jsramblings.com/",
     image: JavaScriptRamblings,
     description: "",
+  },
+  {
+    title: "Space Jelly",
+    link: "https://spacejelly.dev/",
+    image: SpaceJelly,
+    description: "Web Development Tutorials & Resources for _This_ Universe",
   },
   {
     title: "Code with Hugo",
