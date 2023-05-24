@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SpaceJelly from "../styles/images/spacejelly.webp";
 import MDB from "../styles/images/mdbootstrap.webp";
 import SQLTutorial from "../styles/images/sqltutorial.webp";
 import FusionCharts from "../styles/images/fusioncharts.webp";
@@ -2986,6 +2987,12 @@ export const blogList = [
     link: "https://jsramblings.com/",
     image: JavaScriptRamblings,
     description: "",
+  },
+  {
+    title: "Space Jelly",
+    link: "https://spacejelly.dev/",
+    image: SpaceJelly,
+    description: "Web Development Tutorials & Resources for _This_ Universe",
   },
   {
     title: "Code with Hugo",
