@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SQLTutorial from "../styles/images/sqltutorial.webp";
 import FusionCharts from "../styles/images/fusioncharts.webp";
 import MathNet from "../styles/images/math.webp";
 import CanvasJs from "../styles/images/canvasjs.webp";
@@ -772,8 +773,14 @@ export const sqlList = [
   {
     title: "MySQL Tutorial",
     link: "https://www.mysqltutorial.org/",
+    image: SQLTutorial,
+    description: "Learn MySQL Fast, Easy and Fun.",
+  },
+  {
+    title: "SQL Tutorial",
+    link: "https://www.sqltutorial.org/",
     image: MySQLTutorial,
-    description: "MySQL Tutorial - Learn MySQL Fast, Easy and Fun.",
+    description: "Essential SQL For The Beginners",
   },
   {
     title: "{coding}Sight",
