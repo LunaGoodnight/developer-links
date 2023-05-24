@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MDB from "../styles/images/mdbootstrap.webp";
 import SQLTutorial from "../styles/images/sqltutorial.webp";
 import FusionCharts from "../styles/images/fusioncharts.webp";
 import MathNet from "../styles/images/math.webp";
@@ -2398,6 +2399,12 @@ export const uiLibraryList = [
     link: "https://material-ui.com/",
     image: MaterialUi,
     description: "A popular React UI framework",
+  },
+  {
+    title: "MDB",
+    link: "https://mdbootstrap.com/",
+    image: MDB,
+    description: "Material Design for Bootstrap 5 & 4",
   },
   {
     title: "NextUI",
