@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Tooljet from "../styles/images/tooljet.webp";
 import SpaceJelly from "../styles/images/spacejelly.webp";
 import MDB from "../styles/images/mdbootstrap.webp";
 import SQLTutorial from "../styles/images/sqltutorial.webp";
@@ -2398,7 +2399,7 @@ export const uiLibraryList = [
   {
     title: "Tooljet",
     link: "https://www.tooljet.com/",
-    image: MaterialUi,
+    image: Tooljet,
     description: "Open-source low-code platform to build internal tools",
   },
   {
