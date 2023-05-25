@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CufonFonts from "../styles/images/cufonfonts.webp";
 import Tooljet from "../styles/images/tooljet.webp";
 import SpaceJelly from "../styles/images/spacejelly.webp";
 import MDB from "../styles/images/mdbootstrap.webp";
@@ -1469,6 +1470,12 @@ export const uiuxList = [
     link: "https://icons8.com/",
     image: icons8,
     description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
+  {
+    title: "Cufon Fonts",
+    link: "https://www.cufonfonts.com/",
+    image: CufonFonts,
+    description: "Download High Quality Free Fonts for Desktop and WebFonts",
   },
   {
     title: "Justinmind",
