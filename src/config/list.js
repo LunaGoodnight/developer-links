@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Prisma from "../styles/images/prisma.webp";
 import CufonFonts from "../styles/images/cufonfonts.webp";
 import Tooljet from "../styles/images/tooljet.webp";
 import SpaceJelly from "../styles/images/spacejelly.webp";
@@ -1225,7 +1226,14 @@ export const examList = [
       "Free Certification Exam Questions & Online Courses - PrepAway",
   },
 ];
-
+export const ormList = [
+  {
+    title: "Prisma",
+    link: "https://www.prisma.io/",
+    image: Prisma,
+    description: "Next-generation ORM for Node.js & TypeScript",
+  },
+];
 export const dojoList = [
   {
     title: "Coding Dojo",
