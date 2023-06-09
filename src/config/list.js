@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KnowledgeHut from "../styles/images/knowledgehut.webp";
 import Mockoon from "../styles/images/mockoon.webp";
 import Prisma from "../styles/images/prisma.webp";
 import CufonFonts from "../styles/images/cufonfonts.webp";
@@ -4845,6 +4846,13 @@ export const courseList = [
     link: "https://www.edx.org/",
     image: edX,
     description: "Free Online Courses by Harvard, MIT, & more",
+  },
+  {
+    title: "KnowledgeHut",
+    link: "https://www.knowledgehut.com/",
+    image: KnowledgeHut,
+    description:
+      "Professional Bootcamps and Certification Courses Provider for your Future",
   },
   {
     title: "GCFGlobal",
