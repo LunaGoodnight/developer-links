@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EpicProjects from "../styles/images/epicprojects.webp";
 import FullyStacked from "../styles/images/fullystacked.webp";
 import KnowledgeHut from "../styles/images/knowledgehut.webp";
 import Mockoon from "../styles/images/mockoon.webp";
@@ -4853,6 +4854,12 @@ export const courseList = [
     link: "https://www.edx.org/",
     image: edX,
     description: "Free Online Courses by Harvard, MIT, & more",
+  },
+  {
+    title: "Epic Projects",
+    link: "https://www.epicprojects.dev/",
+    image: EpicProjects,
+    description: "",
   },
   {
     title: "KnowledgeHut",
