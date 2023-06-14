@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FullyStacked from "../styles/images/fullystacked.webp";
 import KnowledgeHut from "../styles/images/knowledgehut.webp";
 import Mockoon from "../styles/images/mockoon.webp";
 import Prisma from "../styles/images/prisma.webp";
@@ -3064,6 +3065,12 @@ export const blogList = [
     title: "Growing with the Web",
     link: "https://www.growingwiththeweb.com/",
     image: GrowingwiththeWeb,
+    description: "",
+  },
+  {
+    title: "Fully Stacked",
+    link: "https://fullystacked.net/",
+    image: FullyStacked,
     description: "",
   },
   {
