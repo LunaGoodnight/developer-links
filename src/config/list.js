@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import NitroPack from "../styles/images/nitropack.webp";
 import Springboard from "../styles/images/springboard.webp";
 import EpicProjects from "../styles/images/epicprojects.webp";
 import FullyStacked from "../styles/images/fullystacked.webp";
@@ -4165,6 +4166,12 @@ export const serviceList = [
     link: "https://www.stackhawk.com/",
     image: stackhawk,
     description: "Dynamic Application & API Security Testing for Modern Teams",
+  },
+  {
+    title: "NitroPack",
+    link: "https://nitropack.io/",
+    image: NitroPack,
+    description: "Site Speed and Performance Optimization Solution",
   },
   {
     title: "Hygraph",
