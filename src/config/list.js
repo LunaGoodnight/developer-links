@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Springboard from "../styles/images/springboard.webp";
 import EpicProjects from "../styles/images/epicprojects.webp";
 import FullyStacked from "../styles/images/fullystacked.webp";
 import KnowledgeHut from "../styles/images/knowledgehut.webp";
@@ -4854,6 +4855,12 @@ export const courseList = [
     link: "https://www.edx.org/",
     image: edX,
     description: "Free Online Courses by Harvard, MIT, & more",
+  },
+  {
+    title: "Springboard",
+    link: "https://www.springboard.com/",
+    image: Springboard,
+    description: "Online Courses to Future Proof Your Career",
   },
   {
     title: "Epic Projects",
