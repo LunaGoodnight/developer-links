@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CoderPad from "../styles/images/coderpad.webp";
 import NitroPack from "../styles/images/nitropack.webp";
 import Springboard from "../styles/images/springboard.webp";
 import EpicProjects from "../styles/images/epicprojects.webp";
@@ -5211,6 +5212,12 @@ export const quizList = [
     link: "https://www.trywilco.com/",
     image: Wilco,
     description: "Never Stop Developing",
+  },
+  {
+    title: "CoderPad",
+    link: "https://coderpad.io/",
+    image: CoderPad,
+    description: "Coding Interview & Technical Assessment Platform",
   },
   {
     title: "Coding Ninjas",
