@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import jjenzz from "../styles/images/jjenzz.webp";
 import CoderPad from "../styles/images/coderpad.webp";
 import NitroPack from "../styles/images/nitropack.webp";
 import Springboard from "../styles/images/springboard.webp";
@@ -3046,6 +3047,12 @@ export const blogList = [
     link: "https://geedew.com/",
     image: Geedew,
     description: "Blogging about the web.",
+  },
+  {
+    title: "jjenzz",
+    link: "https://jjenzz.com/",
+    image: jjenzz,
+    description: "",
   },
   {
     title: "Auth0 Blog",
