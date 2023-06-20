@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodeForGeek from "../styles/images/codeforgeek.webp";
 import jjenzz from "../styles/images/jjenzz.webp";
 import CoderPad from "../styles/images/coderpad.webp";
 import NitroPack from "../styles/images/nitropack.webp";
@@ -3041,6 +3042,12 @@ export const blogList = [
     link: "https://ishadeed.com/",
     image: AhmadShadeed,
     description: "",
+  },
+  {
+    title: "CodeForGeek",
+    link: "https://codeforgeek.com/",
+    image: CodeForGeek,
+    description: "Programming Blog for Geeks",
   },
   {
     title: "Geedew",
