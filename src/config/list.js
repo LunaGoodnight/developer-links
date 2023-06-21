@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JamesQQuick from "../styles/images/jamesQQuick.webp";
 import RemoteWorkers from "../styles/images/remoteworkers.webp";
 import JavaDesignPatterns from "../styles/images/javadesignpatterns.webp";
 import DeveloperExperienceKnowledgeBase from "../styles/images/developerexperience.webp";
@@ -1760,6 +1761,12 @@ export const youtubeList = [
     title: "DevOps Toolkit",
     link: "https://www.youtube.com/@DevOpsToolkit",
     image: DevOpsToolkit,
+    description: "",
+  },
+  {
+    title: "James Q Quick",
+    link: "https://www.youtube.com/@JamesQQuick",
+    image: JamesQQuick,
     description: "",
   },
   {
