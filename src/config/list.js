@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JavaDesignPatterns from "../styles/images/javadesignpatterns.webp";
 import DeveloperExperienceKnowledgeBase from "../styles/images/developerexperience.webp";
 import GameProgrammingPatterns from "../styles/images/gameprogrammingpatterns.webp";
 import JsCraft from "../styles/images/jscraft.webp";
@@ -3111,6 +3112,12 @@ export const blogList = [
     title: "Developer Experience Knowledge Base",
     link: "https://developerexperience.io/",
     image: DeveloperExperienceKnowledgeBase,
+    description: "",
+  },
+  {
+    title: "Java Design Patterns",
+    link: "https://java-design-patterns.com/",
+    image: JavaDesignPatterns,
     description: "",
   },
   {
