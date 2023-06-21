@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RemoteWorkers from "../styles/images/remoteworkers.webp";
 import JavaDesignPatterns from "../styles/images/javadesignpatterns.webp";
 import DeveloperExperienceKnowledgeBase from "../styles/images/developerexperience.webp";
 import GameProgrammingPatterns from "../styles/images/gameprogrammingpatterns.webp";
@@ -1630,6 +1631,12 @@ export const jobList = [
     link: "https://job-sea.com/",
     image: JobSea,
     description: "",
+  },
+  {
+    title: "Remote Workers",
+    link: "https://remoteworkers.net/",
+    image: RemoteWorkers,
+    description: "Where Remote Workers Meet Employers",
   },
   {
     title: "remoteok",
