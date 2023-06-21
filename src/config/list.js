@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GameProgrammingPatterns from "../styles/images/gameprogrammingpatterns.webp";
 import JsCraft from "../styles/images/jscraft.webp";
 import AntDesign from "../styles/images/antdesign.webp";
 import CodeForGeek from "../styles/images/codeforgeek.webp";
@@ -3079,6 +3080,12 @@ export const blogList = [
     title: "Chrome Developers",
     link: "https://developer.chrome.com/blog/",
     image: ChromeDevelopers,
+    description: "",
+  },
+  {
+    title: "Game Programming Patterns",
+    link: "https://gameprogrammingpatterns.com/",
+    image: GameProgrammingPatterns,
     description: "",
   },
   {
