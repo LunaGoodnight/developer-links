@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AntDesign from "../styles/images/antdesign.webp";
 import CodeForGeek from "../styles/images/codeforgeek.webp";
 import jjenzz from "../styles/images/jjenzz.webp";
 import CoderPad from "../styles/images/coderpad.webp";
@@ -2455,6 +2456,12 @@ export const uiLibraryList = [
     link: "https://mobiscroll.com/",
     image: Mobiscroll,
     description: "Advanced calendaring and scheduling solutions",
+  },
+  {
+    title: "Ant Design",
+    link: "https://ant.design/",
+    image: AntDesign,
+    description: "The world's second most popular React UI framework",
   },
 ];
 export const packageList = [
