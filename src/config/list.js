@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DeveloperExperienceKnowledgeBase from "../styles/images/developerexperience.webp";
 import GameProgrammingPatterns from "../styles/images/gameprogrammingpatterns.webp";
 import JsCraft from "../styles/images/jscraft.webp";
 import AntDesign from "../styles/images/antdesign.webp";
@@ -3104,6 +3105,12 @@ export const blogList = [
     title: "Fully Stacked",
     link: "https://fullystacked.net/",
     image: FullyStacked,
+    description: "",
+  },
+  {
+    title: "Developer Experience Knowledge Base",
+    link: "https://developerexperience.io/",
+    image: DeveloperExperienceKnowledgeBase,
     description: "",
   },
   {
