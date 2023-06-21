@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JsCraft from "../styles/images/jscraft.webp";
 import AntDesign from "../styles/images/antdesign.webp";
 import CodeForGeek from "../styles/images/codeforgeek.webp";
 import jjenzz from "../styles/images/jjenzz.webp";
@@ -3103,6 +3104,12 @@ export const blogList = [
     link: "https://www.taniarascia.com/",
     image: TaniaRascia,
     description: "",
+  },
+  {
+    title: "Js Craft",
+    link: "https://www.js-craft.io/",
+    image: JsCraft,
+    description: "Tips about React, CSS and Javascript",
   },
   {
     title: "Josip Miskovic",
