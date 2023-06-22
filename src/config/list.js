@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Hired from "../styles/images/hired.webp";
 import JamesQQuick from "../styles/images/jamesQQuick.webp";
 import RemoteWorkers from "../styles/images/remoteworkers.webp";
 import JavaDesignPatterns from "../styles/images/javadesignpatterns.webp";
@@ -1651,6 +1652,12 @@ export const jobList = [
     link: "https://remotive.io/",
     image: remotive,
     description: "Remote Jobs in Programming, Support, Design and more",
+  },
+  {
+    title: "Hired",
+    link: "https://hired.com/",
+    image: Hired,
+    description: "Job Search Marketplace. Tech Job Hunting Simplified!",
   },
   {
     title: "Remote.co",
