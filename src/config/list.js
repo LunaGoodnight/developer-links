@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import NDC from "../styles/images/ndc.webp";
 import icones from "../styles/images/icones.webp";
 import Hired from "../styles/images/hired.webp";
 import JamesQQuick from "../styles/images/jamesQQuick.webp";
@@ -1763,6 +1764,12 @@ export const youtubeList = [
     title: "Homeschool Pop",
     link: "https://www.youtube.com/@HomeschoolPop",
     image: HomeschoolPop,
+    description: "",
+  },
+  {
+    title: "NDC",
+    link: "https://www.youtube.com/@NDC",
+    image: NDC,
     description: "",
   },
   {
