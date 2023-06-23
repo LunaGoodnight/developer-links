@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Copycat from "../styles/images/copycat.webp";
 import NDC from "../styles/images/ndc.webp";
 import icones from "../styles/images/icones.webp";
 import Hired from "../styles/images/hired.webp";
@@ -4239,6 +4240,12 @@ export const serviceList = [
     link: "https://www.threatstack.com/",
     image: ThreatStack,
     description: "Cloud Security and Compliance",
+  },
+  {
+    title: "Copycat",
+    link: "https://www.copycat.dev/",
+    image: Copycat,
+    description: "",
   },
   {
     title: "OpenReplay",
