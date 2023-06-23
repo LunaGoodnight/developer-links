@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import icones from "../styles/images/icones.webp";
 import Hired from "../styles/images/hired.webp";
 import JamesQQuick from "../styles/images/jamesQQuick.webp";
 import RemoteWorkers from "../styles/images/remoteworkers.webp";
@@ -1488,6 +1489,12 @@ export const uiuxList = [
     title: "Usability Geek",
     link: "https://usabilitygeek.com/",
     image: UsabilityGeek,
+    description: "",
+  },
+  {
+    title: "Icônes",
+    link: "https://icones.js.org/",
+    image: icones,
     description: "",
   },
   {
