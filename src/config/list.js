@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ZaisteProgramming from "../styles/images/zaisteprogramming.webp";
 import FelixGerschau from "../styles/images/felixgerschau.webp";
 import Copycat from "../styles/images/copycat.webp";
 import NDC from "../styles/images/ndc.webp";
@@ -1790,6 +1791,12 @@ export const youtubeList = [
     title: "James Q Quick",
     link: "https://www.youtube.com/@JamesQQuick",
     image: JamesQQuick,
+    description: "",
+  },
+  {
+    title: "Zaiste Programming",
+    link: "https://www.youtube.com/@zaisteprogramming",
+    image: ZaisteProgramming,
     description: "",
   },
   {
