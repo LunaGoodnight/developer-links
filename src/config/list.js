@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FelixGerschau from "../styles/images/felixgerschau.webp";
 import Copycat from "../styles/images/copycat.webp";
 import NDC from "../styles/images/ndc.webp";
 import icones from "../styles/images/icones.webp";
@@ -3112,6 +3113,12 @@ export const blogList = [
     title: "Auth0 Blog",
     link: "https://auth0.com/blog/",
     image: Auth0Blog,
+    description: "",
+  },
+  {
+    title: "Felix Gerschau",
+    link: "https://felixgerschau.com/",
+    image: FelixGerschau,
     description: "",
   },
   {
