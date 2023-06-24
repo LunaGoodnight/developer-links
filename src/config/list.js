@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PencilPaper from "../styles/images/pencilandpaper.webp";
 import ZaisteProgramming from "../styles/images/zaisteprogramming.webp";
 import FelixGerschau from "../styles/images/felixgerschau.webp";
 import Copycat from "../styles/images/copycat.webp";
@@ -1518,6 +1519,12 @@ export const uiuxList = [
     link: "https://www.justinmind.com/",
     image: Justinmind,
     description: "Free prototyping tool for web & mobile apps",
+  },
+  {
+    title: "Pencil & Paper",
+    link: "https://pencilandpaper.io/",
+    image: PencilPaper,
+    description: "UX/UI Design Agency",
   },
   {
     title: "Refactoring UI",
