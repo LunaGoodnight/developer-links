@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Cube from "../styles/images/cube.webp";
 import PencilPaper from "../styles/images/pencilandpaper.webp";
 import ZaisteProgramming from "../styles/images/zaisteprogramming.webp";
 import FelixGerschau from "../styles/images/felixgerschau.webp";
@@ -2018,6 +2019,12 @@ export const apiList = [
     link: "https://random-data-api.com/",
     image: RandomDataAPI,
     description: "",
+  },
+  {
+    title: "Cube",
+    link: "https://cube.dev/",
+    image: Cube,
+    description: "Semantic Layer for Building Data Applications",
   },
   {
     title: "PokéAPI",
