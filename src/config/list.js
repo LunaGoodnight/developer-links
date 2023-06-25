@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import WorldBank from "../styles/images/worldbank.webp";
 import Cube from "../styles/images/cube.webp";
 import PencilPaper from "../styles/images/pencilandpaper.webp";
 import ZaisteProgramming from "../styles/images/zaisteprogramming.webp";
@@ -2055,6 +2056,14 @@ export const apiList = [
     link: "https://mockoon.com/",
     image: Mockoon,
     description: "Create mock APIs in seconds with Mockoon",
+  },
+];
+export const openDataList = [
+  {
+    title: "World Bank Open Data",
+    link: "https://data.worldbank.org/",
+    image: WorldBank,
+    description: "",
   },
 ];
 

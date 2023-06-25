@@ -61,6 +61,7 @@ import {
   chartList,
   mathList,
   ormList,
+  openDataList,
 } from "./list";
 
 export const routeList = [
@@ -72,6 +73,7 @@ export const routeList = [
   { path: "math", text: "Math", importList: mathList },
   { path: "orm", text: "ORM", importList: ormList },
   { path: "ga", text: "Google Analytics", importList: gaList },
+  { path: "openData", text: "Open Data", importList: openDataList },
   { path: "job", text: "Job Hunting", importList: jobList },
   { path: "career", text: "Career", importList: careerList },
   { path: "diagram", text: "Diagram", importList: diagramList },
