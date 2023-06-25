@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FreeDeveloperStuff from "../styles/images/freestuff.webp";
 import WorldBank from "../styles/images/worldbank.webp";
 import Cube from "../styles/images/cube.webp";
 import PencilPaper from "../styles/images/pencilandpaper.webp";
@@ -3776,6 +3777,12 @@ export const generalList = [
     link: "https://www.saashub.com/",
     image: SaaSHub,
     description: "Software Alternatives And Reviews",
+  },
+  {
+    title: "Free Developer Stuff",
+    link: "https://freestuff.dev/",
+    image: FreeDeveloperStuff,
+    description: "",
   },
   {
     title: "Wasp",
