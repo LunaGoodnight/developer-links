@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FreeforDevelopers from "../styles/images/freefordev.webp";
 import FreeDeveloperStuff from "../styles/images/freestuff.webp";
 import WorldBank from "../styles/images/worldbank.webp";
 import Cube from "../styles/images/cube.webp";
@@ -5446,6 +5447,14 @@ export const aiArtList = [
     title: "PixAI",
     link: "https://pixai.art/",
     image: PixAI,
+    description: "",
+  },
+];
+export const freeList = [
+  {
+    title: "Free for Developers",
+    link: "https://free-for.dev/#/",
+    image: FreeforDevelopers,
     description: "",
   },
 ];
