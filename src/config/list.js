@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import NewsAPIorg from "../styles/images/newsapiorg.webp";
 import NewsAPI from "../styles/images/newsapiai.webp";
 import OneAI from "../styles/images/oneai.webp";
 import Beautifulai from "../styles/images/beautifulai.webp";
@@ -1980,8 +1981,14 @@ export const apiList = [
   {
     title: "News API",
     link: "https://newsapi.ai/",
-    image: NewsAPI,
+    image: NewsAPIorg,
     description: "Best API to find the latest and archive news",
+  },
+  {
+    title: "News API",
+    link: "https://newsapi.org/",
+    image: NewsAPI,
+    description: "Search News and Blog Articles on the Web",
   },
   {
     title: "Apipheny",
