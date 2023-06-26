@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import OneAI from "../styles/images/oneai.webp";
 import Beautifulai from "../styles/images/beautifulai.webp";
 import FreeforDevelopers from "../styles/images/freefordev.webp";
 import FreeDeveloperStuff from "../styles/images/freestuff.webp";
@@ -1927,6 +1928,19 @@ export const aiServiceList = [
     link: "https://latitude.io/",
     image: Latitude,
     description: "",
+  },
+  {
+    title: "One AI",
+    link: "https://www.oneai.com/",
+    image: OneAI,
+    description: "Generative AI API For Your Product",
+  },
+  {
+    title: "Beautiful.ai",
+    link: "https://www.beautiful.ai/",
+    image: Beautifulai,
+    description:
+      "Presentation Software | Basic to Beautiful in Minutes with Beautiful.ai",
   },
   {
     title: "Turing",
@@ -5449,13 +5463,6 @@ export const aiArtList = [
     link: "https://pixai.art/",
     image: PixAI,
     description: "",
-  },
-  {
-    title: "Beautiful.ai",
-    link: "https://www.beautiful.ai/",
-    image: Beautifulai,
-    description:
-      "Presentation Software | Basic to Beautiful in Minutes with Beautiful.ai",
   },
 ];
 export const freeList = [
