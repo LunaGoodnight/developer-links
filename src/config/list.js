@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Beautifulai from "../styles/images/beautifulai.webp";
 import FreeforDevelopers from "../styles/images/freefordev.webp";
 import FreeDeveloperStuff from "../styles/images/freestuff.webp";
 import WorldBank from "../styles/images/worldbank.webp";
@@ -5448,6 +5449,13 @@ export const aiArtList = [
     link: "https://pixai.art/",
     image: PixAI,
     description: "",
+  },
+  {
+    title: "Beautiful.ai",
+    link: "https://www.beautiful.ai/",
+    image: Beautifulai,
+    description:
+      "Presentation Software | Basic to Beautiful in Minutes with Beautiful.ai",
   },
 ];
 export const freeList = [
