@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import BeyondFireship from "../styles/images/beyondfireship.webp";
 import APIsList from "../styles/images/apislist.webp";
 import NewsAPIorg from "../styles/images/newsapiorg.webp";
 import NewsAPI from "../styles/images/newsapiai.webp";
@@ -1765,6 +1766,12 @@ export const youtubeList = [
     title: "PwnFunction",
     link: "https://www.youtube.com/@PwnFunction",
     image: PwnFunction,
+    description: "",
+  },
+  {
+    title: "Beyond Fireship",
+    link: "https://www.youtube.com/@beyondfireship",
+    image: BeyondFireship,
     description: "",
   },
   {
