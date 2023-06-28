@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import BuildingBetterSoftwareSlower from "../styles/images/bbss.webp";
 import BeyondFireship from "../styles/images/beyondfireship.webp";
 import APIsList from "../styles/images/apislist.webp";
 import NewsAPIorg from "../styles/images/newsapiorg.webp";
@@ -3164,6 +3165,12 @@ export const blogList = [
     title: "Ahmad Shadeed",
     link: "https://ishadeed.com/",
     image: AhmadShadeed,
+    description: "",
+  },
+  {
+    title: "Building Better Software Slower",
+    link: "https://www.bbss.dev/",
+    image: BuildingBetterSoftwareSlower,
     description: "",
   },
   {
