@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DummyAPI from "../styles/images/dummyapi.webp";
 import BuildingBetterSoftwareSlower from "../styles/images/bbss.webp";
 import BeyondFireship from "../styles/images/beyondfireship.webp";
 import APIsList from "../styles/images/apislist.webp";
@@ -2104,6 +2105,16 @@ export const apiList = [
     description: "Create mock APIs in seconds with Mockoon",
   },
 ];
+
+export const dummyList = [
+  {
+    title: "Dummy API",
+    link: "https://dummyapi.io/",
+    image: DummyAPI,
+    description: "Fake api full of users, images, post, comments etc",
+  },
+];
+
 export const openDataList = [
   {
     title: "World Bank Open Data",
