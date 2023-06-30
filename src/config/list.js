@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Flexiple from "../styles/images/flexiple.webp";
 import DummyAPI from "../styles/images/dummyapi.webp";
 import BuildingBetterSoftwareSlower from "../styles/images/bbss.webp";
 import BeyondFireship from "../styles/images/beyondfireship.webp";
@@ -1646,6 +1647,12 @@ export const marketingList = [
 ];
 
 export const jobList = [
+  {
+    title: "Flexiple",
+    link: "https://flexiple.com/",
+    image: Flexiple,
+    description: "Hire Freelance Developers & Designers - Your Dream Team",
+  },
   {
     title: "JS Remote jobs",
     link: "https://jsremote.jobs/",
