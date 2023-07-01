@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DEVOPEDIA from "../styles/images/devopedia.webp";
 import CookiePro from "../styles/images/cookiepro.webp";
 import HTTPdev from "../styles/images/httpdev.webp";
 import Flexiple from "../styles/images/flexiple.webp";
@@ -2329,6 +2330,12 @@ export const tutorialList = [
     link: "https://refactoring.guru/",
     image: RefactoringGuru,
     description: "Refactoring and Design Patterns",
+  },
+  {
+    title: "DEVOPEDIA",
+    link: "https://devopedia.org/",
+    image: DEVOPEDIA,
+    description: "",
   },
   {
     title: "DevIQ",
