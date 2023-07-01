@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CookiePro from "../styles/images/cookiepro.webp";
 import HTTPdev from "../styles/images/httpdev.webp";
 import Flexiple from "../styles/images/flexiple.webp";
 import DummyAPI from "../styles/images/dummyapi.webp";
@@ -3859,6 +3860,12 @@ export const generalList = [
     link: "https://freestuff.dev/",
     image: FreeDeveloperStuff,
     description: "",
+  },
+  {
+    title: "CookiePro",
+    link: "https://www.cookiepro.com/",
+    image: CookiePro,
+    description: "CookiePro by OneTrust | Your Complete Consent Solution",
   },
   {
     title: "Wasp",
