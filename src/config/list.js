@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HTTPdev from "../styles/images/httpdev.webp";
 import Flexiple from "../styles/images/flexiple.webp";
 import DummyAPI from "../styles/images/dummyapi.webp";
 import BuildingBetterSoftwareSlower from "../styles/images/bbss.webp";
@@ -2314,6 +2315,12 @@ export const tutorialList = [
     title: "SourceMaking",
     link: "https://sourcemaking.com/",
     image: SourceMaking,
+    description: "",
+  },
+  {
+    title: "HyperText Transfer Protocol (HTTP) explained",
+    link: "https://http.dev/",
+    image: HTTPdev,
     description: "",
   },
   {
