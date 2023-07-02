@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SoftwareDeveloperDiaries from "../styles/images/softwareDeveloperDiaries.webp";
 import DEVOPEDIA from "../styles/images/devopedia.webp";
 import CookiePro from "../styles/images/cookiepro.webp";
 import HTTPdev from "../styles/images/httpdev.webp";
@@ -1778,6 +1779,12 @@ export const youtubeList = [
     title: "PwnFunction",
     link: "https://www.youtube.com/@PwnFunction",
     image: PwnFunction,
+    description: "",
+  },
+  {
+    title: "Software Developer Diaries",
+    link: "https://www.youtube.com/@SoftwareDeveloperDiaries",
+    image: SoftwareDeveloperDiaries,
     description: "",
   },
   {
