@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KhalilStemmler from "../styles/images/khalilstemmler.webp";
 import AGGrid from "../styles/images/aggrid.webp";
 import SoftwareDeveloperDiaries from "../styles/images/softwareDeveloperDiaries.webp";
 import DEVOPEDIA from "../styles/images/devopedia.webp";
@@ -3214,6 +3215,13 @@ export const blogList = [
     link: "https://ishadeed.com/",
     image: AhmadShadeed,
     description: "",
+  },
+  {
+    title: "Khalil Stemmler",
+    link: "https://khalilstemmler.com/",
+    image: KhalilStemmler,
+    description:
+      "Become a confident crafter. Learn to write testable, scalable TypeScript.",
   },
   {
     title: "Building Better Software Slower",
