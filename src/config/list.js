@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Remote from "../styles/images/remote.webp";
 import SquadJobs from "../styles/images/squadjobs.webp";
 import DebugBear from "../styles/images/debugbear.webp";
 import KhalilStemmler from "../styles/images/khalilstemmler.webp";
@@ -4411,6 +4412,13 @@ export const serviceList = [
     link: "https://www.copycat.dev/",
     image: Copycat,
     description: "",
+  },
+  {
+    title: "Remote",
+    link: "https://remote.com/",
+    image: Remote,
+    description:
+      "Global HR Solutions & Employment Tools for Distributed Teams | Remote",
   },
   {
     title: "OpenReplay",
