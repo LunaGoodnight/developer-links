@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SquadJobs from "../styles/images/squadjobs.webp";
 import DebugBear from "../styles/images/debugbear.webp";
 import KhalilStemmler from "../styles/images/khalilstemmler.webp";
 import AGGrid from "../styles/images/aggrid.webp";
@@ -1676,6 +1677,12 @@ export const jobList = [
     title: "Job-Sea.com",
     link: "https://job-sea.com/",
     image: JobSea,
+    description: "",
+  },
+  {
+    title: "SquadJobs",
+    link: "https://squadjobs.com/",
+    image: SquadJobs,
     description: "",
   },
   {
