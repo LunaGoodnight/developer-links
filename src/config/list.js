@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ExitFive from "../styles/images/exitfive.webp";
 import RemotePOC from "../styles/images/remotepoc.webp";
 import Remote from "../styles/images/remote.webp";
 import SquadJobs from "../styles/images/squadjobs.webp";
@@ -1777,6 +1778,12 @@ export const jobList = [
     link: "https://anywhere.epam.com/en",
     image: EPAM,
     description: "",
+  },
+  {
+    title: "Exit Five",
+    link: "https://www.exitfive.com/",
+    image: ExitFive,
+    description: "#1 Community for B2B Marketing",
   },
 ];
 
