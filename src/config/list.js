@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DebugBear from "../styles/images/debugbear.webp";
 import KhalilStemmler from "../styles/images/khalilstemmler.webp";
 import AGGrid from "../styles/images/aggrid.webp";
 import SoftwareDeveloperDiaries from "../styles/images/softwareDeveloperDiaries.webp";
@@ -4415,6 +4416,12 @@ export const serviceList = [
     link: "https://www.stackhawk.com/",
     image: stackhawk,
     description: "Dynamic Application & API Security Testing for Modern Teams",
+  },
+  {
+    title: "DebugBear",
+    link: "https://www.debugbear.com/",
+    image: DebugBear,
+    description: "Monitor Site Speed and Core Web Vitals",
   },
   {
     title: "NitroPack",
