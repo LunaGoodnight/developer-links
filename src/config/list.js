@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RemotePOC from "../styles/images/remotepoc.webp";
 import Remote from "../styles/images/remote.webp";
 import SquadJobs from "../styles/images/squadjobs.webp";
 import DebugBear from "../styles/images/debugbear.webp";
@@ -1704,6 +1705,12 @@ export const jobList = [
     link: "https://remotive.io/",
     image: remotive,
     description: "Remote Jobs in Programming, Support, Design and more",
+  },
+  {
+    title: "RemotePOC",
+    link: "https://remotepoc.com/",
+    image: RemotePOC,
+    description: "Best remote jobs for professionals of color",
   },
   {
     title: "Hired",
