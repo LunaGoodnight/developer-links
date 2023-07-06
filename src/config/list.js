@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AGGrid from "../styles/images/aggrid.webp";
 import SoftwareDeveloperDiaries from "../styles/images/softwareDeveloperDiaries.webp";
 import DEVOPEDIA from "../styles/images/devopedia.webp";
 import CookiePro from "../styles/images/cookiepro.webp";
@@ -2640,6 +2641,13 @@ export const packageList = [
     link: "https://wpdatatables.com/",
     image: wpDataTables,
     description: "",
+  },
+  {
+    title: "AG Grid",
+    link: "https://www.ag-grid.com/",
+    image: AGGrid,
+    description:
+      "JavaScript Data Grid: AG Grid: High-Performance React Grid, Angular Grid, JavaScript Grid",
   },
   {
     title: "Storybook",
