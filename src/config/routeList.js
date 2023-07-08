@@ -63,6 +63,7 @@ import {
   ormList,
   openDataList,
   dummyList,
+  managementList,
 } from "./list";
 
 export const routeList = [
@@ -81,6 +82,7 @@ export const routeList = [
   { path: "diagram", text: "Diagram", importList: diagramList },
   { path: "bundler", text: "Bundler", importList: bundlerList },
   { path: "community", text: "Community", importList: communityList },
+  { path: "management", text: "Management", importList: managementList },
   { path: "aiService", text: "AI Service", importList: aiServiceList },
   {
     path: "themeBuilder",

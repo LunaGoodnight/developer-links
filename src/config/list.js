@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Monday from "../styles/images/monday.webp";
+import Pipedrive from "../styles/images/pipedrive.webp";
 import ExitFive from "../styles/images/exitfive.webp";
 import RemotePOC from "../styles/images/remotepoc.webp";
 import Remote from "../styles/images/remote.webp";
@@ -2154,6 +2156,21 @@ export const dummyList = [
     link: "https://dummyapi.io/",
     image: DummyAPI,
     description: "Fake api full of users, images, post, comments etc",
+  },
+];
+
+export const managementList = [
+  {
+    title: "Pipedrive",
+    link: "https://www.pipedrive.com/",
+    image: Pipedrive,
+    description: "Sales CRM & Pipeline Management Software",
+  },
+  {
+    title: "Monday",
+    link: "https://monday.com/",
+    image: Monday,
+    description: "A new way of working",
   },
 ];
 
