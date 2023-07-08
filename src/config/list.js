@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Bitrix24 from "../styles/images/bitrix24.webp";
 import Monday from "../styles/images/monday.webp";
 import Pipedrive from "../styles/images/pipedrive.webp";
 import ExitFive from "../styles/images/exitfive.webp";
@@ -2171,6 +2172,13 @@ export const managementList = [
     link: "https://monday.com/",
     image: Monday,
     description: "A new way of working",
+  },
+  {
+    title: "Bitrix24",
+    link: "https://www.bitrix24.com/",
+    image: Bitrix24,
+    description:
+      "Free online workspace for your business: CRM, tasks, online meetings, and more.",
   },
 ];
 
