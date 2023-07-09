@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ConventionalCommits from "../styles/images/conventionalcommits.webp";
 import Bitrix24 from "../styles/images/bitrix24.webp";
 import Monday from "../styles/images/monday.webp";
 import Pipedrive from "../styles/images/pipedrive.webp";
@@ -2622,6 +2623,12 @@ export const gitList = [
     title: "First Aid git",
     link: "https://firstaidgit.io/#/",
     image: FirstAidGit,
+    description: "First Aid git",
+  },
+  {
+    title: "Conventional Commits",
+    link: "https://www.conventionalcommits.org/en/v1.0.0/",
+    image: ConventionalCommits,
     description: "First Aid git",
   },
 ];
