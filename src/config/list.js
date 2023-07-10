@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Tome from "../styles/images/tomeapp.webp";
 import ConventionalCommits from "../styles/images/conventionalcommits.webp";
 import Bitrix24 from "../styles/images/bitrix24.webp";
 import Monday from "../styles/images/monday.webp";
@@ -2005,6 +2006,12 @@ export const aiServiceList = [
     link: "https://www.turing.com/",
     image: Turing,
     description: "Hire the World’s Most Deeply Vetted Remote Developers",
+  },
+  {
+    title: "Tome",
+    link: "https://tome.app/",
+    image: Tome,
+    description: "AI-powered storytelling",
   },
 ];
 
