@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ClarityDev from "../styles/images/claritydev.webp";
 import Tome from "../styles/images/tomeapp.webp";
 import ConventionalCommits from "../styles/images/conventionalcommits.webp";
 import Bitrix24 from "../styles/images/bitrix24.webp";
@@ -3361,6 +3362,12 @@ export const blogList = [
     title: "Java Design Patterns",
     link: "https://java-design-patterns.com/",
     image: JavaDesignPatterns,
+    description: "",
+  },
+  {
+    title: "ClarityDev blog",
+    link: "https://claritydev.net/",
+    image: ClarityDev,
     description: "",
   },
   {
