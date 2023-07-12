@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import LetsReact from "../styles/images/letsreact.webp";
 import ClarityDev from "../styles/images/claritydev.webp";
 import Tome from "../styles/images/tomeapp.webp";
 import ConventionalCommits from "../styles/images/conventionalcommits.webp";
@@ -5613,6 +5614,12 @@ export const reactList = [
     title: "Hands on React",
     link: "https://handsonreact.com/",
     image: HandsonReact,
+    description: "",
+  },
+  {
+    title: "Let's React",
+    link: "https://www.letsreact.org/",
+    image: LetsReact,
     description: "",
   },
 ];
