@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Web3Jobs from "../styles/images/web3career.webp";
 import Glassdoor from "../styles/images/glassdoor.webp";
 import LetsReact from "../styles/images/letsreact.webp";
 import ClarityDev from "../styles/images/claritydev.webp";
@@ -1683,6 +1684,12 @@ export const jobList = [
     link: "https://www.glassdoor.com/",
     image: Glassdoor,
     description: "You deserve a job that loves you back",
+  },
+  {
+    title: "Web3 Jobs",
+    link: "https://web3.career/",
+    image: Web3Jobs,
+    description: "Blockchain, Smart Contract and Crypto Jobs",
   },
   {
     title: "We Work Remotely",
