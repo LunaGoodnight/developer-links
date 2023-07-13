@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Glassdoor from "../styles/images/glassdoor.webp";
 import LetsReact from "../styles/images/letsreact.webp";
 import ClarityDev from "../styles/images/claritydev.webp";
 import Tome from "../styles/images/tomeapp.webp";
@@ -1676,6 +1677,12 @@ export const jobList = [
     link: "https://jsremote.jobs/",
     image: JSRemote,
     description: "Best JavaScript remote jobs listings today",
+  },
+  {
+    title: "Glassdoor",
+    link: "https://www.glassdoor.com/",
+    image: Glassdoor,
+    description: "You deserve a job that loves you back",
   },
   {
     title: "We Work Remotely",
