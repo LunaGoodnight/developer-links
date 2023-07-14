@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ArcDev from "../styles/images/arcdev.webp";
 import RemoteRocketship from "../styles/images/remoterocketship.webp";
 import ZipRecruiter from "../styles/images/ziprecruiter.webp";
 import Adzuna from "../styles/images/adzuna.webp";
@@ -1683,6 +1684,12 @@ export const jobList = [
     description: "Best JavaScript remote jobs listings today",
   },
   {
+    title: "SimplyHired",
+    link: "https://www.simplyhired.com/",
+    image: Glassdoor,
+    description: "Job Search Engine",
+  },
+  {
     title: "Glassdoor",
     link: "https://www.glassdoor.com/",
     image: Glassdoor,
@@ -1699,6 +1706,12 @@ export const jobList = [
     link: "https://weworkremotely.com/",
     image: WeWorkRemotely,
     description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "Arc",
+    link: "https://arc.dev/remote-jobs",
+    image: ArcDev,
+    description: "1,600+ Remote Programming Jobs",
   },
   {
     title: "Adzuna",
