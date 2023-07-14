@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ZipRecruiter from "../styles/images/ziprecruiter.webp";
 import Adzuna from "../styles/images/adzuna.webp";
 import Web3Jobs from "../styles/images/web3career.webp";
 import Glassdoor from "../styles/images/glassdoor.webp";
@@ -1703,6 +1704,12 @@ export const jobList = [
     link: "https://www.adzuna.com/",
     image: Adzuna,
     description: "Job Search - Find Every Job, Everywhere with Adzuna",
+  },
+  {
+    title: "ZipRecruiter",
+    link: "https://www.ziprecruiter.com/",
+    image: ZipRecruiter,
+    description: "Job Search - Millions of Jobs Hiring Near You",
   },
   {
     title: "Job-Sea.com",
