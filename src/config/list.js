@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Adzuna from "../styles/images/adzuna.webp";
 import Web3Jobs from "../styles/images/web3career.webp";
 import Glassdoor from "../styles/images/glassdoor.webp";
 import LetsReact from "../styles/images/letsreact.webp";
@@ -1696,6 +1697,12 @@ export const jobList = [
     link: "https://weworkremotely.com/",
     image: WeWorkRemotely,
     description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "Adzuna",
+    link: "https://www.adzuna.com/",
+    image: Adzuna,
+    description: "Job Search - Find Every Job, Everywhere with Adzuna",
   },
   {
     title: "Job-Sea.com",
