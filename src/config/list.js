@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RemoteRocketship from "../styles/images/remoterocketship.webp";
 import ZipRecruiter from "../styles/images/ziprecruiter.webp";
 import Adzuna from "../styles/images/adzuna.webp";
 import Web3Jobs from "../styles/images/web3career.webp";
@@ -1710,6 +1711,12 @@ export const jobList = [
     link: "https://www.ziprecruiter.com/",
     image: ZipRecruiter,
     description: "Job Search - Millions of Jobs Hiring Near You",
+  },
+  {
+    title: "Remote Rocketship",
+    link: "https://www.remoterocketship.com/",
+    image: RemoteRocketship,
+    description: "Find Your Dream Remote Job",
   },
   {
     title: "Job-Sea.com",
