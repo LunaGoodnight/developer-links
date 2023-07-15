@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Heroicons from "../styles/images/heroicons.webp";
 import JavaScriptWorks from "../styles/images/javascriptworks.webp";
 import Crossover from "../styles/images/crossover.webp";
 import ArcDev from "../styles/images/arcdev.webp";
@@ -1515,7 +1516,20 @@ export const newsList = [
     description: "Science, Space and Technology News 2021",
   },
 ];
-
+export const iconList = [
+  {
+    title: "Icônes",
+    link: "https://icones.js.org/",
+    image: icones,
+    description: "",
+  },
+  {
+    title: "Heroicons",
+    link: "https://heroicons.com/",
+    image: Heroicons,
+    description: "",
+  },
+];
 export const uiuxList = [
   {
     title: "UXArmy",
@@ -1535,12 +1549,7 @@ export const uiuxList = [
     image: UsabilityGeek,
     description: "",
   },
-  {
-    title: "Icônes",
-    link: "https://icones.js.org/",
-    image: icones,
-    description: "",
-  },
+
   {
     title: "icons8",
     link: "https://icons8.com/",
