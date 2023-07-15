@@ -64,10 +64,12 @@ import {
   openDataList,
   dummyList,
   managementList,
+  iconList,
 } from "./list";
 
 export const routeList = [
   { path: "sql", text: "SQL", importList: sqlList },
+  { path: "icon", text: "icon", importList: iconList },
   { path: "api", text: "API", importList: apiList },
   { path: "typescript", text: "TypeScript", importList: typeScriptList },
   { path: "dotnet", text: ".NET", importList: dotnetList },

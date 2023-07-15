@@ -1529,6 +1529,12 @@ export const iconList = [
     image: Heroicons,
     description: "",
   },
+  {
+    title: "icons8",
+    link: "https://icons8.com/",
+    image: icons8,
+    description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
 ];
 export const uiuxList = [
   {
@@ -1548,13 +1554,6 @@ export const uiuxList = [
     link: "https://usabilitygeek.com/",
     image: UsabilityGeek,
     description: "",
-  },
-
-  {
-    title: "icons8",
-    link: "https://icons8.com/",
-    image: icons8,
-    description: "Free Icons, Clipart Illustrations, Photos, and Music",
   },
   {
     title: "Cufon Fonts",
