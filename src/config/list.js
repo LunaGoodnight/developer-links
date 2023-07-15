@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Crossover from "../styles/images/crossover.webp";
 import ArcDev from "../styles/images/arcdev.webp";
 import RemoteRocketship from "../styles/images/remoterocketship.webp";
 import ZipRecruiter from "../styles/images/ziprecruiter.webp";
@@ -1779,6 +1780,12 @@ export const jobList = [
     link: "https://remote.co/",
     image: RemoteCo,
     description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "Crossover",
+    link: "https://www.crossover.com/",
+    image: Crossover,
+    description: "the world's best full-time remote jobs",
   },
   {
     title: "Devjobsscanner",
