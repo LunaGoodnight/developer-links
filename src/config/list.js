@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TailwindToolbox from "../styles/images/tailwindtoolbox.webp";
 import MorganPhilips from "../styles/images/morganphilips.webp";
 import Jooble from "../styles/images/jooble.webp";
 import Heroicons from "../styles/images/heroicons.webp";
@@ -4104,6 +4105,12 @@ export const generalList = [
     link: "https://www.informit.com/",
     image: InformIT,
     description: "The Trusted Technology Source for IT Pros and Developers",
+  },
+  {
+    title: "Tailwind Toolbox",
+    link: "https://www.tailwindtoolbox.com/",
+    image: TailwindToolbox,
+    description: "Free Starter Templates and Components for Tailwind CSS",
   },
   {
     title: "npm.io",
