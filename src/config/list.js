@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FlexJobs from "../styles/images/flexjobs.webp";
 import TailwindToolbox from "../styles/images/tailwindtoolbox.webp";
 import MorganPhilips from "../styles/images/morganphilips.webp";
 import Jooble from "../styles/images/jooble.webp";
@@ -1695,6 +1696,12 @@ export const jobList = [
     link: "https://jsremote.jobs/",
     image: JSRemote,
     description: "Best JavaScript remote jobs listings today",
+  },
+  {
+    title: "FlexJobs",
+    link: "https://www.flexjobs.com/",
+    image: FlexJobs,
+    description: "Best Remote Jobs, Work from Home Jobs, Online Jobs & More",
   },
   {
     title: "SimplyHired",
