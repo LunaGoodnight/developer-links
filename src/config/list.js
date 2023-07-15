@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MorganPhilips from "../styles/images/morganphilips.webp";
 import Jooble from "../styles/images/jooble.webp";
 import Heroicons from "../styles/images/heroicons.webp";
 import JavaScriptWorks from "../styles/images/javascriptworks.webp";
@@ -1741,6 +1742,12 @@ export const jobList = [
     link: "https://www.ziprecruiter.com/",
     image: ZipRecruiter,
     description: "Job Search - Millions of Jobs Hiring Near You",
+  },
+  {
+    title: "Morgan Philips",
+    link: "https://www.morganphilips.com/en",
+    image: MorganPhilips,
+    description: "Executive search, recruitment and talent consulting",
   },
   {
     title: "Remote Rocketship",
