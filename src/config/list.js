@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JavaScriptWorks from "../styles/images/javascriptworks.webp";
 import Crossover from "../styles/images/crossover.webp";
 import ArcDev from "../styles/images/arcdev.webp";
 import RemoteRocketship from "../styles/images/remoterocketship.webp";
@@ -1786,6 +1787,12 @@ export const jobList = [
     link: "https://www.crossover.com/",
     image: Crossover,
     description: "the world's best full-time remote jobs",
+  },
+  {
+    title: "JavaScriptWorks",
+    link: "https://javascript.works-hub.com/",
+    image: JavaScriptWorks,
+    description: "Remote Front End Developer - Trikon Ecosystem",
   },
   {
     title: "Devjobsscanner",
