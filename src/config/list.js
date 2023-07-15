@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Jooble from "../styles/images/jooble.webp";
 import Heroicons from "../styles/images/heroicons.webp";
 import JavaScriptWorks from "../styles/images/javascriptworks.webp";
 import Crossover from "../styles/images/crossover.webp";
@@ -1704,6 +1705,12 @@ export const jobList = [
     link: "https://www.glassdoor.com/",
     image: Glassdoor,
     description: "You deserve a job that loves you back",
+  },
+  {
+    title: "Jooble",
+    link: "https://jooble.org/",
+    image: Jooble,
+    description: "Jobs in USA - 771.000+ current vacancies",
   },
   {
     title: "Web3 Jobs",
