@@ -1685,6 +1685,70 @@ export const marketingList = [
   },
 ];
 
+export const remoteJobList = [
+  {
+    title: "JS Remote jobs",
+    link: "https://jsremote.jobs/",
+    image: JSRemote,
+    description: "Best JavaScript remote jobs listings today",
+  },
+  {
+    title: "We Work Remotely",
+    link: "https://weworkremotely.com/",
+    image: WeWorkRemotely,
+    description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "Remote Rocketship",
+    link: "https://www.remoterocketship.com/",
+    image: RemoteRocketship,
+    description: "Find Your Dream Remote Job",
+  },
+  {
+    title: "Remote Workers",
+    link: "https://remoteworkers.net/",
+    image: RemoteWorkers,
+    description: "Where Remote Workers Meet Employers",
+  },
+  {
+    title: "remoteok",
+    link: "https://remoteok.io/",
+    image: remoteok,
+    description:
+      "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
+  },
+  {
+    title: "remotive",
+    link: "https://remotive.io/",
+    image: remotive,
+    description: "Remote Jobs in Programming, Support, Design and more",
+  },
+  {
+    title: "RemotePOC",
+    link: "https://remotepoc.com/",
+    image: RemotePOC,
+    description: "Best remote jobs for professionals of color",
+  },
+  {
+    title: "Remote.co",
+    link: "https://remote.co/",
+    image: RemoteCo,
+    description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "AngelList Talent",
+    link: "https://angel.co/",
+    image: AngelListTalent,
+    description: "Remote Job and Startup Job Search",
+  },
+  {
+    title: "NoDesk",
+    link: "https://nodesk.co/",
+    image: NoDesk,
+    description: "Where Everyone Works Remote",
+  },
+];
+
 export const jobList = [
   {
     title: "Flexiple",
@@ -1692,12 +1756,7 @@ export const jobList = [
     image: Flexiple,
     description: "Hire Freelance Developers & Designers - Your Dream Team",
   },
-  {
-    title: "JS Remote jobs",
-    link: "https://jsremote.jobs/",
-    image: JSRemote,
-    description: "Best JavaScript remote jobs listings today",
-  },
+
   {
     title: "FlexJobs",
     link: "https://www.flexjobs.com/",
@@ -1734,12 +1793,7 @@ export const jobList = [
     image: Web3Jobs,
     description: "Blockchain, Smart Contract and Crypto Jobs",
   },
-  {
-    title: "We Work Remotely",
-    link: "https://weworkremotely.com/",
-    image: WeWorkRemotely,
-    description: "Remote jobs in design, programming, marketing and more",
-  },
+
   {
     title: "Arc",
     link: "https://arc.dev/remote-jobs",
@@ -1764,12 +1818,7 @@ export const jobList = [
     image: MorganPhilips,
     description: "Executive search, recruitment and talent consulting",
   },
-  {
-    title: "Remote Rocketship",
-    link: "https://www.remoterocketship.com/",
-    image: RemoteRocketship,
-    description: "Find Your Dream Remote Job",
-  },
+
   {
     title: "Job-Sea.com",
     link: "https://job-sea.com/",
@@ -1782,43 +1831,14 @@ export const jobList = [
     image: SquadJobs,
     description: "",
   },
-  {
-    title: "Remote Workers",
-    link: "https://remoteworkers.net/",
-    image: RemoteWorkers,
-    description: "Where Remote Workers Meet Employers",
-  },
-  {
-    title: "remoteok",
-    link: "https://remoteok.io/",
-    image: remoteok,
-    description:
-      "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
-  },
-  {
-    title: "remotive",
-    link: "https://remotive.io/",
-    image: remotive,
-    description: "Remote Jobs in Programming, Support, Design and more",
-  },
-  {
-    title: "RemotePOC",
-    link: "https://remotepoc.com/",
-    image: RemotePOC,
-    description: "Best remote jobs for professionals of color",
-  },
+
   {
     title: "Hired",
     link: "https://hired.com/",
     image: Hired,
     description: "Job Search Marketplace. Tech Job Hunting Simplified!",
   },
-  {
-    title: "Remote.co",
-    link: "https://remote.co/",
-    image: RemoteCo,
-    description: "Remote Work: Jobs, Companies & Virtual Teams",
-  },
+
   {
     title: "Crossover",
     link: "https://www.crossover.com/",
@@ -1837,18 +1857,7 @@ export const jobList = [
     image: Devjobsscanner,
     description: "Search developer jobs around the world",
   },
-  {
-    title: "AngelList Talent",
-    link: "https://angel.co/",
-    image: AngelListTalent,
-    description: "Remote Job and Startup Job Search",
-  },
-  {
-    title: "NoDesk",
-    link: "https://nodesk.co/",
-    image: NoDesk,
-    description: "Where Everyone Works Remote",
-  },
+
   {
     title: "CareerKarma",
     link: "https://careerkarma.com/",
