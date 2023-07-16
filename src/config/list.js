@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DynamiteJobs from "../styles/images/dynamitejobs.webp";
 import EPAMAnywhere from "../styles/images/epamanywhere.webp";
 import FlexJobs from "../styles/images/flexjobs.webp";
 import TailwindToolbox from "../styles/images/tailwindtoolbox.webp";
@@ -1746,6 +1747,12 @@ export const remoteJobList = [
     link: "https://nodesk.co/",
     image: NoDesk,
     description: "Where Everyone Works Remote",
+  },
+  {
+    title: "Dynamite Jobs",
+    link: "https://dynamitejobs.com/",
+    image: DynamiteJobs,
+    description: "🧨 Dynamite Jobs: The Best Remote Jobs in July 2023",
   },
 ];
 
