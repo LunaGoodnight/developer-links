@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CryptocurrencyJobs from "../styles/images/cryptocurrencyjobs.webp";
 import StartupJobs from "../styles/images/startupjobs.webp";
 import RemoteLeaf from "../styles/images/remoteleaf.webp";
 import RubyOnRemote from "../styles/images/rubyonremote.webp";
@@ -1793,6 +1794,12 @@ export const jobList = [
     link: "https://jsjobbs.com/",
     image: JsJobbs,
     description: "Javascript Jobs for Javascript Developers",
+  },
+  {
+    title: "Cryptocurrency Jobs",
+    link: "https://cryptocurrencyjobs.co/",
+    image: CryptocurrencyJobs,
+    description: "Cryptocurrency Jobs and Blockchain Jobs",
   },
   {
     title: "MyCareersFuture Singapore",
