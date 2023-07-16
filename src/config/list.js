@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import StartupJobs from "../styles/images/startupjobs.webp";
 import RemoteLeaf from "../styles/images/remoteleaf.webp";
 import RubyOnRemote from "../styles/images/rubyonremote.webp";
 import JsJobbs from "../styles/images/jsjobbs.webp";
@@ -1760,9 +1761,6 @@ export const remoteJobList = [
     image: DynamiteJobs,
     description: "🧨 Dynamite Jobs: The Best Remote Jobs in July 2023",
   },
-];
-
-export const jobList = [
   {
     title: "Ruby On Remote",
     link: "https://rubyonremote.com/",
@@ -1775,11 +1773,20 @@ export const jobList = [
     image: RemoteLeaf,
     description: "Remote React Jobs in Poland",
   },
+];
+
+export const jobList = [
   {
     title: "Flexiple",
     link: "https://flexiple.com/",
     image: Flexiple,
     description: "Hire Freelance Developers & Designers - Your Dream Team",
+  },
+  {
+    title: "Startup Jobs",
+    link: "https://startup.jobs/",
+    image: StartupJobs,
+    description: "Developer, designer, marketing, sales jobs, and more",
   },
   {
     title: "JsJobbs",
