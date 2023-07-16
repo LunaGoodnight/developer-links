@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RubyOnRemote from "../styles/images/rubyonremote.webp";
 import JsJobbs from "../styles/images/jsjobbs.webp";
 import WisdomGeek from "../styles/images/wisdomgeek.webp";
 import MyCareersFutureSingapore from "../styles/images/mycareersfuture.webp";
@@ -1761,6 +1762,12 @@ export const remoteJobList = [
 ];
 
 export const jobList = [
+  {
+    title: "Ruby On Remote",
+    link: "https://rubyonremote.com/",
+    image: RubyOnRemote,
+    description: "Remote jobs for Ruby developers",
+  },
   {
     title: "Flexiple",
     link: "https://flexiple.com/",
