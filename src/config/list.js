@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JsJobbs from "../styles/images/jsjobbs.webp";
 import WisdomGeek from "../styles/images/wisdomgeek.webp";
 import MyCareersFutureSingapore from "../styles/images/mycareersfuture.webp";
 import MichaelPage from "../styles/images/michaelpage.webp";
@@ -1765,6 +1766,12 @@ export const jobList = [
     link: "https://flexiple.com/",
     image: Flexiple,
     description: "Hire Freelance Developers & Designers - Your Dream Team",
+  },
+  {
+    title: "JsJobbs",
+    link: "https://jsjobbs.com/",
+    image: JsJobbs,
+    description: "Javascript Jobs for Javascript Developers",
   },
   {
     title: "MyCareersFuture Singapore",
