@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import WisdomGeek from "../styles/images/wisdomgeek.webp";
 import MyCareersFutureSingapore from "../styles/images/mycareersfuture.webp";
 import MichaelPage from "../styles/images/michaelpage.webp";
 import DynamiteJobs from "../styles/images/dynamitejobs.webp";
@@ -2531,6 +2532,12 @@ export const tutorialList = [
     title: "DEVOPEDIA",
     link: "https://devopedia.org/",
     image: DEVOPEDIA,
+    description: "",
+  },
+  {
+    title: "Wisdom Geek",
+    link: "https://www.wisdomgeek.com/",
+    image: WisdomGeek,
     description: "",
   },
   {
