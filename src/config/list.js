@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MyCareersFutureSingapore from "../styles/images/mycareersfuture.webp";
 import MichaelPage from "../styles/images/michaelpage.webp";
 import DynamiteJobs from "../styles/images/dynamitejobs.webp";
 import EPAMAnywhere from "../styles/images/epamanywhere.webp";
@@ -1763,6 +1764,12 @@ export const jobList = [
     link: "https://flexiple.com/",
     image: Flexiple,
     description: "Hire Freelance Developers & Designers - Your Dream Team",
+  },
+  {
+    title: "MyCareersFuture Singapore",
+    link: "https://www.mycareersfuture.gov.sg/",
+    image: MyCareersFutureSingapore,
+    description: "Find jobs in Singapore that match your skills",
   },
   {
     title: "Michael Page",
