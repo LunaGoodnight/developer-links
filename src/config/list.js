@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EPAMAnywhere from "../styles/images/epamanywhere.webp";
 import FlexJobs from "../styles/images/flexjobs.webp";
 import TailwindToolbox from "../styles/images/tailwindtoolbox.webp";
 import MorganPhilips from "../styles/images/morganphilips.webp";
@@ -1702,6 +1703,12 @@ export const jobList = [
     link: "https://www.flexjobs.com/",
     image: FlexJobs,
     description: "Best Remote Jobs, Work from Home Jobs, Online Jobs & More",
+  },
+  {
+    title: "EPAM Anywhere",
+    link: "https://anywhere.epam.com/en",
+    image: EPAMAnywhere,
+    description: "",
   },
   {
     title: "SimplyHired",
