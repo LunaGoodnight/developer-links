@@ -65,6 +65,7 @@ import {
   dummyList,
   managementList,
   iconList,
+  remoteJobList,
 } from "./list";
 
 export const routeList = [
@@ -80,6 +81,7 @@ export const routeList = [
   { path: "openData", text: "Open Data", importList: openDataList },
   { path: "dummy", text: "Dummy Data", importList: dummyList },
   { path: "job", text: "Job Hunting", importList: jobList },
+  { path: "remoteJob", text: "Remote Jobs", importList: remoteJobList },
   { path: "career", text: "Career", importList: careerList },
   { path: "diagram", text: "Diagram", importList: diagramList },
   { path: "bundler", text: "Bundler", importList: bundlerList },
