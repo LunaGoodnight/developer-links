@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MichaelPage from "../styles/images/michaelpage.webp";
 import DynamiteJobs from "../styles/images/dynamitejobs.webp";
 import EPAMAnywhere from "../styles/images/epamanywhere.webp";
 import FlexJobs from "../styles/images/flexjobs.webp";
@@ -1763,7 +1764,13 @@ export const jobList = [
     image: Flexiple,
     description: "Hire Freelance Developers & Designers - Your Dream Team",
   },
-
+  {
+    title: "Michael Page",
+    link: "https://www.michaelpage.com/",
+    image: MichaelPage,
+    description:
+      "Jobs, Career Advice, Recruitment Services | Michael Page Taiwan",
+  },
   {
     title: "FlexJobs",
     link: "https://www.flexjobs.com/",
