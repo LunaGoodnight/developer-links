@@ -1989,7 +1989,7 @@ export const youtubeList = [
   {
     title: "The Git Guild",
     link: "https://www.youtube.com/@TheGitGuild",
-    image: BeyondFireship,
+    image: TheGitGuild,
     description: "",
   },
   {
