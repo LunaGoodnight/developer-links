@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import RisingStack from "../styles/images/risingstack.webp";
 import ReactHookForm from "../styles/images/reacthookform.webp";
 import TheGitGuild from "../styles/images/theGitGuild.webp";
 import AwesomeProgrammingBlog from "../styles/images/learn2torials.webp";
@@ -3459,6 +3460,12 @@ export const blogList = [
     link: "https://codewithhugo.com/",
     image: CodewithHugo,
     description: "",
+  },
+  {
+    title: "RisingStack",
+    link: "https://blog.risingstack.com/",
+    image: RisingStack,
+    description: "RisingStack Engineering Blog - RisingStack Engineering",
   },
   {
     title: "Ahmad Shadeed",
