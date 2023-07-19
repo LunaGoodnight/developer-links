@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AwesomeProgrammingBlog from "../styles/images/learn2torials.webp";
 import CryptocurrencyJobs from "../styles/images/cryptocurrencyjobs.webp";
 import StartupJobs from "../styles/images/startupjobs.webp";
 import RemoteLeaf from "../styles/images/remoteleaf.webp";
@@ -2562,6 +2563,12 @@ export const tutorialList = [
     link: "https://refactoring.guru/",
     image: RefactoringGuru,
     description: "Refactoring and Design Patterns",
+  },
+  {
+    title: "Awesome Programming Blog",
+    link: "https://learn2torials.com/",
+    image: AwesomeProgrammingBlog,
+    description: "",
   },
   {
     title: "DEVOPEDIA",
