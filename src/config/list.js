@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DevExplained from "../styles/images/DevExplained.webp";
 import RisingStack from "../styles/images/risingstack.webp";
 import ReactHookForm from "../styles/images/reacthookform.webp";
 import TheGitGuild from "../styles/images/theGitGuild.webp";
@@ -1974,6 +1975,12 @@ export const youtubeList = [
     title: "Computer Science",
     link: "https://www.youtube.com/@ComputerScienceLessons",
     image: ComputerScience,
+    description: "",
+  },
+  {
+    title: "DevExplained",
+    link: "https://www.youtube.com/@DevExplained",
+    image: DevExplained,
     description: "",
   },
   {
