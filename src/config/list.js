@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ReactHookForm from "../styles/images/reacthookform.webp";
 import TheGitGuild from "../styles/images/theGitGuild.webp";
 import AwesomeProgrammingBlog from "../styles/images/learn2torials.webp";
 import CryptocurrencyJobs from "../styles/images/cryptocurrencyjobs.webp";
@@ -5767,6 +5768,12 @@ export const reactList = [
     link: "https://usehooks.com/",
     image: useHooks,
     description: "Easy to understand React Hook recipes",
+  },
+  {
+    title: "React Hook Form",
+    link: "https://www.react-hook-form.com/",
+    image: ReactHookForm,
+    description: "Simple React forms validation",
   },
   {
     title: "React Hustle",
