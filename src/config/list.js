@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TheGitGuild from "../styles/images/theGitGuild.webp";
 import AwesomeProgrammingBlog from "../styles/images/learn2torials.webp";
 import CryptocurrencyJobs from "../styles/images/cryptocurrencyjobs.webp";
 import StartupJobs from "../styles/images/startupjobs.webp";
@@ -1983,6 +1984,12 @@ export const youtubeList = [
     title: "Software Developer Diaries",
     link: "https://www.youtube.com/@SoftwareDeveloperDiaries",
     image: SoftwareDeveloperDiaries,
+    description: "",
+  },
+  {
+    title: "The Git Guild",
+    link: "https://www.youtube.com/@TheGitGuild",
+    image: BeyondFireship,
     description: "",
   },
   {
