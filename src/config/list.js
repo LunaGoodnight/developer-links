@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CleverJobs from "../styles/images/cleverjobs.webp";
 import DevExplained from "../styles/images/DevExplained.webp";
 import RisingStack from "../styles/images/risingstack.webp";
 import ReactHookForm from "../styles/images/reacthookform.webp";
@@ -1705,6 +1706,12 @@ export const remoteJobList = [
     link: "https://jsremote.jobs/",
     image: JSRemote,
     description: "Best JavaScript remote jobs listings today",
+  },
+  {
+    title: "CleverJobs",
+    link: "https://cleverjobs.net/",
+    image: CleverJobs,
+    description: "Remote Jobs Listing Service",
   },
   {
     title: "We Work Remotely",
