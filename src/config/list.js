@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Upmostly from "../styles/images/upmostly.webp";
 import CleverJobs from "../styles/images/cleverjobs.webp";
 import DevExplained from "../styles/images/DevExplained.webp";
 import RisingStack from "../styles/images/risingstack.webp";
@@ -3474,6 +3475,12 @@ export const blogList = [
     link: "https://codewithhugo.com/",
     image: CodewithHugo,
     description: "",
+  },
+  {
+    title: "Upmostly",
+    link: "https://upmostly.com/",
+    image: Upmostly,
+    description: "Learn React and JavaScript the Right Way",
   },
   {
     title: "RisingStack",
