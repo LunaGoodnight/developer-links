@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PortEXE from "../styles/images/PortEXE.webp";
 import Upmostly from "../styles/images/upmostly.webp";
 import CleverJobs from "../styles/images/cleverjobs.webp";
 import DevExplained from "../styles/images/DevExplained.webp";
@@ -2019,6 +2020,12 @@ export const youtubeList = [
     title: "Computerphile",
     link: "https://www.youtube.com/@Computerphile",
     image: Computerphile,
+    description: "",
+  },
+  {
+    title: "PortEXE",
+    link: "https://www.youtube.com/@PortEXE",
+    image: PortEXE,
     description: "",
   },
   {
