@@ -1,6 +1,6 @@
 import { languageList } from "./languageList";
 
-import GreatLearning from "../styles/images/mygreatlearning.webp;
+import GreatLearning from "../styles/images/mygreatlearning.webp";
 import PortEXE from "../styles/images/PortEXE.webp";
 import Upmostly from "../styles/images/upmostly.webp";
 import CleverJobs from "../styles/images/cleverjobs.webp";
