@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GreatLearning from "../styles/images/greatlearning.webp";
 import PortEXE from "../styles/images/PortEXE.webp";
 import Upmostly from "../styles/images/upmostly.webp";
 import CleverJobs from "../styles/images/cleverjobs.webp";
@@ -5470,6 +5471,12 @@ export const courseList = [
     link: "https://www.futurelearn.com/",
     image: FutureLearn,
     description: "Online Courses and Degrees from Top Universities",
+  },
+  {
+    title: "Great Learning",
+    link: "https://www.mygreatlearning.com/",
+    image: GreatLearning,
+    description: "Online Courses, PG Certificates and Degree Programs",
   },
 ];
 
