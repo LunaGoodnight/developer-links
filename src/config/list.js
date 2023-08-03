@@ -2422,7 +2422,7 @@ export const interviewList = [
   },
   {
     title: "h5bp/Front-end-Developer-Interview-Questions",
-    link: "https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/main",
+    link: "https://github.com/h5bp/Front-end-Developer-Interview-Questions/",
     image: FrontendDeveloperInterviewQuestions,
     description:
       "h5bp/Front-end-Developer-Interview-Questions: A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
