@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FrontendDeveloperInterviewQuestions from "../styles/images/githubfrontendinterviewquestions.webp";
 import FullStackCafe from "../styles/images/fullstackcafe.webp";
 import GreatLearning from "../styles/images/mygreatlearning.webp";
 import PortEXE from "../styles/images/PortEXE.webp";
@@ -2418,6 +2419,13 @@ export const interviewList = [
     link: "https://www.frontendinterviewhandbook.com/",
     image: FrontEndInterviewHandbook,
     description: "Front end interview preparation for busy engineers",
+  },
+  {
+    title: "h5bp/Front-end-Developer-Interview-Questions",
+    link: "https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/main",
+    image: FrontendDeveloperInterviewQuestions,
+    description:
+      "h5bp/Front-end-Developer-Interview-Questions: A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
   },
 ];
 
