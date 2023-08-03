@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FullStackCafe from "../styles/images/fullstackcafe.webp";
 import GreatLearning from "../styles/images/mygreatlearning.webp";
 import PortEXE from "../styles/images/PortEXE.webp";
 import Upmostly from "../styles/images/upmostly.webp";
@@ -2399,6 +2400,27 @@ export const openDataList = [
   },
 ];
 
+export const interviewList = [
+  {
+    title: "FullStack.Cafe",
+    link: "https://www.fullstack.cafe/",
+    image: FullStackCafe,
+    description: "Kill Your Next Tech & Coding Interview",
+  },
+  {
+    title: "InterviewBit",
+    link: "https://www.interviewbit.com/",
+    image: interviewBit,
+    description: "Coding Interview Questions",
+  },
+  {
+    title: "Front End Interview Handbook",
+    link: "https://www.frontendinterviewhandbook.com/",
+    image: FrontEndInterviewHandbook,
+    description: "Front end interview preparation for busy engineers",
+  },
+];
+
 export const askQuestionList = [
   {
     title: "DaniWeb Community",
@@ -4567,12 +4589,6 @@ export const generalList = [
     description: "Exploring and Master Linux Ecosystem",
   },
   {
-    title: "InterviewBit",
-    link: "https://www.interviewbit.com/",
-    image: interviewBit,
-    description: "Coding Interview Questions",
-  },
-  {
     title: "devconnected",
     link: "https://devconnected.com/",
     image: devconnected,
@@ -5507,12 +5523,6 @@ export const bookList = [
     link: "https://2ality.com/index.html",
     image: twoAlity,
     description: "JavaScript and more",
-  },
-  {
-    title: "Front End Interview Handbook",
-    link: "https://www.frontendinterviewhandbook.com/",
-    image: FrontEndInterviewHandbook,
-    description: "Front end interview preparation for busy engineers",
   },
   {
     title: "Frontend Handbook",
