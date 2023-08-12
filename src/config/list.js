@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import IconHunt from "../styles/images/iconhunt.webp";
+import Iconbuddy from "../styles/images/iconbuddy.webp";
 import FrontendDeveloperInterviewQuestions from "../styles/images/githubfrontendinterviewquestions.webp";
 import FullStackCafe from "../styles/images/fullstackcafe.webp";
 import GreatLearning from "../styles/images/mygreatlearning.webp";
@@ -1559,6 +1561,18 @@ export const iconList = [
     link: "https://icons8.com/",
     image: icons8,
     description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
+  {
+    title: "Iconbuddy",
+    link: "https://iconbuddy.app/",
+    image: Iconbuddy,
+    description: "180K+ open source icons",
+  },
+  {
+    title: "IconHunt",
+    link: "https://www.iconhunt.site/",
+    image: IconHunt,
+    description: "",
   },
 ];
 export const uiuxList = [
