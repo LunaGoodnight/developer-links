@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TechHeads from "../styles/images/wearetechheads.webp";
 import Fotor from "../styles/images/fotor.webp";
 import IconHunt from "../styles/images/iconhunt.webp";
 import Iconbuddy from "../styles/images/iconbuddy.webp";
@@ -1832,6 +1833,12 @@ export const jobList = [
     link: "https://cryptocurrencyjobs.co/",
     image: CryptocurrencyJobs,
     description: "Cryptocurrency Jobs and Blockchain Jobs",
+  },
+  {
+    title: "Tech Heads",
+    link: "https://www.wearetechheads.com/",
+    image: TechHeads,
+    description: "Technology Recruitment Agency in the UK",
   },
   {
     title: "MyCareersFuture Singapore",
