@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FreeWork from "../styles/images/freework.webp";
 import TechHeads from "../styles/images/wearetechheads.webp";
 import Fotor from "../styles/images/fotor.webp";
 import IconHunt from "../styles/images/iconhunt.webp";
@@ -1852,6 +1853,12 @@ export const jobList = [
     image: MichaelPage,
     description:
       "Jobs, Career Advice, Recruitment Services | Michael Page Taiwan",
+  },
+  {
+    title: "Free-Work",
+    link: "https://www.free-work.com/en-gb/about",
+    image: FreeWork,
+    description: "",
   },
   {
     title: "FlexJobs",
