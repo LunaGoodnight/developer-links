@@ -2200,12 +2200,6 @@ export const aiServiceList = [
     description: "",
   },
   {
-    title: "Fotor",
-    link: "https://www.fotor.com/",
-    image: Fotor,
-    description: "Photo Editor: Free & Simple Online Photo Editing",
-  },
-  {
     title: "Latitude",
     link: "https://latitude.io/",
     image: Latitude,
@@ -5928,6 +5922,12 @@ export const aiArtList = [
     link: "https://pixai.art/",
     image: PixAI,
     description: "",
+  },
+  {
+    title: "Fotor",
+    link: "https://www.fotor.com/",
+    image: Fotor,
+    description: "Photo Editor: Free & Simple Online Photo Editing",
   },
 ];
 export const freeList = [
