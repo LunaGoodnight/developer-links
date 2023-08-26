@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Fotor from "../styles/images/fotor.webp";
 import IconHunt from "../styles/images/iconhunt.webp";
 import Iconbuddy from "../styles/images/iconbuddy.webp";
 import FrontendDeveloperInterviewQuestions from "../styles/images/githubfrontendinterviewquestions.webp";
@@ -2197,6 +2198,12 @@ export const aiServiceList = [
     link: "https://cohere.ai/",
     image: CohereAI,
     description: "",
+  },
+  {
+    title: "Fotor",
+    link: "https://www.fotor.com/",
+    image: Fotor,
+    description: "Photo Editor: Free & Simple Online Photo Editing",
   },
   {
     title: "Latitude",
