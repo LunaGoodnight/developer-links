@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import LeonardoAi from "../styles/images/leonardoai.webp";
 import FreeWork from "../styles/images/freework.webp";
 import TechHeads from "../styles/images/wearetechheads.webp";
 import Fotor from "../styles/images/fotor.webp";
@@ -5942,6 +5943,12 @@ export const aiArtList = [
     link: "https://www.fotor.com/",
     image: Fotor,
     description: "Photo Editor: Free & Simple Online Photo Editing",
+  },
+  {
+    title: "Leonardo.ai",
+    link: "https://leonardo.ai/",
+    image: LeonardoAi,
+    description: "",
   },
 ];
 export const freeList = [
