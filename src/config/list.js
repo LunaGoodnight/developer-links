@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Civitai from "../styles/images/civitai.webp";
 import LeonardoAi from "../styles/images/leonardoai.webp";
 import FreeWork from "../styles/images/freework.webp";
 import TechHeads from "../styles/images/wearetechheads.webp";
@@ -5937,6 +5938,12 @@ export const aiArtList = [
     link: "https://pixai.art/",
     image: PixAI,
     description: "",
+  },
+  {
+    title: "Civitai",
+    link: "https://civitai.com/",
+    image: Civitai,
+    description: "Stable Diffusion models, embeddings, LoRAs and more",
   },
   {
     title: "Fotor",
