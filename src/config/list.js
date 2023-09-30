@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SourceForge from "../styles/images/sourceforge.webp";
 import TopAiTools from "../styles/images/topai.webp";
 import Taskade from "../styles/images/taskade.webp";
 import CodeCatAI from "../styles/images/codecat.webp";
@@ -4257,7 +4258,7 @@ export const generalList = [
   {
     title: "SourceForge",
     link: "https://sourceforge.net/",
-    image: LibHunt,
+    image: SourceForge,
     description: "Compare, Download & Develop Open Source & Business Software",
   },
   {
