@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Taskade from "../styles/images/taskade.webp";
 import CodeCatAI from "../styles/images/codecat.webp";
 import DevDojo from "../styles/images/devdojo.webp";
 import Civitai from "../styles/images/civitai.webp";
@@ -2228,6 +2229,12 @@ export const aiServiceList = [
     link: "https://www.codecat.ai/",
     image: CodeCatAI,
     description: "AI Powered Tools for Developers",
+  },
+  {
+    title: "Taskade",
+    link: "https://www.taskade.com/",
+    image: Taskade,
+    description: "AI React Code Generator",
   },
   {
     title: "One AI",
