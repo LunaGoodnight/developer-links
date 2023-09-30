@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodeCatAI from "../styles/images/codecat.webp";
 import DevDojo from "../styles/images/devdojo.webp";
 import Civitai from "../styles/images/civitai.webp";
 import LeonardoAi from "../styles/images/leonardoai.webp";
@@ -2223,6 +2224,12 @@ export const aiServiceList = [
     description: "",
   },
   {
+    title: "CodeCat.AI",
+    link: "https://www.codecat.ai/",
+    image: CodeCatAI,
+    description: "AI Powered Tools for Developers",
+  },
+  {
     title: "One AI",
     link: "https://www.oneai.com/",
     image: OneAI,
@@ -4232,6 +4239,12 @@ export const generalList = [
     link: "https://www.libhunt.com/",
     image: LibHunt,
     description: "Trending open-source projects and their alternatives",
+  },
+  {
+    title: "SourceForge",
+    link: "https://sourceforge.net/",
+    image: LibHunt,
+    description: "Compare, Download & Develop Open Source & Business Software",
   },
   {
     title: "SaaSHub",
