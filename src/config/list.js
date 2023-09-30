@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DevDojo from "../styles/images/devdojo.webp";
 import Civitai from "../styles/images/civitai.webp";
 import LeonardoAi from "../styles/images/leonardoai.webp";
 import FreeWork from "../styles/images/freework.webp";
@@ -5919,6 +5920,12 @@ export const themeList = [
     link: "https://themeselection.com/",
     image: ThemeSelection,
     description: "Premium & Free Admin Template, HTML Themes- ThemeSelection",
+  },
+  {
+    title: "DevDojo",
+    link: "https://devdojo.com/",
+    image: DevDojo,
+    description: "",
   },
 ];
 
