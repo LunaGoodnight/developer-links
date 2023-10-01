@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import APILayer from "../styles/images/apilayer.webp";
 import AmazonCodeWhisperer from "../styles/images/codewhisperer.webp";
 import SourceForge from "../styles/images/sourceforge.webp";
 import TopAiTools from "../styles/images/topai.webp";
@@ -2303,6 +2304,12 @@ export const apiList = [
     link: "https://any-api.com/",
     image: AnyAPI,
     description: "",
+  },
+  {
+    title: "APILayer",
+    link: "https://apilayer.com/",
+    image: APILayer,
+    description: "API Marketplace | Connect to Best APIs",
   },
   {
     title: "News API",
