@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AmazonCodeWhisperer from "../styles/images/codewhisperer.webp";
 import SourceForge from "../styles/images/sourceforge.webp";
 import TopAiTools from "../styles/images/topai.webp";
 import Taskade from "../styles/images/taskade.webp";
@@ -2213,6 +2214,12 @@ export const aiServiceList = [
     link: "https://kontent.ai/",
     image: KontentAi,
     description: "Complete Control Over Your Content",
+  },
+  {
+    title: "Amazon CodeWhisperer",
+    link: "https://aws.amazon.com/codewhisperer/",
+    image: AmazonCodeWhisperer,
+    description: "AI Code Generator – Amazon CodeWhisperer – AWS",
   },
   {
     title: "Cohere AI",
