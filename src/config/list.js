@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Freshworks from "../styles/images/freshworks.webp";
 import APILayer from "../styles/images/apilayer.webp";
 import AmazonCodeWhisperer from "../styles/images/codewhisperer.webp";
 import SourceForge from "../styles/images/sourceforge.webp";
@@ -2221,6 +2222,12 @@ export const aiServiceList = [
     link: "https://aws.amazon.com/codewhisperer/",
     image: AmazonCodeWhisperer,
     description: "AI Code Generator – Amazon CodeWhisperer – AWS",
+  },
+  {
+    title: "Freshworks",
+    link: "https://www.freshworks.com/",
+    image: Freshworks,
+    description: "Innovative Software for Business Needs",
   },
   {
     title: "Cohere AI",
