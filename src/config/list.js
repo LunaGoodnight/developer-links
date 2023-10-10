@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Prey from "../styles/images/prey.webp";
 import Freshworks from "../styles/images/freshworks.webp";
 import APILayer from "../styles/images/apilayer.webp";
 import AmazonCodeWhisperer from "../styles/images/codewhisperer.webp";
@@ -1131,6 +1132,16 @@ export const dotnetList = [
     link: "https://hovermind.com/",
     image: Hovermind,
     description: "Be productive, Learn how to learn",
+  },
+];
+export const cyberSecurityList = [
+  {
+    title: "Prey",
+    link: "https://preyproject.com/",
+    image: Prey,
+    tab: "document",
+    description:
+      "Prey: Laptop Tracking & Data security. Find & Protect lost devices.",
   },
 ];
 
