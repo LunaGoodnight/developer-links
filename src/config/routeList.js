@@ -67,6 +67,7 @@ import {
   iconList,
   remoteJobList,
   interviewList,
+  noCodeList,
 } from "./list";
 
 export const routeList = [
@@ -90,6 +91,7 @@ export const routeList = [
   { path: "community", text: "Community", importList: communityList },
   { path: "management", text: "Management", importList: managementList },
   { path: "aiService", text: "AI Service", importList: aiServiceList },
+  { path: "noCode", text: "No Code", importList: noCodeList },
   {
     path: "themeBuilder",
     text: "Website Builder",
