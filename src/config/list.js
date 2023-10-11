@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Bubble from "../styles/images/bubble.webp";
 import Prey from "../styles/images/prey.webp";
 import Freshworks from "../styles/images/freshworks.webp";
 import APILayer from "../styles/images/apilayer.webp";
@@ -1170,6 +1171,14 @@ export const documentList = [
   },
 ];
 
+export const noCodeList = [
+  {
+    title: "Bubble",
+    link: "https://bubble.io/",
+    image: Bubble,
+    description: "The best way to build web apps without code",
+  },
+];
 export const vpnList = [
   {
     title: "AdGuard VPN",
