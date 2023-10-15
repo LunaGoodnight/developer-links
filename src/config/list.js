@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Cosmic from "../styles/images/cosmicjs.webp";
 import Bubble from "../styles/images/bubble.webp";
 import Prey from "../styles/images/prey.webp";
 import Freshworks from "../styles/images/freshworks.webp";
@@ -994,6 +995,15 @@ export const docList = [
     link: "https://www.json.org/json-en.html",
     image: JSON,
     description: "",
+  },
+];
+
+export const cmsList = [
+  {
+    title: "Cosmic",
+    link: "https://www.cosmicjs.com/",
+    image: Cosmic,
+    description: "The #1 Headless, API-first, Content Management Platform",
   },
 ];
 
