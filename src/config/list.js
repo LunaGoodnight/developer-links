@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Mode from "../styles/images/mode.webp";
 import reflow from "../styles/images/reflow.webp";
 import Cosmic from "../styles/images/cosmicjs.webp";
 import Bubble from "../styles/images/bubble.webp";
@@ -4819,6 +4820,12 @@ export const serviceList = [
     link: "https://www.f5.com/",
     image: F5,
     description: "Multi-Cloud Security and Application Delivery",
+  },
+  {
+    title: "Mode",
+    link: "https://mode.com/",
+    image: Mode,
+    description: "Modern Business Intelligence | Better data, better decisions",
   },
   {
     title: "ByteByteGo",
