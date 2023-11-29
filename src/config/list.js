@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodingDefined from "../styles/images/codingdefined.webp";
 import Mode from "../styles/images/mode.webp";
 import reflow from "../styles/images/reflow.webp";
 import Cosmic from "../styles/images/cosmicjs.webp";
@@ -3680,6 +3681,12 @@ export const blogList = [
     title: "Felix Gerschau",
     link: "https://felixgerschau.com/",
     image: FelixGerschau,
+    description: "",
+  },
+  {
+    title: "Coding Defined",
+    link: "https://www.codingdefined.com/",
+    image: CodingDefined,
     description: "",
   },
   {
