@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TAAFT from "../styles/images/theresanaiforthat.webp";
 import CodingDefined from "../styles/images/codingdefined.webp";
 import Mode from "../styles/images/mode.webp";
 import reflow from "../styles/images/reflow.webp";
@@ -2255,6 +2256,12 @@ export const aiServiceList = [
     link: "https://aws.amazon.com/codewhisperer/",
     image: AmazonCodeWhisperer,
     description: "AI Code Generator – Amazon CodeWhisperer – AWS",
+  },
+  {
+    title: "There's An AI For That (TAAFT)",
+    link: "https://theresanaiforthat.com/",
+    image: TAAFT,
+    description: "The #1 AI Aggregator",
   },
   {
     title: "Freshworks",
