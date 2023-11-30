@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TheValleyofCode from "../styles/images/thevalleyofcode.webp";
 import TAAFT from "../styles/images/theresanaiforthat.webp";
 import CodingDefined from "../styles/images/codingdefined.webp";
 import Mode from "../styles/images/mode.webp";
@@ -2722,6 +2723,12 @@ export const tutorialList = [
     link: "https://tdd.best/",
     image: TDD,
     description: "最好的 TDD 學習資源",
+  },
+  {
+    title: "The Valley of Code",
+    link: "https://thevalleyofcode.com/",
+    image: TheValleyofCode,
+    description: "",
   },
   {
     title: "SourceMaking",
