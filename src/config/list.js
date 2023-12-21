@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Jsben from "../styles/images/jsben.webp";
 import JSBenchme from "../styles/images/JSBenchme.webp";
 import TheValleyofCode from "../styles/images/thevalleyofcode.webp";
 import TAAFT from "../styles/images/theresanaiforthat.webp";
@@ -3455,6 +3456,12 @@ export const benchmarkList = [
     link: "https://jsbench.me/",
     image: JSBenchme,
     description: "JavaScript performance benchmarking playground",
+  },
+  {
+    title: "JSBEN",
+    link: "https://jsben.ch/",
+    image: Jsben,
+    description: "JSBEN.CH Benchmarking for JavaScript",
   },
 ];
 export const interactiveLearnList = [
