@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JSBenchme from "../styles/images/JSBenchme.webp";
 import TheValleyofCode from "../styles/images/thevalleyofcode.webp";
 import TAAFT from "../styles/images/theresanaiforthat.webp";
 import CodingDefined from "../styles/images/codingdefined.webp";
@@ -3448,7 +3449,14 @@ export const toolList = [
     description: "All-in-one coding news reader",
   },
 ];
-
+export const benchmarkList = [
+  {
+    title: "JSBench.me",
+    link: "https://jsbench.me/",
+    image: JSBenchme,
+    description: "JavaScript performance benchmarking playground",
+  },
+];
 export const interactiveLearnList = [
   {
     title: "Exercism",

@@ -69,6 +69,7 @@ import {
   interviewList,
   noCodeList,
   cmsList,
+  benchmarkList,
 } from "./list";
 
 export const routeList = [
@@ -80,6 +81,7 @@ export const routeList = [
   { path: "react", text: "React", importList: reactList },
   { path: "math", text: "Math", importList: mathList },
   { path: "orm", text: "ORM", importList: ormList },
+  { path: "benchmark", text: "Benchmark", importList: benchmarkList },
   { path: "ga", text: "Google Analytics", importList: gaList },
   { path: "openData", text: "Open Data", importList: openDataList },
   { path: "dummy", text: "Dummy Data", importList: dummyList },
