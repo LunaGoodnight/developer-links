@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MichaelMcShinsky from "../styles/images/magitek.webp";
 import Jsben from "../styles/images/jsben.webp";
 import JSBenchme from "../styles/images/JSBenchme.webp";
 import TheValleyofCode from "../styles/images/thevalleyofcode.webp";
@@ -3662,6 +3663,12 @@ export const blogList = [
     link: "https://blog.risingstack.com/",
     image: RisingStack,
     description: "RisingStack Engineering Blog - RisingStack Engineering",
+  },
+  {
+    title: "Michael McShinsky",
+    link: "https://magitek.dev/",
+    image: MichaelMcShinsky,
+    description: "",
   },
   {
     title: "Ahmad Shadeed",
