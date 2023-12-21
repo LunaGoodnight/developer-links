@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PlaywrightSolutions from "../styles/images/playwrightsolutions.webp";
 import MichaelMcShinsky from "../styles/images/magitek.webp";
 import Jsben from "../styles/images/jsben.webp";
 import JSBenchme from "../styles/images/JSBenchme.webp";
@@ -5727,6 +5728,12 @@ export const bookList = [
 ];
 
 export const testList = [
+  {
+    title: "Playwright Solutions",
+    link: "https://playwrightsolutions.com/",
+    image: PlaywrightSolutions,
+    description: "",
+  },
   {
     title: "SeleniumHQ Browser Automation",
     link: "https://www.selenium.dev/",
