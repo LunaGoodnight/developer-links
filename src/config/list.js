@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ScriptersWar from "../styles/images/scriptersWar.webp";
 import PlaywrightSolutions from "../styles/images/playwrightsolutions.webp";
 import MichaelMcShinsky from "../styles/images/magitek.webp";
 import Jsben from "../styles/images/jsben.webp";
@@ -2101,6 +2102,12 @@ export const youtubeList = [
     title: "Computerphile",
     link: "https://www.youtube.com/@Computerphile",
     image: Computerphile,
+    description: "",
+  },
+  {
+    title: "ScriptersWar",
+    link: "https://www.youtube.com/@ScriptersWar",
+    image: ScriptersWar,
     description: "",
   },
   {
