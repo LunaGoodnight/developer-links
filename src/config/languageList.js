@@ -4,3 +4,6 @@ export const languageList = {
   javaScript: "JavaScript",
   go: "Go",
 };
+export const devTypeList = {
+  game: "Game develop",
+};

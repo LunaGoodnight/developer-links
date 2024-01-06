@@ -1,6 +1,8 @@
-import { languageList } from "./languageList";
+import { languageList, devTypeList } from "./languageList";
 
-import MarkMakesStuff from '../styles/images/markmakesstuff6702.webp'
+import Excaliburjs from "../styles/images/excaliburjs.webp";
+import DrewConley from "../styles/images/drewConley.jpg";
+import MarkMakesStuff from "../styles/images/markmakesstuff6702.webp";
 import ScriptersWar from "../styles/images/scriptersWar.webp";
 import PlaywrightSolutions from "../styles/images/playwrightsolutions.webp";
 import MichaelMcShinsky from "../styles/images/magitek.webp";
@@ -2058,6 +2060,13 @@ export const jobList = [
 
 export const youtubeList = [
   {
+    title: "Drew Conley",
+    link: "https://www.youtube.com/@DrewConley",
+    image: DrewConley,
+    description: "",
+    tag: [devTypeList.game],
+  },
+  {
     title: "Mark Makes Stuff",
     link: "https://www.youtube.com/@markmakesstuff6702",
     image: MarkMakesStuff,
@@ -2648,6 +2657,14 @@ export const vimList = [
     link: "https://vimvalley.com/",
     image: VimValleyCourse,
     description: "The fastest and easiest way to learn Vim",
+  },
+];
+export const gameIngineList = [
+  {
+    title: "excalibur",
+    link: "https://excaliburjs.com/",
+    image: Excaliburjs,
+    description: "An open-source 2D HTML5 game engine",
   },
 ];
 
