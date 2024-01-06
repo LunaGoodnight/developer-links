@@ -3102,6 +3102,12 @@ export const gameDevelopList = [
     image: GDevelop,
     description: "Free and Easy Game-Making App",
   },
+  {
+    title: "GameDev.net",
+    link: "https://www.gamedev.net/",
+    image: SQLTutorial,
+    description: "",
+  },
 ];
 
 export const diagramList = [
