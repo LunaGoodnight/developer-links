@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MarkMakesStuff from '../styles/images/markmakesstuff6702.webp'
 import ScriptersWar from "../styles/images/scriptersWar.webp";
 import PlaywrightSolutions from "../styles/images/playwrightsolutions.webp";
 import MichaelMcShinsky from "../styles/images/magitek.webp";
@@ -2056,6 +2057,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "Mark Makes Stuff",
+    link: "https://www.youtube.com/@markmakesstuff6702",
+    image: MarkMakesStuff,
+    description: "",
+  },
   {
     title: "ITProTV",
     link: "https://www.youtube.com/@ItproTv/videos",
