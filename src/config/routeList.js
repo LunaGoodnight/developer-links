@@ -70,6 +70,7 @@ import {
   noCodeList,
   cmsList,
   benchmarkList,
+  userMonitoringList,
 } from "./list";
 
 export const routeList = [
@@ -133,6 +134,11 @@ export const routeList = [
   { path: "exam", text: "Exam", importList: examList },
   { path: "library", text: "Library", importList: libraryList },
   { path: "statistics", text: "Statistics", importList: statisticsList },
+  {
+    path: "usermonitoring",
+    text: "User Monitoring",
+    importList: userMonitoringList,
+  },
   { path: "services", text: "Services", importList: serviceList },
   { path: "regex", text: "Regex", importList: regexList },
   { path: "quiz", text: "Quiz", importList: quizList },

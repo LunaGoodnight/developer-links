@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import Smartlook from "../styles/images/smartlook.webp";
 import Crozdesk from "../styles/images/crozdesk.webp";
 import Highcharts from "../styles/images/highcharts.webp";
 import Bundlephobia from "../styles/images/bundlephobia.webp";
@@ -4864,7 +4865,14 @@ export const libraryList = [
       "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
   },
 ];
-
+export const userMonitoringList = [
+  {
+    title: "Smartlook",
+    link: "https://www.smartlook.com/",
+    image: Smartlook,
+    description: "Product analytics & visual user insights",
+  },
+];
 export const statisticsList = [
   {
     title: "Stack Overflow Developer Survey 2021",
