@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import Crozdesk from "../styles/images/crozdesk.webp";
 import Highcharts from "../styles/images/highcharts.webp";
 import Bundlephobia from "../styles/images/bundlephobia.webp";
 import Excaliburjs from "../styles/images/excaliburjs.webp";
@@ -4945,6 +4946,12 @@ export const serviceList = [
     link: "https://reflow.io/",
     image: reflow,
     description: "",
+  },
+  {
+    title: "Crozdesk",
+    link: "https://crozdesk.com/",
+    image: Crozdesk,
+    description: "Business Software Search",
   },
   {
     title: "Remote",
