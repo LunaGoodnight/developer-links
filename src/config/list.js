@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import Highcharts from "../styles/images/highcharts.webp";
 import Bundlephobia from "../styles/images/bundlephobia.webp";
 import Excaliburjs from "../styles/images/excaliburjs.webp";
 import DrewConley from "../styles/images/drewConley.jpg";
@@ -2715,6 +2716,12 @@ export const chartList = [
     link: "https://www.fusioncharts.com/",
     image: FusionCharts,
     description: "JavaScript charts for web & mobile",
+  },
+  {
+    title: "Highcharts",
+    link: "https://www.highcharts.com/",
+    image: Highcharts,
+    description: "Interactive charting library",
   },
 ];
 export const mathList = [
