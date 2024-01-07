@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import Bundlephobia from "../styles/images/bundlephobia.webp";
 import Excaliburjs from "../styles/images/excaliburjs.webp";
 import DrewConley from "../styles/images/drewConley.jpg";
 import MarkMakesStuff from "../styles/images/markmakesstuff6702.webp";
@@ -4430,6 +4431,12 @@ export const generalList = [
     link: "https://alternativeto.net/",
     image: AlternativeTo,
     description: "Crowdsourced software recommendations",
+  },
+  {
+    title: "Bundlephobia",
+    link: "https://bundlephobia.com/",
+    image: Bundlephobia,
+    description: "Size of npm dependencies",
   },
   {
     title: ".cult by Honeypot",
