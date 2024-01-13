@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import TwelveDaysofWeb from "../styles/images/12daysofweb.webp";
 import Smartlook from "../styles/images/smartlook.webp";
 import Crozdesk from "../styles/images/crozdesk.webp";
 import Highcharts from "../styles/images/highcharts.webp";
@@ -4393,6 +4394,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "12 Days of Web",
+    link: "https://12daysofweb.dev/",
+    image: TwelveDaysofWeb,
+    description: "",
+  },
   {
     title: "LibHunt",
     link: "https://www.libhunt.com/",
