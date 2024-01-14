@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import i18next from "../styles/images/i18next.webp";
 import NightCafeCreator from "../styles/images/nightcafe.webp";
 import TwelveDaysofWeb from "../styles/images/12daysofweb.webp";
 import Smartlook from "../styles/images/smartlook.webp";
@@ -3097,6 +3098,12 @@ export const uiLibraryList = [
   },
 ];
 export const packageList = [
+  {
+    title: "i18next",
+    link: "https://www.i18next.com/",
+    image: i18next,
+    description: "",
+  },
   {
     title: "ESLint",
     link: "https://eslint.org/",
