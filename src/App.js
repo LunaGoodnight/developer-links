@@ -5,7 +5,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import styled from "styled-components";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState, useRef } from "react";
 import { routeList } from "./config/routeList";
 import SiteList from "./components/SiteList";
 import { BiSearchAlt } from "react-icons/bi";
@@ -57,7 +57,7 @@ export const CloseIconWrapper = styled.div`
 `;
 function App() {
   const [showSearch, setShowSearch] = useState(false);
-
+  const inputRef = useRef(null);
   const [searchValue, setSearchValue] = useState("");
 
   const allList = useMemo(
@@ -86,6 +86,12 @@ function App() {
       }),
     []
   );
+
+  useEffect(() => {
+    if (showSearch) {
+      inputRef.current.focus();
+    }
+  }, [showSearch]);
 
   useEffect(() => {
     const findSameText = (site) => {
@@ -123,6 +129,7 @@ function App() {
         {showSearch && (
           <WrapSearchBox>
             <BigSearchBox
+              ref={inputRef}
               type="text"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}

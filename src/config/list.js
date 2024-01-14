@@ -1,5 +1,6 @@
 import { languageList, devTypeList } from "./languageList";
 
+import NightCafeCreator from "../styles/images/nightcafe.webp";
 import TwelveDaysofWeb from "../styles/images/12daysofweb.webp";
 import Smartlook from "../styles/images/smartlook.webp";
 import Crozdesk from "../styles/images/crozdesk.webp";
@@ -6161,6 +6162,12 @@ export const aiArtList = [
     link: "https://pixai.art/",
     image: PixAI,
     description: "",
+  },
+  {
+    title: "NightCafe Creator",
+    link: "https://creator.nightcafe.studio/",
+    image: NightCafeCreator,
+    description: "🤖 🖼 AI Art Generator: Create Stunning AI Art",
   },
   {
     title: "Civitai",
